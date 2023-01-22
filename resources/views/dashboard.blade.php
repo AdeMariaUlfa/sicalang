@@ -47,7 +47,7 @@
           </a>
         </div>
         <div class="col-lg-3">
-          <a href="/petunjuk">
+          <a href="/quiz/1/salah/0">
             <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
               <i class="fa fa-lightbulb-o fa-8x" style="color:black;"></i>
               <h4>QUIZ<br><br></h4>

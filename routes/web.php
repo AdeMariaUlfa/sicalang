@@ -14,7 +14,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    return view('materi.materiKarangbesuki');
+    return view('welcome');
 });
 Route::get('/materi', function () {
     return view('materi');
@@ -50,3 +50,4 @@ Route::get('/page-candi/{candi}', [HomeController::class, 'pageCandi']);
 Route::get('/login', [HomeController::class, 'login']);
 Route::post('/login', [HomeController::class, 'prosesLogin'])->name('proses-login');;
 Route::get('/dashboard', [HomeController::class, 'dashboard']);
+Route::get('/quiz/{s}/{j}/{sblm}', [HomeController::class, 'quizCandi']);
