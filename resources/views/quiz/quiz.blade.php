@@ -3,6 +3,9 @@
 <div id="services" class="our-services section">
     <div class="container-fluid">
         <div class="row">
+        <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2>QUIZ SICALANG</h2>
+        </div>
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
                     <h4>Soal</h4>

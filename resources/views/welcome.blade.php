@@ -61,7 +61,7 @@ https://templatemo.com/tm-563-seo-dream
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#features">Materi</a></li>
+              <li class="scroll-to-section"><a href="#features">Alur</a></li>
               <li class="scroll-to-section"><a href="#about">About Us</a></li>
               <li class="scroll-to-section"><div class="main-blue-button"><a href="/login">LOGIN</a></div></li> 
             </ul>        

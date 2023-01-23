@@ -17,7 +17,7 @@
           <a href="/petunjuk">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
               <div class="fa fa-file-text fa-8x" style="color:black;"></div>
-              <h4 style="color:black;">PETUNJUK PENGGUNAAN</h4>
+              <h4>PETUNJUK PENGGUNAAN</h4>
               <div class="line-dec"></div>
               <p>Runtutan Penggunaan Website</p>
             </div>

@@ -6,8 +6,6 @@
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
 
-                    <div class="row">
-                        <div class="col-md-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Kidal</h4>
                                 <img src="" alt="" srcset="">
@@ -31,8 +29,6 @@
                     </div>
 
 
-                </div>
-            </div>
 
         </div>
     </div>

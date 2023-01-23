@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
         <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <h6>Petunjuk Singkat Aplikasi</h6>
+          <h2>Petunjuk Singkat Penggunaan Website</h2>
           <p></p>
         </div>
       </div>
@@ -33,7 +33,7 @@
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="row">
             <h4 style="color: #96D4C1;">03</h4>
-            <p>Ketika pengguna mengalami loading yang lama saat mengakses virtual tour silahkan klik menu kembali lalu memulai kembali virtual tour situs candi yang ada di Malang.</p>
+            <p>Ketika pengguna mengalami loading yang lama saat mengakses virtual tour silahkan menyegarkan kembali halaman anda.</p>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="row">
             <h4 style="color: #96D4C1;">04</h4>
-            <p>ketika mengakses padlet yang tersedia dalam virtual tour pastikan perangkat anda dalam keadaan portrait.</p>
+            <p>Ketika mengakses padlet yang tersedia dalam virtual tour pastikan perangkat anda dalam keadaan portrait.</p>
           </div>
         </div>
       </div>

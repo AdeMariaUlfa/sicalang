@@ -5,9 +5,6 @@
         <div class="row">
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
-
-                    <div class="row">
-                        <div class="col-lg-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Badut</h4>
                                 <img src="" alt="" srcset="">
@@ -25,8 +22,6 @@
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Badut ditemukan pertama kali oleh Maurenboucher dan Be de Haan pada tahun 1923 dalam kondisi tidak berbentuk dan ditumbuhi banyak pepohonan (Soeroto, 2009). Pada tahun 1925 B. De Haan mengawali pemugaran dengan melaksanakan penggalian mencapai dasar bangunan candi. Hasil dari penggalian tersebut, Candi Badut telah ditemukan dalam keadaan runtuh, kecuali bagian kaki candi yang masih dapat dilihat susunannya, meskipun pada bagian tersebut banyak kerusakan. Batu-batu yang berada disekitar Candi Badut kemudian dipilah-pilah dan dikumpulkan berdasarkan ukurannya. Pada tahun 1926 M, bagian kaki dan tubuh candi dapat dibangun kembali atau dipugar, namun bagian atap candi tidak diketemukan kembali (Soviyani dkk, 1995). Pemugaran selanjutnya pada tahun 1977 M. Pemugaran terakhir dilakukan pada tahun 1990-1993 M, berhasil mencapai bentuk bangunan Candi Badut yang sekarang (Soeroto, 2009).</p>
                             </div>
-                        </div>
-                    </div>
 
 
                 </div>

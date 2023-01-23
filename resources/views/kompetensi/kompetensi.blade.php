@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
         <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <h6>Kompetensi</h6>
+          <h2>Kompetensi</h2>
           <p></p>
         </div>
       </div>

@@ -6,8 +6,6 @@
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
 
-                    <div class="row">
-                        <div class="col-md-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Singasari</h4>
                                 <img src="" alt="" srcset="">
@@ -23,9 +21,6 @@
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Pemugaran Candi Singhasari terlihat belum menyeluruh, hal tersebut dapat dilihat di sekeliling halaman Candi Singhasari masih berjajar tumpukan batu yang belum berhasil untuk dikembalikan pada tempat semula (Lihat Foto 5). Selain itu, di halaman candi juga masih terdapat beberapa arca yang sebagaian besar dalam keadaan rusak (Lihat Foto 6).</p>
                             </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>

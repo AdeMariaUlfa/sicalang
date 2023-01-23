@@ -21,13 +21,6 @@
     <link rel="stylesheet" href="{{ asset('template/assets/css/animated.css') }}">
     <link rel="stylesheet" href="{{ asset('template2/assets/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('template/assets/css/owl.css') }}">
-    <!--
-
-TemplateMo 563 SEO Dream
-
-https://templatemo.com/tm-563-seo-dream
-
--->
 
 </head>
 
@@ -59,7 +52,7 @@ https://templatemo.com/tm-563-seo-dream
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <div class="main-blue-button"><a href="/logout"><i class="fa fa-arrow-left"></i> LOGOUT</a></div>
+                            <div class="main-blue-button"><a onclick="window.history.go(-1); return false;" style="cursor: pointer;"><i class="fa fa-arrow-left"></i> BACK</a></div>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -73,6 +66,7 @@ https://templatemo.com/tm-563-seo-dream
     <!-- ***** Header Area End ***** -->
 
     <div id="features" class="features section">
+    
             @yield('content')
     </div>
 

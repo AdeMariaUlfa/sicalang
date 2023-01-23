@@ -6,8 +6,6 @@
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
 
-                    <div class="row">
-                        <div class="col-md-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Sumberawan</h4>
                                 <img src="" alt="" srcset="">
@@ -18,8 +16,6 @@
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Sumberawan berbentuk stupa (Lihat Foto 2) tanpa adanya hiasan atau ukiran relief apapun dan memiliki ketinggian sekitar 5,23 m (Soeroto, 2010). Candi ini ditemukan oleh penduduk pribumi pada tahun 1845 M yang kemudian dilaporkan ke pemerintah Hindia Belanda dan diteliti oleh Van Romondt seorang arkeolog dari Belanda. Pada tahun 1937 M, pemugaran Candi Sumberawan dilakukan oleh Dinas Purbakala Hindia Belanda (Sedyawati, 2013). </p>
                                 <p style="text-align: justify; text-indent: 0.5in;">Stupa Sumberawan berfungsi sebagai simbol dari agama Buddha sekaligus sebagai simbol kesucian dengan digambarkan dalam perwujudan Gunung Meru. Selain itu, juga sebagai transformasi dari air biasa menjadi air suci (amertha) yaitu air kehidupan para dewa. Adapun kegiatan keagamaan yang dilaksanakan yaitu, Upacara Tri Waisak umat Buddha. Kegiatan spiritual dilaksanakan pada malam Jum’at legi dan kegiatan adat dilakukan ritual selametan sumber air yang diperingati setiap bulan Suro penanggalan Jawa. Kegiatan ini dinamakan Tirta Amerta Sari (Ayuni, 2019). Ritual Tirta Amerta Sari bertujuan untuk menghormati telaga mata air Sumberawan dan mensyukuri berkah yang telah diberikan melalui telaga tersebut. Dengan menghormati telaga tersebut, sumber mata air yang digunakan sehari-hari oleh masyarakat akan terus terjaga.</p>
                             </div>
-                        </div>
-                    </div>
 
 
                 </div>

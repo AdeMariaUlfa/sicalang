@@ -5,9 +5,6 @@
         <div class="row">
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
-
-                    <div class="row">
-                        <div class="col-md-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Karangbesuki</h4>
                                 <img src="" alt="" srcset="">
@@ -16,9 +13,6 @@
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;"> Candi Karangbesuki juga disebut sebagai Candi Wurung atau candi yang gagal dalam proses pembangunannya. Struktur dari Candi Karangbesuki juga sudah hancur hanya tersisa pondasinya saja (Lihat Foto 2). Candi Karangbesuki merupakan Candi berlatar belakang agama Hindu Syiwa. Hal tersebut diperkuat dengan penemuan dua arca dengan gaya pengarcaan Parvati yang ditemukan pada bagian tengah Candi Karangbesuki (Sedyawati dkk, 2013). Sama halnya dengan Candi Badut, Candi Karangbesuki ini didirikan sebagai tempat untuk memuliakan Resi Agastya yang berguna sebagai tempat menghilangkan penyakit dan malapetaka. Hingga saat ini Candi Karangbesuki digunakan sebagai tempat pemujaan bagi pemeluk agama Hindu Syiwa.</p>
                             </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>

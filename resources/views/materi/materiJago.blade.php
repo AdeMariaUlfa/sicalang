@@ -6,8 +6,6 @@
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
 
-                    <div class="row">
-                        <div class="col-md-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Jago</h4>
                                 <img src="" alt="" srcset="">
@@ -20,10 +18,6 @@
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Jago menghadap ke arah barat dengan bangunan yang berbentuk segi empat yang memiliki luas 23 m x 14 m (Lihat Foto 4). Tinggi dari Candi ini tidak diketahui dengan pasti karena atap dari Candi Jago sudah hilang namun diperkirakan tinggi bangunan Candi Jago sekitar 15 meter. Bangunan Candi Jago berlanggam arsitektur Jawa Timur. Bangunan dari Candi Jago dipenuhi dengan relief yang dipahat dengan rapi mulai dari kaki candi hingga bagian atas candi (Lihat Foto 5). Relief dari Candi Jago berisi cerita yang mengandung unsur pelepasan dan kepergian. Hal tersebut menguatkan dugaan bahwa pembangunan dari Candi Jago berhubungan erat dengan wafatnya Wisnuwardana (Soeroto, 2009). Hingga saat ini Candi Jago di gunakan sebagai tempat pemujahan terhadap roh leluhur.</p>
                             </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
 

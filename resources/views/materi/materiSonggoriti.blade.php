@@ -6,8 +6,6 @@
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
 
-                    <div class="row">
-                        <div class="col-md-8">
                             <div class="right-content">
                                 <h4 class="d-flex justify-content-center">Candi Songgoriti</h4>
                                 <img src="" alt="" srcset="">
@@ -18,8 +16,6 @@
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Songgoriti pertama kali ditemukan oleh Van I Ijsseldijk seorang arkeolog dari Belanda pada tahun 1799 M. Candi Songgoriti memiliki tinggi 2,44 meter dan berukuran 14,36 meter. Candi Songgoriti berlanggam arsitektur Jawa Tengah. Hal tersebut dapat dilihat dari bangunan Candi yang berbentuk tambun (Lihat Foto 2) dan pada bagian sisi luar dinding candi terdapat pengapit relung berhiaskan dewa dewi seperti langgam hias bangunan candi Jawa Tengah (Lihat Foto 3). Pada tubuh Candi Songgoriti terdapat relung atau cekungan sebagai tempat berdirinya arca (Lihat Foto 3). Ekskavasi serta pemugaran Candi Songgoriti dilakukan pada tahun 1938 M (Soeroto, 2010).</p>
                             </div>
-                        </div>
-                    </div>
 
 
                 </div>
