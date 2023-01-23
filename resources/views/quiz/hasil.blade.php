@@ -13,7 +13,7 @@
                                     <h4>Hasil</h4>
                                     </div>
                                     <div class="col-lg-4">
-                                    <h4>{{ $hasil }} <h4>
+                                    <h4>{{ $jumlah }} <h4>
                                     </div>
                                 </div>
                                                               

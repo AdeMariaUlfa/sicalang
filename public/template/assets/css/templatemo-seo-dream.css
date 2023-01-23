@@ -1389,7 +1389,7 @@ Portfolio
 
 .portfolio-item {
   margin-bottom: 30px;
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 .portfolio-item:hover .thumb .hover-content {
@@ -1399,16 +1399,16 @@ Portfolio
 
 .portfolio-item .thumb {
   position: relative;
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 .portfolio-item .thumb img {
-  border-radius: 50px;
+  border-radius: 100px;
   overflow: hidden;
 }
 
 .portfolio-item .thumb .hover-content {
-  border-radius: 50px;
+  border-radius: 100px;
   overflow: hidden;
   position: absolute;
   left: 0;

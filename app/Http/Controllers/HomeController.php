@@ -51,7 +51,11 @@ class HomeController extends Controller
         }
         $soal =  collect([
             '1' => [
-                'img' => 'candiBadut.jpg',
+                'no' => '1',
+                'img' => [
+                    'img' => 'candiBadut.jpg',
+                    'sumber'=>'(Sumber: Dokumentasi Pribadi, 2022)'
+                ],
                 'soal' => 'Candi tersebut berada di Malang-Jawa Timur namun dikategorikan sebagai candi dengan langgam arsitektur Jawa Tengah, karena…',
                 'jawaban' => [
                     'Puncak berbentuk kubus dan dibangun dari batuan andesit',
@@ -59,10 +63,17 @@ class HomeController extends Controller
                     'Bangunan berbentuk tambun dan relief kala tanpa rahang bawah',
                     'Dibangun dari batu andesit dan berbadan tambun'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 2,
                 'next' => '2'
             ],
             '2' => [
+                'no' => '2',
                 'soal' => 'Candi Karangbesuki dibangun sekitar abad ke-8 Masehi sebagai tempat untuk memuliakan Resi Agastya. Masyarakat sekitar menyebutnya sebagai “Candi Wurung” mengapa seperti itu?',
                 'jawaban' => [
                     'karena Candi Karangbesuki dibangun sebagai tempat untuk mendharmakan raja',
@@ -70,10 +81,17 @@ class HomeController extends Controller
                     'karena Candi Karangbesuki dibuat dari batu andesit & memuliakan Resi Agastya',
                     'karena Candi Karangbesuki belum selesai dibangun dan tersisa pondasinya saja'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 3,
                 'next' => '3'
             ],
             '3' => [
+                'no' => '3',
                 'soal' => 'Candi Karangbesuki juga disebut sebagai Candi Wurung atau candi yang belum selesai dan gagal dalam proses pembangunannya. Struktur dari Candi Karangbesuki juga sudah hancur hanya tersisa pondasinya saja.',
                 'jawaban' => [
                     'Sebagai tempat untuk memuliakan raja',
@@ -81,23 +99,43 @@ class HomeController extends Controller
                     'Sebagai tempat pendharmaan raja dan petirtaan',
                     'Sebagai tempat bangunan suci bagi para raja.'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 1,
                 'next' => '4'
             ],
             '4' => [
+                'no' => '4',
                 'soal' => 'Dari kedua candi tersebut memiliki ciri-ciri bentuk bangunan yang berbeda. Sebutkan perbedaan antara bentuk bangunan Candi Kidal dengan Candi Songgoriti!',
-                'img' => 'kidal.jpg',
-                'img2' => 'songgoriti.jpg',
+                'img' => [
+                    'img' =>'kidal.jpg',
+                    'sumber' => '(Sumber: Dokumentasi Pribadi, 2022)',
+                ],
+                'img2' => [
+                    'img' => 'songgoriti.jpg',
+                    'sumber' => '(Sumber: Dokumentasi Pribadi, 2022)'
+                ],
                 'jawaban' => [
                     'Puncak bangunan Candi Kidal berbentuk kubus, sedangkan puncak bangunan candi Songgoriti berbentuk limas.',
                     'Atap Candi Kidal berbentuk datar, sedangkan atap Candi Songgoriti bertingkat dan  mengecil ke atas.',
                     'Bangunan Candi Kidal berbentuk tambun, sedangkan bangunan Candi Songgoriti berbentuk ramping.',
                     'Bangunan Candi Kidal berbentuk ramping, sedangkan bangunan Candi Songgoriti berbentuk tambun.'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 3,
                 'next' => '5'
             ],
             '5' => [
+                'no' => '5',
                 'soal' => 'Relief Garudheya yang dipahatkan pada setiap sisi Candi Kidal adalah sebagai amanat dari Anusapati. Tujuan dari dipahatnya relief Garudheya adalah?',
                 'jawaban' => [
                     'sebagai tempat pendharmaan Raja Singosari yakni Anusapati.',
@@ -105,10 +143,17 @@ class HomeController extends Controller
                     'sebagai tempat untuk mendharmakan Ken Arok sebagai ayah Anusapati',
                     'untuk meruwat Ken Arok sebagai suami dari Ken Dedes dan Raja Singosari.'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 1,
                 'next' => '6'
             ],
             '6' => [
+                'no' => '6',
                 'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singasari yang menganut agama Syiwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Syiwa Buddha Tantrayana yaitu?',
                 'jawaban' => [
                     'Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
@@ -116,10 +161,17 @@ class HomeController extends Controller
                     'Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Buddha.',
                     'Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Animisme.'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 2,
                 'next' => '7'
             ],
             '7' => [
+                'no' => '7',
                 'soal' => 'Bangunan Candi Singasari memiliki ciri-ciri sebagai berikut!
                 <br>
                 1)	Memiliki bentuk tubuh bangunan candi yang ramping.
@@ -138,10 +190,17 @@ class HomeController extends Controller
                     'Jawa Tengah',
                     'Sumatera'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 0,
                 'next' => '8'
             ],
             '8' => [
+                'no' => '8',
                 'soal' => 'Berdasarkan prasasti Gajahmada tahun 1273 Saka (1351 Masehi), Candi Singhasari dibangun sebagai tempat untuk mendharmakan raja terakhir dari Kerajaan Singhasari, yaitu raja? ',
                 'jawaban' => [
                     'Kertanegara',
@@ -149,10 +208,17 @@ class HomeController extends Controller
                     'Wisnuwardhana',
                     'Anusapati'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 0,
                 'next' => '9'
             ],
             '9' => [
+                'no' => '9',
                 'soal' => 'Candi Sumberawan merupakan satu-satunya candi berbentuk Stupa yang ada di Jawa Timur. Menurut kitab Negarakertagama, Candi Sumberawan disebut sebagai candi?',
                 'jawaban' => [
                     'Catya',
@@ -160,10 +226,17 @@ class HomeController extends Controller
                     'Kasunggrahan',
                     'Wurung'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 2,
                 'next' => '10'
             ],
             '10' => [
+                'no' => '10',
                 'soal' => 'Upacara adat selametan sumber air yang selalu diperingati setiap bulan Syuro penanggalan Jawa di Stupa Sumberawan dinamakan?',
                 'jawaban' => [
                     'Puja Bakti',
@@ -171,13 +244,20 @@ class HomeController extends Controller
                     'Tirta Amerta Sari',
                     'Upacara Kas'
                 ],
+                'warna' => [
+                    '<div class="bg-primary">',
+                    '<div class="bg-warning">',
+                    '<div class="bg-danger">',
+                    '<div class="bg-success">',
+                ],
                 'benar' => 2,
                 'next' => 'hasil'
             ],
         ]);
         if ($s == 'hasil') {
             $hasil--;
-            return view('quiz.hasil', compact('hasil'));
+            $jumlah=$hasil*10;
+            return view('quiz.hasil', compact('jumlah'));
         } else {
             $search = Arr::get($soal, $s);
             return view('quiz.quiz', compact('search', 'hasil'));

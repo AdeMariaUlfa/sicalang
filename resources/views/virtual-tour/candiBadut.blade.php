@@ -103,7 +103,8 @@
 	<div id="container" style="color: black;"></div>
 
 
-
+	@extends('layouts.template')
+	@section('content')
 	<!--customhtml-->
 	<div class='customhotspot' id='PANO_20221214_114518_3'>
 		<div onclick='chclickinfospotPANO_20221214_114518_32();' id='infospotPANO_20221214_114518_32' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Video.png') }}" style="width:64px; height: 64px;"></div>
@@ -137,7 +138,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-
+@endsection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/

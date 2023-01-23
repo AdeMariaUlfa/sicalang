@@ -103,7 +103,8 @@
 	<div id="container" style="color: black;"></div>
 
 
-
+	@extends('layouts.template')
+	@section('content')
 	<!--customhtml-->
 	<div class='customhotspot' id='CSUM1copy'></div>
 	<div class='customhotspot' id='CSUM2copy'>
@@ -131,7 +132,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-
+	@endsection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/

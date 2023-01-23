@@ -101,7 +101,8 @@
 	<div id="container" style="color: black;"></div>
 
 
-
+	@extends('layouts.template')
+	@section('content')
 	<!--customhtml-->
 	<div class='customhotspot' id='CSONGGORITI1copy'>
 		<div onclick='chclickinfospotCSONGGORITI1copy2();' id='infospotCSONGGORITI1copy2'
@@ -137,7 +138,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-
+@endsection
 	<script>
 
 		var container = document.querySelector('#container');

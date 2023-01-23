@@ -104,7 +104,8 @@
 	<div id="container" style="color: black;"></div>
 
 
-
+	@extends('layouts.template')
+	@section('content')
 	<!--customhtml-->
 	<div class='customhotspot' id='CKB1copy'>
 		<div onclick='chclickinfospotCKB1copy2();' id='infospotCKB1copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Lokasi.png') }}" style='width: 64px; height: 64px;'></div>
@@ -130,7 +131,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-
+@endsection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/

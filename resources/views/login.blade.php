@@ -12,11 +12,9 @@
 <body>
   <div class="parent clearfix">
     <div class="bg-illustration">
-      <img src="https://i.ibb.co/Pcg0Pk1/logo.png" alt="logo">
-
-
+    <img src="{{ asset('template/assets/images/SICALANG.png') }}" width="600px" height="400px" >
     </div>
-
+    
     <div class="login">
       <div class="container">
         <h1>Login Virtual Tour</h1>
