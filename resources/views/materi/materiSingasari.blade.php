@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="right-content">
-                                <h4 class="d-flex justify-content-center">Candi Karangbesuki</h4>
+                                <h4 class="d-flex justify-content-center">Candi Singasari</h4>
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Singhasari berlokasi di Desa Candirenggo, Kecamatan Singhasari Kabupaten Malang. Candi ini bercorak atau beraliran agama Hindu-Buddha yang merupakan peninggalan terakhir dari Kerajaan Singhasari. Candi Singasari diperkirakan dibangun sekitar tahun 1300-an Masehi. Berdasarkan prasasti Gajahmada tahun 1273 Saka atau 1351 Masehi Candi Singhasari atau Candi Catya (candi yang suci) dibangun sebagai tempat pendharmaan raja terakhir dari Kerajaan Singhasari (Sedyawati, dkk, 2013) sekaligus untuk mengenang kejayaan dari Raja Kertanegara yang memerintah pada tahun 1268-1292 M (Istari, 2015).</p>
                                 <img src="" alt="" srcset="">

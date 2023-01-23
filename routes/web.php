@@ -25,6 +25,7 @@ Route::get('/petunjuk', function () {
 Route::get('/kompetensi', function () {
     return view('kompetensi.kompetensi');
 });
+//Virtual Tour
 Route::get('/virtual/Badut', function () {
     return view('virtual-tour.candiBadut');
 });
@@ -46,6 +47,30 @@ Route::get('/virtual/Singasari', function () {
 Route::get('/virtual/Sumberawan', function () {
     return view('virtual-tour.candiSumberawan');
 });
+//Materi Candi
+Route::get('/materi/Badut', function () {
+    return view('materi.materiBadut');
+});
+Route::get('/materi/Karangbesuki', function () {
+    return view('materi.materiKarangbesuki');
+});
+Route::get('/materi/Songgoriti', function () {
+    return view('materi.materiSonggoriti');
+});
+Route::get('/materi/Kidal', function () {
+    return view('materi.materiKidal');
+});  
+Route::get('/materi/Jago', function () {
+    return view('materi.materiJago');
+});
+Route::get('/materi/Singasari', function () {
+    return view('materi.materiSingasari');
+});
+Route::get('/materi/Sumberawan', function () {
+    return view('materi.materiSumberawan');
+});
+
+
 Route::get('/page-candi/{candi}', [HomeController::class, 'pageCandi']);
 Route::get('/login', [HomeController::class, 'login']);
 Route::post('/login', [HomeController::class, 'prosesLogin'])->name('proses-login');;

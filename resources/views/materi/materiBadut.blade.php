@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="right-content">
-                                <h4>Candi Badut</h4>
+                                <h4 class="d-flex justify-content-center">Candi Badut</h4>
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Badut atau disebut dengan Candi Liswa berlokasi di Desa Karangbesuki Kecamatan Dau, Kota Malang Jawa Timur. Candi Badut bercorak agama Hindu-Syiwa yang memiliki tinggi sekitar 8 m dengan lebar 12,27 m x 14,04 m. Candi Badut merupakan candi tertua di Jawa Timur. Menurut Prasasti Dinoyo Candi Badut dibangun atas perintah Raja Gajayana putra dari Dewasimha Kerajaan Kanjuruhan (Sedyawati dkk, 2013), yang diperkirakan berdiri pada tahun 682 Caka atau di tahun 760M (Istari, 2015). </p>
                                 <p style="text-align: justify; text-indent: 0.5in;">Pada prasasti Dinoyo baris keempat disebutkan bahwa, Raja Gajayana mendirikan Candi Badut sebagai tempat pemujaan untuk Dewa Agastya. Arca Agastya yang dahulunya dibuat dari kayu cendana, oleh Raja Gajayana diganti dengan arca batu hitam (Soekmono, 1973). Candi Badut yang dibangun sebagai tempat memuliakan Resi Agastya tersebut berguna untuk memusnahkan penyakit yang dapat menghilangkan semangat atau kekuatan dan malapetaka (Soviyani dkk, 1995). Candi Badut berfungsi sebagai lokasi upacara keagaamaan dan tempat pemujaan bagi umat yang beragama Hindu-Syiwa. Selain sebagai tempat pemujaan, hingga saat ini Candi Badut digunakan sebagai destinasi wisata situs sejarah, sarana pendidikan, dan juga sebagai tempat penelitian.</p>

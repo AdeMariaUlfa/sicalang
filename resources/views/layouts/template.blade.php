@@ -53,7 +53,7 @@ https://templatemo.com/tm-563-seo-dream
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="/dashboard" class="logo">
                             <h4>SICALANG<img src="{{ asset('template/assets/images/pagoda.png') }}" alt=""></h4>
                         </a>
                         <!-- ***** Logo End ***** -->

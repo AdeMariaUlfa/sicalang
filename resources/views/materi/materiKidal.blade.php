@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="right-content">
-                                <h4 class="d-flex justify-content-center">Candi Songgoriti</h4>
+                                <h4 class="d-flex justify-content-center">Candi Kidal</h4>
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Kidal terletak di Lembah Gunung Bromo, Desa Rejokidal, Kec. Tumpang, Kabupaten Malang. Candi ini dibangun sebagai tempat pendharmaan/persemayaman Raja Anusapati yaitu raja kedua dari Kerajaan Singhasari, agar sang raja bisa memperoleh kemuliaan sebagai Syiwa Mahadewa yang dibangun pada tahun 1248 M hingga tahun 1260 M (Soeroto, 2009). Candi Kidal dibangun dengan memadukan gaya Candi Jawa Tengah yang terbuat dari batu andesit dan Candi Jawa Timur yang berbentuk ramping dan atap yang berbentuk kubus (Lihat Foto 2). Candi kidal memiliki 3 bagian yaitu atap, badan, dan kaki (batur) dengan ketinggian sekitar 2 meter (Sedyawati dkk, 2013). </p>
                                 <img src="" alt="" srcset="">

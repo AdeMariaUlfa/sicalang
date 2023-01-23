@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="right-content">
-                                <h4 class="d-flex justify-content-center">Candi Songgoriti</h4>
+                                <h4 class="d-flex justify-content-center">Candi Jago</h4>
                                 <img src="" alt="" srcset="">
                                 <p style="text-align: justify; text-indent: 0.5in;">Candi Jago berlokasi di Dusun Jago, Desa Tumpang Kecamatan Tumpang Kabupaten Malang. Menurut Kitab Pararaton dan Negarakertagama nama dari Candi Jago yang sebenarnya adalah Candi Jajaghu. Jajaghu berarti Keagungan yang digunakan untuk menyebutkan suatu tempat suci (Soekmono, 1973).</p>
                                 <img src="" alt="" srcset="">

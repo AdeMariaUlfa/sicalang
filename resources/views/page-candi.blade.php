@@ -16,7 +16,7 @@
       <div class="row d-flex justify-content-center">
 
         <div class="col-lg-3">
-          <a href="/petunjuk">
+          <a href="/materi/{{$candi}}">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
               <div class="fa fa-file-text fa-8x" style="color:black;"></div>
               <h4 style="color:black;">Materi</h4>
