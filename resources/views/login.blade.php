@@ -26,7 +26,7 @@
             <input type="text" name="kelas" placeholder="Tuliskan Kelasmu">
 
             <button type="submit">LOG-IN</button>
-            <p>kembali ke menu utama? <a href="/">klik disini</a></p>
+            <p>kembali ke halaman utama? <a href="/"><b>klik disini</b></a></p>
 
           </form>
         </div>

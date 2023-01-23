@@ -87,7 +87,7 @@ https://templatemo.com/tm-563-seo-dream
                   <div class="col-lg-4 col-sm-4">
                     <div class="info-stat">
                       <h6>Nama :</h6>
-                      <h4>Mia Andirta Ningsih</h4>
+                      <h4>Mia Andria Ningsih</h4>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-4">
@@ -97,7 +97,7 @@ https://templatemo.com/tm-563-seo-dream
                     </div>
                   </div>
                   <div class="col-lg-12">
-                    <h2>VIRTUAL TOUR &amp; DIGITAL LEARNING TEMPLE</h2>
+                    <h2>VIRTUAL TOUR &amp; DIGITAL LEARNING CANDI MALANG</h2>
                   </div>
                   <div class="col-lg-12">
                     <div class="main-green-button scroll-to-section">
@@ -111,7 +111,7 @@ https://templatemo.com/tm-563-seo-dream
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                 <!-- <img src="{{ asset('template/assets/images/banner-right-image.png') }}" alt=""> -->
                 <iframe width="450" height="350"
-                src="https://www.youtube.com/watch?v=Tuxfy321s6g">
+                src="https://youtu.be/CeEwVSbyiLc">
                 </iframe>
               </div>
             </div>
@@ -267,9 +267,10 @@ https://templatemo.com/tm-563-seo-dream
         <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="section-heading">
             <h6>Candi di Malang</h6>
-            <h2>Berikut merupakan penjelasan singkat mengenai candi yang ada di Malang, Jawa Timur</h2>
+            <h2>Situs Candi Peninggalan Kerajaan Hindu-Buddha di Malang</h2>
           </div>
-          <p> Candi di Malang merupakan bukti adanya kejayaan masa kerajaan di daerah ini. Candi di Malang didominasi oleh candi peninggalan kerajaan Singosari yang sempat berjaya pada masanya. Berikut 7 candi di Malang yang dirangkum di dalam website ini.</p>
+          <p> Candi berasal dari kata ”candika”. Candika dalam agama Siwa merupakan salah satu Dewi Maut atau disebut dengan Dewi Durga (Soeroto, 2009). Candi sendiri menjelaskan tentang suatu bangunan yang berasal dari masa lampau sebagai bentuk peninggalan dari budaya Hindu-Buddha yang ada di Indonesia. Berdasarkan ciri khas dan coraknya, candi yang ada di Indonesia dapat dibagi menjadi dua yaitu candi yang bercorak agama Hindu dan candi yang bercorak agama Buddha. Berikut ini merupakan situs candi peninggalan dari kerajaan-kerajaan kuno yang ada di Indonesia, khususnya yang berada di wilayah Malang:<br>
+          1.Candi Badut,<br> 2.Candi Karangbesuki,<br> 3. Candi Songgoriti,<br> 4.Candi Kidal,<br> 5.Candi Jago,<br> 6.Candi Singhasari<br> 7.Candi Sumberawan</p>
           <div class="main-green-button"><a href="/login">Pelajari Lebih Lanjut!</a></div>
         </div>
       </div>
@@ -398,7 +399,11 @@ https://templatemo.com/tm-563-seo-dream
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2023. All Rights Reserved. 
+          <p>
+          <img src="{{ asset('images/um.webp') }}" style="width:30px; height: 30px;">
+          Copyright © 2023. All Rights Reserved.
+          <img src="{{ asset('images/um2.svg') }}" style="width:150px;">
+          </p>
           </div>
       </div>
     </div>

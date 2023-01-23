@@ -78,7 +78,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright © 2023. All Rights Reserved.
+                    <p>
+                    <img src="{{ asset('images/um.webp') }}" style="width:30px; height: 30px;">
+                    Copyright © 2023. All Rights Reserved.
+                    <img src="{{ asset('images/um2.svg') }}" style="width:150px;">
+                    </p>
                 </div>
             </div>
         </div>
