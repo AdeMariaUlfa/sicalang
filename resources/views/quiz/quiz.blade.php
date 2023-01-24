@@ -6,6 +6,21 @@
             <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <h2>QUIZ SICALANG</h2>
             </div>
+            <div class="service-item wow bounceInUp bg-primary" data-wow-duration="1s" data-wow-delay="0.3s">
+                <div class="row bg-primary">
+                    <h4><b>Petunjuk Mengerjakan Kuis</b></h4>
+                    <div class="row bg-primary">
+                        <div class="col-lg-12">
+                              <p>
+                                - Pilihlah salah satu jawaban yang menurut kamu benar<br>
+                                - Ketika kamu memilih salah satu jawaban otomatis akan langsung berganti ke soal selanjutnya<br>
+                                - Di akhir kuis akan langsung tampil SKOR kamu, selamat mengerjakan!
+                              </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
                     <h4>No {{$search['no']}}</h4>
@@ -26,7 +41,7 @@
                                 </div>
                                 @endif
 
-                                <h6 style="color: black; padding-top: 20px;">{!! $search['soal'] !!}</h6>
+                                <h5 style="color: black; padding-top: 20px;">{!! $search['soal'] !!}</h6>
                             
                         </div>
                     </div>

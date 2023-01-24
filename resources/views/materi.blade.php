@@ -1,5 +1,13 @@
 @extends('layouts.template')
 @section('content')
+<style>
+body {
+  background-image: url('{{ asset('images/patern2.gif') }}');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 <div class="container-fluid">
     <div class="row d-flex justify-content-center">
         <div class="col-lg-3">

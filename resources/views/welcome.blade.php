@@ -270,7 +270,7 @@ https://templatemo.com/tm-563-seo-dream
             <h2>Situs Candi Peninggalan Kerajaan Hindu-Buddha di Malang</h2>
           </div>
           <p> Candi berasal dari kata ”candika”. Candika dalam agama Siwa merupakan salah satu Dewi Maut atau disebut dengan Dewi Durga (Soeroto, 2009). Candi sendiri menjelaskan tentang suatu bangunan yang berasal dari masa lampau sebagai bentuk peninggalan dari budaya Hindu-Buddha yang ada di Indonesia. Berdasarkan ciri khas dan coraknya, candi yang ada di Indonesia dapat dibagi menjadi dua yaitu candi yang bercorak agama Hindu dan candi yang bercorak agama Buddha. Berikut ini merupakan situs candi peninggalan dari kerajaan-kerajaan kuno yang ada di Indonesia, khususnya yang berada di wilayah Malang:<br>
-          1.Candi Badut,<br> 2.Candi Karangbesuki,<br> 3. Candi Songgoriti,<br> 4.Candi Kidal,<br> 5.Candi Jago,<br> 6.Candi Singhasari<br> 7.Candi Sumberawan</p>
+          1.Candi Badut,<br> 2.Candi Karangbesuki,<br> 3.Candi Songgoriti,<br> 4.Candi Kidal,<br> 5.Candi Jago,<br> 6.Candi Singhasari<br> 7.Candi Sumberawan</p>
           <div class="main-green-button"><a href="/login">Pelajari Lebih Lanjut!</a></div>
         </div>
       </div>

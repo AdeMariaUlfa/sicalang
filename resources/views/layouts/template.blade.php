@@ -21,7 +21,64 @@
     <link rel="stylesheet" href="{{ asset('template/assets/css/animated.css') }}">
     <link rel="stylesheet" href="{{ asset('template2/assets/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('template/assets/css/owl.css') }}">
+    <style>
+        /* Popup container - can be anything you want */
+        .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
 
+        /* The actual popup */
+        .popup .popuptext {
+        visibility: hidden;
+        width: 160px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: -150%;
+        left: 50%;
+        margin-left: -80px;
+        }
+
+        /* Popup arrow */
+        .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        buttom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+        }
+
+        /* Toggle this class - hide and show the popup */
+        .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+        }
+
+        /* Add animation (fade in the popup) */
+        @-webkit-keyframes fadeIn {
+        from {opacity: 0;} 
+        to {opacity: 1;}
+        }
+
+        @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+        }
+    </style>
 </head>
 
 <body>
@@ -52,7 +109,17 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <div class="main-blue-button"><a onclick="window.history.go(-1); return false;" style="cursor: pointer;"><i class="fa fa-arrow-left"></i> BACK</a></div>
+                            <div class="main-blue-button"><a onclick="window.history.go(-1); return false;" style="cursor: pointer; margin-left:10px;"><i class="fa fa-arrow-left"></i> BACK</a></div>
+                        </ul>
+                        <ul class="nav">
+                            <div class="main-blue-button popup"><a onclick="myFunction()" style="margin-left:10px;"><i class="fa fa-user-circle-o" ></i> DOSEN</a>
+                            <span class="popuptext" id="myPopup">Bayu Kurniawan, S.Pd, M.Pd</span>
+                        </div>
+                        </ul>
+                        <ul class="nav">
+                            <div class="main-blue-button popup"><a onclick="myFunction()"><i class="fa fa-user-circle-o"></i> MAHASISWA</a>
+                            <span class="popuptext" id="myPopup">Mia Andria Ningsih</span>
+                        </div>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -95,8 +162,12 @@
     <script src="{{ asset('template/assets/js/animation.js') }}"></script>
     <script src="{{ asset('template/assets/js/imagesloaded.js') }}"></script>
     <script src="{{ asset('template/assets/js/custom.js') }}"></script>
-<script>
-    
+    <script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 </script>
 </body>
 
