@@ -117,8 +117,8 @@
                         </div>
                         </ul>
                         <ul class="nav">
-                            <div class="main-blue-button popup"><a onclick="myFunction()"><i class="fa fa-user-circle-o"></i> MAHASISWA</a>
-                            <span class="popuptext" id="myPopup">Mia Andria Ningsih</span>
+                            <div class="main-blue-button popup"><a onclick="myFunction1()"><i class="fa fa-user-circle-o"></i> MAHASISWA</a>
+                            <span class="popuptext" id="myPopup1">Mia Andria Ningsih</span>
                         </div>
                         </ul>
                         <a class='menu-trigger'>
@@ -166,6 +166,10 @@
 // When the user clicks on div, open the popup
 function myFunction() {
   var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+function myFunction1() {
+  var popup = document.getElementById("myPopup1");
   popup.classList.toggle("show");
 }
 </script>
