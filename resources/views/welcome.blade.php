@@ -1,28 +1,27 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-    <title>SICALANG</title>
+  <title>SICALANG</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="{{ asset('template/assets/css/fontawesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/assets/css/templatemo-seo-dream.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/assets/css/animated.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/assets/css/owl.css') }}">
-<!--
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="{{ asset('template/assets/css/fontawesome.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/assets/css/templatemo-seo-dream.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/assets/css/animated.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/assets/css/owl.css') }}">
+  <!--
 
 TemplateMo 563 SEO Dream
 
@@ -63,10 +62,12 @@ https://templatemo.com/tm-563-seo-dream
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#features">Alur</a></li>
               <li class="scroll-to-section"><a href="#about">About Us</a></li>
-              <li class="scroll-to-section"><div class="main-blue-button"><a href="/login">LOGIN</a></div></li> 
-            </ul>        
+              <li class="scroll-to-section">
+                <div class="main-blue-button"><a href="/login">LOGIN</a></div>
+              </li>
+            </ul>
             <a class='menu-trigger'>
-                <span>Menu</span>
+              <span>Menu</span>
             </a>
             <!-- ***** Menu End ***** -->
           </nav>
@@ -76,23 +77,23 @@ https://templatemo.com/tm-563-seo-dream
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+  <div class="main-banner" id="top">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
             <div class="col-lg-6 align-self-center">
-              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+              <div class="left-content header-text">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="info-stat">
-                      <h6>Nama :</h6>
+                      <h6 style="opacity: 1;">Nama Mahasiswa :</h6>
                       <h4>Mia Andria Ningsih</h4>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="info-stat">
-                      <h6>Dosen :</h6>
+                      <h6>Dosen Pembimbing:</h6>
                       <h4>Bayu Kurniawan, S.Pd, M.Pd</h4>
                     </div>
                   </div>
@@ -107,14 +108,7 @@ https://templatemo.com/tm-563-seo-dream
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <!-- <img src="{{ asset('template/assets/images/banner-right-image.png') }}" alt=""> -->
-                <iframe width="450" height="350"
-                src="https://youtu.be/CeEwVSbyiLc">
-                </iframe>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -174,84 +168,7 @@ https://templatemo.com/tm-563-seo-dream
             </div>
           </div>
         </div>
-        <div class="col-lg-12">
-          <div class="skills-content">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                  <div class="progress" data-percentage="100">
-                    <span class="progress-left">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <span class="progress-right">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <div class="progress-value">
-                      <div>
-                        1000><br>
-                        <span>Candi di Dunia</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div class="progress" data-percentage="30">
-                    <span class="progress-left">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <span class="progress-right">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <div class="progress-value">
-                      <div>
-                        50><br>
-                        <span>Candi di Indonesia</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                  <div class="progress" data-percentage="10">
-                    <span class="progress-left">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <span class="progress-right">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <div class="progress-value">
-                      <div>
-                        13<br>
-                        <span>Candi di Jawa Timur</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="skill-item last-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                  <div class="progress" data-percentage="8">
-                    <span class="progress-left">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <span class="progress-right">
-                      <span class="progress-bar"></span>
-                    </span>
-                    <div class="progress-value">
-                      <div>
-                        7<br>
-                        <span>Candi di Malang</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
   </div>
@@ -270,7 +187,7 @@ https://templatemo.com/tm-563-seo-dream
             <h2>Situs Candi Peninggalan Kerajaan Hindu-Buddha di Malang</h2>
           </div>
           <p> Candi berasal dari kata ”candika”. Candika dalam agama Siwa merupakan salah satu Dewi Maut atau disebut dengan Dewi Durga (Soeroto, 2009). Candi sendiri menjelaskan tentang suatu bangunan yang berasal dari masa lampau sebagai bentuk peninggalan dari budaya Hindu-Buddha yang ada di Indonesia. Berdasarkan ciri khas dan coraknya, candi yang ada di Indonesia dapat dibagi menjadi dua yaitu candi yang bercorak agama Hindu dan candi yang bercorak agama Buddha. Berikut ini merupakan situs candi peninggalan dari kerajaan-kerajaan kuno yang ada di Indonesia, khususnya yang berada di wilayah Malang:<br>
-          1.Candi Badut,<br> 2.Candi Karangbesuki,<br> 3.Candi Songgoriti,<br> 4.Candi Kidal,<br> 5.Candi Jago,<br> 6.Candi Singhasari<br> 7.Candi Sumberawan</p>
+            1.Candi Badut,<br> 2.Candi Karangbesuki,<br> 3.Candi Songgoriti,<br> 4.Candi Kidal,<br> 5.Candi Jago,<br> 6.Candi Singhasari<br> 7.Candi Sumberawan</p>
           <div class="main-green-button"><a href="/login">Pelajari Lebih Lanjut!</a></div>
         </div>
       </div>
@@ -299,7 +216,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/sumberawan.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Sumberawan</h4></a>
+                      <a href="#">
+                        <h4>Candi Sumberawan</h4>
+                      </a>
                       <span>Singosari</span>
                     </div>
                   </div>
@@ -310,7 +229,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/karangbesuki.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Karangbesuki</h4></a>
+                      <a href="#">
+                        <h4>Candi Karangbesuki</h4>
+                      </a>
                       <span>Sukun</span>
                     </div>
                   </div>
@@ -323,7 +244,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/singasari.png') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Singasari</h4></a>
+                      <a href="#">
+                        <h4>Candi Singasari</h4>
+                      </a>
                       <span>Singasari</span>
                     </div>
                   </div>
@@ -334,7 +257,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/songgoriti.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Songgoriti</h4></a>
+                      <a href="#">
+                        <h4>Candi Songgoriti</h4>
+                      </a>
                       <span>Batu</span>
                     </div>
                   </div>
@@ -347,7 +272,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/jago.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Jago</h4></a>
+                      <a href="#">
+                        <h4>Candi Jago</h4>
+                      </a>
                       <span>Tumpang</span>
                     </div>
                   </div>
@@ -358,7 +285,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/badut.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Badut</h4></a>
+                      <a href="#">
+                        <h4>Candi Badut</h4>
+                      </a>
                       <span>Dau</span>
                     </div>
                   </div>
@@ -371,7 +300,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/kidal.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Kidal</h4></a>
+                      <a href="#">
+                        <h4>Candi Kidal</h4>
+                      </a>
                       <span>Tumpang</span>
                     </div>
                   </div>
@@ -382,7 +313,9 @@ https://templatemo.com/tm-563-seo-dream
                   <img src="{{ asset('images/badut.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4>Candi Badut</h4></a>
+                      <a href="#">
+                        <h4>Candi Badut</h4>
+                      </a>
                       <span>Dau</span>
                     </div>
                   </div>
@@ -400,11 +333,11 @@ https://templatemo.com/tm-563-seo-dream
       <div class="row">
         <div class="col-lg-12">
           <p>
-          <img src="{{ asset('images/um.webp') }}" style="width:30px; height: 30px;">
-          Copyright © 2023. All Rights Reserved.
-          <img src="{{ asset('images/um2.svg') }}" style="width:150px;">
+            <img src="{{ asset('images/um.webp') }}" style="width:30px; height: 30px;">
+            Copyright © 2023. All Rights Reserved.
+            <img src="{{ asset('images/um2.svg') }}" style="width:150px;">
           </p>
-          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -418,4 +351,5 @@ https://templatemo.com/tm-563-seo-dream
   <script src="{{ asset('template/assets/js/custom.js') }}"></script>
 
 </body>
+
 </html>

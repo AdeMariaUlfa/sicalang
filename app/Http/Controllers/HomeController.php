@@ -30,10 +30,12 @@ class HomeController extends Controller
     }
     public function prosesLogin(Request $request)
     {
-        $nama = $request->nama;
-        $kelas = $request->kelas;
+        $request->session()->put('nama',$request->nama);
+        $request->session()->put('kelas',$request->kelas);
+        $nama = $request->session()->get('nama');
+        $kelas = $request->session()->get('kelas');
 
-        return view('dashboard', compact('nama', 'kelas'));
+        return view('dashboard');
     }
     public function dashboard()
     {

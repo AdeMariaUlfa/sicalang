@@ -57,7 +57,7 @@
           <div class="row">
             <div class="col-lg-2">
               <div class="icon">
-                <img src="{{asset('icon/introduction.png')}}" alt="">
+                <img src="{{asset('icon/Introduction.png')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6">
@@ -71,7 +71,7 @@
           <div class="row">
             <div class="col-lg-2">
               <div class="icon">
-                <img src="{{asset('icon/info.png')}}" alt="">
+                <img src="{{asset('icon/Info.png')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6">
@@ -85,7 +85,7 @@
           <div class="row">
             <div class="col-lg-2">
               <div class="icon">
-                <img src="{{asset('icon/image.png')}}" alt="">
+                <img src="{{asset('icon/Image.png')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6">
@@ -99,7 +99,7 @@
           <div class="row">
             <div class="col-lg-2">
               <div class="icon">
-                <img src="{{asset('icon/lokasi.png')}}" alt="">
+                <img src="{{asset('icon/Lokasi.png')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6">
@@ -113,7 +113,7 @@
           <div class="row">
             <div class="col-lg-2">
               <div class="icon">
-                <img src="{{asset('icon/video.png')}}" alt="">
+                <img src="{{asset('icon/Video.png')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6">

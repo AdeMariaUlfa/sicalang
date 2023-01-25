@@ -7,7 +7,10 @@
       <div class="col-lg-6 offset-lg-3">
         <div class="section-heading">
           <h2>Selamat Datang di Sicalang Virtual Tour!</h2>
-          <h2 style="font-family: lucida;"> <span>{{$nama}}</span> <em>{{$kelas}}</em></h2>
+          <?php 
+          
+          ?>
+          <h2 style="font-family: lucida;"> <span>{{Session::get('nama')}}</span> <em>{{Session::get('kelas')}}</em></h2>
         </div>
       </div>
 
