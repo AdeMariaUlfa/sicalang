@@ -152,7 +152,7 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            @isset($search)
+                            @if(isset($search) OR isset($hasil))
                             <div class="main-blue-button"><a href="/dashboard" style="cursor: pointer; margin-left:10px;"><i class="fa fa-arrow-left"></i> BACK</a></div>
                             @else
                             <div class="main-blue-button"><a onclick="window.history.go(-1); return false;" style="cursor: pointer; margin-left:10px;"><i class="fa fa-arrow-left"></i> BACK</a></div>

@@ -60,10 +60,10 @@ class HomeController extends Controller
                 ],
                 'soal' => 'Candi tersebut berada di Malang-Jawa Timur namun dikategorikan sebagai candi dengan langgam arsitektur Jawa Tengah, karena…',
                 'jawaban' => [
-                    'Puncak berbentuk kubus dan dibangun dari batuan andesit',
-                    'Bangunan berbentuk ramping dan relief kala memiliki rahang bawah',
-                    'Bangunan berbentuk tambun dan relief kala tanpa rahang bawah',
-                    'Dibangun dari batu andesit dan berbadan tambun'
+                    'A. Puncak berbentuk kubus dan dibangun dari batuan andesit',
+                    'B. Bangunan berbentuk ramping dan relief kala memiliki rahang bawah',
+                    'C. Bangunan berbentuk tambun dan relief kala tanpa rahang bawah',
+                    'D. Dibangun dari batu andesit dan berbadan tambun'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -78,10 +78,10 @@ class HomeController extends Controller
                 'no' => '2',
                 'soal' => 'Candi Karangbesuki dibangun sekitar abad ke-8 Masehi sebagai tempat untuk memuliakan Resi Agastya. Masyarakat sekitar menyebutnya sebagai “Candi Wurung” mengapa seperti itu?',
                 'jawaban' => [
-                    'karena Candi Karangbesuki dibangun sebagai tempat untuk mendharmakan raja',
-                    'karena Candi Karangbesuki merupakan candi yang beraliran agama Hindu-Siwa',
-                    'karena Candi Karangbesuki dibuat dari batu andesit & memuliakan Resi Agastya',
-                    'karena Candi Karangbesuki belum selesai dibangun dan tersisa pondasinya saja'
+                    'A. karena Candi Karangbesuki dibangun sebagai tempat untuk mendharmakan raja',
+                    'B. karena Candi Karangbesuki merupakan candi yang beraliran agama Hindu-Siwa',
+                    'C. karena Candi Karangbesuki dibuat dari batu andesit & memuliakan Resi Agastya',
+                    'D. karena Candi Karangbesuki belum selesai dibangun dan tersisa pondasinya saja'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -96,10 +96,10 @@ class HomeController extends Controller
                 'no' => '3',
                 'soal' => 'Candi Karangbesuki juga disebut sebagai Candi Wurung atau candi yang belum selesai dan gagal dalam proses pembangunannya. Struktur dari Candi Karangbesuki juga sudah hancur hanya tersisa pondasinya saja.',
                 'jawaban' => [
-                    'Sebagai tempat untuk memuliakan raja',
-                    'Sebagai bangunan suci bagi para pandai logam.',
-                    'Sebagai tempat pendharmaan raja dan petirtaan',
-                    'Sebagai tempat bangunan suci bagi para raja.'
+                    'A. Sebagai tempat untuk memuliakan raja',
+                    'B. Sebagai bangunan suci bagi para pandai logam.',
+                    'C. Sebagai tempat pendharmaan raja dan petirtaan',
+                    'D. Sebagai tempat bangunan suci bagi para raja.'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -122,10 +122,10 @@ class HomeController extends Controller
                     'sumber' => '(Sumber: Dokumentasi Pribadi, 2022)'
                 ],
                 'jawaban' => [
-                    'Puncak bangunan Candi Kidal berbentuk kubus, sedangkan puncak bangunan candi Songgoriti berbentuk limas.',
-                    'Atap Candi Kidal berbentuk datar, sedangkan atap Candi Songgoriti bertingkat dan  mengecil ke atas.',
-                    'Bangunan Candi Kidal berbentuk tambun, sedangkan bangunan Candi Songgoriti berbentuk ramping.',
-                    'Bangunan Candi Kidal berbentuk ramping, sedangkan bangunan Candi Songgoriti berbentuk tambun.'
+                    'A. Puncak bangunan Candi Kidal berbentuk kubus, sedangkan puncak bangunan candi Songgoriti berbentuk limas.',
+                    'B. Atap Candi Kidal berbentuk datar, sedangkan atap Candi Songgoriti bertingkat dan  mengecil ke atas.',
+                    'C. Bangunan Candi Kidal berbentuk tambun, sedangkan bangunan Candi Songgoriti berbentuk ramping.',
+                    'D. Bangunan Candi Kidal berbentuk ramping, sedangkan bangunan Candi Songgoriti berbentuk tambun.'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -140,10 +140,10 @@ class HomeController extends Controller
                 'no' => '5',
                 'soal' => 'Relief Garudheya yang dipahatkan pada setiap sisi Candi Kidal adalah sebagai amanat dari Anusapati. Tujuan dari dipahatnya relief Garudheya adalah?',
                 'jawaban' => [
-                    'sebagai tempat pendharmaan Raja Singosari yakni Anusapati.',
-                    'untuk meruwat Ken Dedes yang merupakan ibu dari Anusapati',
-                    'sebagai tempat untuk mendharmakan Ken Arok sebagai ayah Anusapati',
-                    'untuk meruwat Ken Arok sebagai suami dari Ken Dedes dan Raja Singosari.'
+                    'A.sebagai tempat pendharmaan Raja Singosari yakni Anusapati.',
+                    'B. untuk meruwat Ken Dedes yang merupakan ibu dari Anusapati',
+                    'C. sebagai tempat untuk mendharmakan Ken Arok sebagai ayah Anusapati',
+                    'D. untuk meruwat Ken Arok sebagai suami dari Ken Dedes dan Raja Singosari.'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -158,10 +158,10 @@ class HomeController extends Controller
                 'no' => '6',
                 'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singasari yang menganut agama Syiwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Syiwa Buddha Tantrayana yaitu?',
                 'jawaban' => [
-                    'Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
-                    'Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Buddha dengan Animisme.',
-                    'Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Buddha.',
-                    'Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Animisme.'
+                    'A. Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
+                    'B. Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Buddha dengan Animisme.',
+                    'C. Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Buddha.',
+                    'D. Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Animisme.'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -187,10 +187,10 @@ class HomeController extends Controller
                 Berdasarkan ciri-ciri tersebut, Candi Singhasari berlanggam arsitektur?
                 ',
                 'jawaban' => [
-                    'Jawa Timur',
-                    'Jawa Barat',
-                    'Jawa Tengah',
-                    'Sumatera'
+                    'A. Jawa Timur',
+                    'B. Jawa Barat',
+                    'C. Jawa Tengah',
+                    'D. Sumatera'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -205,10 +205,10 @@ class HomeController extends Controller
                 'no' => '8',
                 'soal' => 'Berdasarkan prasasti Gajahmada tahun 1273 Saka (1351 Masehi), Candi Singhasari dibangun sebagai tempat untuk mendharmakan raja terakhir dari Kerajaan Singhasari, yaitu raja? ',
                 'jawaban' => [
-                    'Kertanegara',
-                    'Ken Arok',
-                    'Wisnuwardhana',
-                    'Anusapati'
+                    'A. Kertanegara',
+                    'B. Ken Arok',
+                    'C. Wisnuwardhana',
+                    'D. Anusapati'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -223,10 +223,10 @@ class HomeController extends Controller
                 'no' => '9',
                 'soal' => 'Candi Sumberawan merupakan satu-satunya candi berbentuk Stupa yang ada di Jawa Timur. Menurut kitab Negarakertagama, Candi Sumberawan disebut sebagai candi?',
                 'jawaban' => [
-                    'Catya',
-                    'Liswa',
-                    'Kasunggrahan',
-                    'Wurung'
+                    'A. Catya',
+                    'B. Liswa',
+                    'C. Kasunggrahan',
+                    'D. Wurung'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -241,10 +241,10 @@ class HomeController extends Controller
                 'no' => '10',
                 'soal' => 'Upacara adat selametan sumber air yang selalu diperingati setiap bulan Syuro penanggalan Jawa di Stupa Sumberawan dinamakan?',
                 'jawaban' => [
-                    'Puja Bakti',
-                    'Tri waisya',
-                    'Tirta Amerta Sari',
-                    'Upacara Kas'
+                    'A. Puja Bakti',
+                    'B. Tri waisya',
+                    'C. Tirta Amerta Sari',
+                    'D. Upacara Kas'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
