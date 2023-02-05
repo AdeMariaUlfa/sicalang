@@ -30,12 +30,14 @@
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <img src="{{asset('quizImage/'.$search['img']['img'])}}">
+                                        <p>{!! $search['img']['ket'] !!}</p>
                                         <p>{{$search['img']['sumber']}}</p>
                                     </div>
                                     @endif
                                     @isset($search['img2'])
                                     <div class="col-lg-4">
                                         <img src="{{asset('quizImage/'.$search['img2']['img'])}}">
+                                        <p>{!! $search['img2']['ket'] !!}</p>
                                         <p>{{$search['img2']['sumber']}}</p>
                                     </div>
                                 </div>

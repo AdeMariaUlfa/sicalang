@@ -1761,10 +1761,6 @@ responsive
     text-align: center;
   }
 
-  .main-banner:before {
-    display: none;
-  }
-
   .main-banner .right-image {
     margin: 30px auto 0px auto;
     text-align: center;

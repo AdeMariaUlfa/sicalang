@@ -77,7 +77,7 @@ https://templatemo.com/tm-563-seo-dream
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <div class="main-banner" id="top">
+  <div class="main-banner">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -85,18 +85,6 @@ https://templatemo.com/tm-563-seo-dream
             <div class="col-lg-6 align-self-center">
               <div class="left-content header-text">
                 <div class="row">
-                  <div class="col-lg-4 col-sm-4">
-                    <div class="info-stat">
-                      <h6 style="opacity: 1;">Nama Mahasiswa :</h6>
-                      <h4>Mia Andria Ningsih</h4>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-sm-4">
-                    <div class="info-stat">
-                      <h6>Dosen Pembimbing:</h6>
-                      <h4>Bayu Kurniawan, S.Pd, M.Pd</h4>
-                    </div>
-                  </div>
                   <div class="col-lg-12">
                     <h2>VIRTUAL TOUR &amp; DIGITAL LEARNING CANDI MALANG</h2>
                   </div>

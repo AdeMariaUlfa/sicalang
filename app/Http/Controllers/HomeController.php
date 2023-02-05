@@ -56,6 +56,7 @@ class HomeController extends Controller
                 'no' => '1',
                 'img' => [
                     'img' => 'candiBadut.jpg',
+                    'ket' =>'<b>Foto 1.</b> Candi Badut',
                     'sumber'=>'(Sumber: Dokumentasi Pribadi, 2022)'
                 ],
                 'soal' => 'Candi tersebut berada di Malang-Jawa Timur namun dikategorikan sebagai candi dengan langgam arsitektur Jawa Tengah, karena…',
@@ -94,7 +95,7 @@ class HomeController extends Controller
             ],
             '3' => [
                 'no' => '3',
-                'soal' => 'Candi Karangbesuki juga disebut sebagai Candi Wurung atau candi yang belum selesai dan gagal dalam proses pembangunannya. Struktur dari Candi Karangbesuki juga sudah hancur hanya tersisa pondasinya saja.',
+                'soal' => 'Apa yang menjadi alasan Candi Songgoriti dibangun di atas sumber mata air panas?',
                 'jawaban' => [
                     'A. Sebagai tempat untuk memuliakan raja',
                     'B. Sebagai bangunan suci bagi para pandai logam.',
@@ -115,10 +116,12 @@ class HomeController extends Controller
                 'soal' => 'Dari kedua candi tersebut memiliki ciri-ciri bentuk bangunan yang berbeda. Sebutkan perbedaan antara bentuk bangunan Candi Kidal dengan Candi Songgoriti!',
                 'img' => [
                     'img' =>'kidal.jpg',
+                    'ket' =>'<b>Foto 1.</b> Candi Kidal',
                     'sumber' => '(Sumber: Dokumentasi Pribadi, 2022)',
                 ],
                 'img2' => [
                     'img' => 'songgoriti.jpg',
+                    'ket' =>'<b>Foto 2.</b> Candi Songgoriti',
                     'sumber' => '(Sumber: Dokumentasi Pribadi, 2022)'
                 ],
                 'jawaban' => [
