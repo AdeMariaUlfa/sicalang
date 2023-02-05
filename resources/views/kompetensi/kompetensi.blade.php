@@ -2,7 +2,7 @@
 @section('content')
 <style>
     body {
-      background-image: url("{{ asset('images/patern1.gif') }}");
+      background-image: url("{{ asset('images/patern2.gif') }}");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -23,13 +23,13 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
         <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <h2 style="color:white;">KOMPETENSI</h2>
+          <h2 style="color:black;">KOMPETENSI</h2>
           <p></p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid" >
     <div class="row" >
       <div class="service-item wow bounceInUp bg-light" data-wow-duration="1s" data-wow-delay="0.3s">
         <div class="row">

@@ -25,7 +25,7 @@
         <div class="col-lg-3">
           <a href="/virtual/{{$candi}}">
             <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-              <i class="fa fa-map fa-8x" style="color:black;"></i>
+              <i class="fa fa-map fa-8x" style="color:#14524f;"></i>
               <h4>Virtual Tour</h4>
               <div class="line-dec"></div>
 
@@ -36,10 +36,18 @@
         <div class="col-lg-3">
           <a href="/materi/{{$candi}}">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-              <div class="fa fa-file-text fa-8x" style="color:black;"></div>
+              <div class="fa fa-file-text fa-8x" style="color:#14524f;"></div>
               <h4 style="color:black;">Materi</h4>
               <div class="line-dec"></div>
-
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="">
+            <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+              <div class="fa fa-video fa-8x" style="color:#14524f;"></div>
+              <h4 style="color:black;">Video Candi {{$candi}}</h4>
+              <div class="line-dec"></div>
             </div>
           </a>
         </div>

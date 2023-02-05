@@ -19,7 +19,7 @@
         <div class="col-lg-3">
           <a href="/petunjuk">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-              <div class="fa fa-file-text fa-8x" style="color:black;"></div>
+              <div class="fa fa-file-text fa-8x" style="color:#14524f;"></div>
               <h4>PETUNJUK PENGGUNAAN</h4>
               <div class="line-dec"></div>
               <p>Runtutan Penggunaan Website</p>
@@ -30,7 +30,7 @@
         <div class="col-lg-3">
           <a href="/kompetensi">
             <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-              <i class="fa fa-cubes fa-8x" style="color:black;"></i>
+              <i class="fa fa-cubes fa-8x" style="color:#14524f;"></i>
               <h4>KOMPETENSI<br><br></h4>
               <div class="line-dec"></div>
               <p>KI, KD, & Tujuan</p>
@@ -40,7 +40,7 @@
         <div class="col-lg-3">
           <a href="/materi">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-              <i class="fa fa-file-video-o fa-8x" style="color:black;"></i>
+              <i class="fa fa-file-video-o fa-8x" style="color:#14524f;"></i>
               <h4>MATERI SITUS CANDI</h4>
               <div class="line-dec"></div>
               <p>Virtual Tour 7 Situs Candi di Malang</p>
@@ -50,10 +50,10 @@
         <div class="col-lg-3">
           <a href="/quiz/1/salah/0">
             <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-              <i class="fa fa-lightbulb-o fa-8x" style="color:black;"></i>
-              <h4>QUIZ<br><br></h4>
+              <i class="fa fa-lightbulb-o fa-8x" style="color:#14524f;"></i>
+              <h4>KUIS<br><br></h4>
               <div class="line-dec"></div>
-              <p>Setelah Melakukan Virtual Tour, Lakukan QUIZ di Menu Ini!</p>
+              <p>Setelah Melakukan Virtual Tour, Lakukan KUIS di Menu Ini!</p>
             </div>
           </a>
         </div>

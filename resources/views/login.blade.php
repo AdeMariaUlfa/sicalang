@@ -12,7 +12,7 @@
 <body>
   <div class="parent clearfix">
     <div class="bg-illustration">
-    <img src="{{ asset('template/assets/images/SICALANG.png') }}" width="500px" height="300px" >
+    <img src="{{ asset('template/assets/images/sicalang2.png') }}" width="500px" height="300px" >
     </div>
     
     <div class="login">

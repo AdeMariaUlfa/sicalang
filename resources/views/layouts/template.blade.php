@@ -147,7 +147,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="/dashboard" class="logo">
-                            <h4>SICALANG<img src="{{ asset('template/assets/images/pagoda.png') }}" alt=""></h4>
+                           <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -158,7 +158,7 @@
                             <div class="main-blue-button"><a onclick="window.history.go(-1); return false;" style="cursor: pointer; margin-left:10px;"><i class="fa fa-arrow-left"></i> BACK</a></div>
                             @endif
                         </ul>
-                        <ul class="nav">
+                        <!-- <ul class="nav">
                             <div class="main-blue-button popup"><a onclick="myFunction()" style="margin-left:10px;"><i class="fa fa-user-circle-o"></i> DOSEN</a>
                                 <span class="popuptext" id="myPopup">Bayu Kurniawan, S.Pd, M.Pd</span>
                             </div>
@@ -167,7 +167,7 @@
                             <div class="main-blue-button popup"><a onclick="myFunction1()"><i class="fa fa-user-circle-o"></i> MAHASISWA</a>
                                 <span class="popuptext" id="myPopup1">Mia Andria Ningsih</span>
                             </div>
-                        </ul>
+                        </ul> -->
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>

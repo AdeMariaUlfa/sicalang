@@ -972,6 +972,21 @@ Banner Style
   font-weight: 700;
   font-size: 20px;
   color: #2a2a2a;
+  
+}
+
+.main-banner .left-content h3 {
+  z-index: 2;
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2a2a2a;
+  background: #e97917;
+  background: -webkit-linear-gradient(to right, #5f1616 0%, #631d1d 100%);
+  background: -moz-linear-gradient(to right, #5f1616 0%, #521515 100%);
+  background: linear-gradient(to right, #5f1616 0%, #521515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-banner .left-content h2 {
@@ -984,9 +999,9 @@ Banner Style
   color: #2a2a2a;
   line-height: 72px;
   background: #FA9D4D;
-  background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
+  background: -webkit-linear-gradient(to right, #5f1616 0%, #703d3d 100%);
+  background: -moz-linear-gradient(to right, #5f1616 0%, #703d3d 100%);
+  background: linear-gradient(to right, #5f1616 0%, #703d3d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1011,6 +1026,10 @@ Features Style
 
 #features {
   padding-top: 130px;
+  /* background-color: rgba(51,204,197,255);
+  background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);
+  background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);
+  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%); */
 }
 
 .features .features-content {
@@ -1488,6 +1507,10 @@ Portfolio
 .our-portfolio {
   padding-top: 100px;
   overflow: hidden;
+  background-color: rgba(51,204,197,255);
+  background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);
+  background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);
+  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);
 }
 
 .our-portfolio .container-fluid {

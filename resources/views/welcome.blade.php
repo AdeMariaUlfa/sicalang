@@ -54,17 +54,17 @@ https://templatemo.com/tm-563-seo-dream
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <h4>SICALANG<img src="{{ asset('template/assets/images/pagoda.png') }}" alt=""></h4>
+             <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">              
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#features">Alur</a></li>
-              <li class="scroll-to-section"><a href="#about">About Us</a></li>
-              <li class="scroll-to-section">
+              <li class="scroll-to-section"><a href="#top" class="active">Beranda</a></li>
+              <li class="scroll-to-section"><a href="#features">Langkah Penggunaan</a></li>
+              <!-- <li class="scroll-to-section"><a href="#about">About Us</a></li> -->
+              <!-- <li class="scroll-to-section">
                 <div class="main-blue-button"><a href="/login">LOGIN</a></div>
-              </li>
+              </li> -->
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -86,7 +86,8 @@ https://templatemo.com/tm-563-seo-dream
               <div class="left-content header-text">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>VIRTUAL TOUR &amp; DIGITAL LEARNING CANDI MALANG</h2>
+                    <h2>Selamat datang di SICALANG!</h2>
+                    <h3>Sicalang merupakan media yang berisi virtual tour dan termasuk digital learning materi situs candi di Malang.</h3><br>
                   </div>
                   <div class="col-lg-12">
                     <div class="main-green-button scroll-to-section">
@@ -103,7 +104,7 @@ https://templatemo.com/tm-563-seo-dream
     </div>
   </div>
 
-  <div id="features" class="features section">
+  <div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -148,9 +149,9 @@ https://templatemo.com/tm-563-seo-dream
                     <h6>04</h6>
                   </div>
                   <div class="icon"></div>
-                  <h4>Quiz</h4>
+                  <h4>Kuis</h4>
                   <div class="line-dec"></div>
-                  <p>Setelah mempelajari candi tersebut, lakukan Quiz untuk mengetahui seberapa jauh pengetahuan kamu!</p>
+                  <p>Setelah mempelajari candi tersebut, lakukan Kuis untuk mengetahui seberapa jauh pengetahuan kamu!</p>
                 </div>
               </div>
             </div>
@@ -161,7 +162,7 @@ https://templatemo.com/tm-563-seo-dream
     </div>
   </div>
 
-  <div id="about" class="about-us section">
+  <!-- <div id="about" class="about-us section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -180,7 +181,7 @@ https://templatemo.com/tm-563-seo-dream
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <div id="portfolio" class="our-portfolio section">
@@ -188,8 +189,9 @@ https://templatemo.com/tm-563-seo-dream
       <div class="row">
         <div class="col-lg-5">
           <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-            <h6>Gallery</h6>
-            <h2>Beberapa foto candi-candi yang ada di Malang</h2>
+            <h6 style="color:black;">Gallery</h6>
+            <h2 style="color:black;">Beberapa foto candi-candi yang ada di Malang</h2>
+            <p>(sumber: dokumentasi pribadi 2022)</p>
           </div>
         </div>
       </div>
@@ -298,13 +300,13 @@ https://templatemo.com/tm-563-seo-dream
               </div>
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="{{ asset('images/badut.jpg') }}" alt="">
+                  <img src="{{ asset('images/Foto 5. Relief Candi Jago.jpg') }}" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#">
-                        <h4>Candi Badut</h4>
+                        <h4>Candi Jago</h4>
                       </a>
-                      <span>Dau</span>
+                      <span>Tumpang</span>
                     </div>
                   </div>
                 </div>
