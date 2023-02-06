@@ -8,7 +8,7 @@
     }
 
     body {
-        background-image: url("{{ asset('bg/songgoriti-opacity.png') }}");
+        /* background-image: url("{{ asset('bg/songgoriti-opacity.png') }}"); */
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;

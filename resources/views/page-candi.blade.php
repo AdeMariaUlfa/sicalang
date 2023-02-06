@@ -2,7 +2,7 @@
 @section('content')
 <style>
   body {
-    background-image: url("{{ asset('images/patern2.gif') }}");
+    /* background-image: url("{{ asset('images/patern2.gif') }}"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,12 +15,8 @@
       <div class="col-lg-6 offset-lg-3 d-flex justify-content-center">
         <div class="section-heading">
           <h2>Candi {{$candi}}</h2>
-
         </div>
       </div>
-
-
-
       <div class="row d-flex justify-content-center">
         <div class="col-lg-3">
           <a href="/virtual/{{$candi}}">

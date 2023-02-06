@@ -179,7 +179,7 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    <div id="features" class="features section" >
+    <div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
 
         @yield('content')
     </div>
@@ -188,8 +188,8 @@
 
 
 
-    <footer>
-        <div class="container">
+    <footer  style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-12">
                     <p>

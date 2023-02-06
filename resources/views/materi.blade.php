@@ -2,7 +2,7 @@
 @section('content')
 <style>
 body {
-  background-image: url("{{ asset('images/patern2.gif') }}");
+  /* background-image: url("{{ asset('images/patern2.gif') }}"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

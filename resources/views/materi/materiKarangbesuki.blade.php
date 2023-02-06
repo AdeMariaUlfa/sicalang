@@ -8,7 +8,7 @@
     }
 
     body {
-        background-image: url("{{ asset('bg/karangbesuki-opacity.png') }}");
+        /* background-image: url("{{ asset('bg/karangbesuki-opacity.png') }}"); */
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
