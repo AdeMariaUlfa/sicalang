@@ -179,7 +179,7 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    <div id="features" class="features section">
+    <div id="features" class="features section" >
 
         @yield('content')
     </div>
