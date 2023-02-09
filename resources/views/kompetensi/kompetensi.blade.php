@@ -53,7 +53,7 @@
         </div>
 
       </div>
-    </div>
+    </div><br>
 
     <div class="row">
       <div class="service-item wow bounceInUp bg-light" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><br>
 
     <div class="row">
       <div class="service-item wow bounceInUp bg-light" data-wow-duration="1s" data-wow-delay="0.3s">

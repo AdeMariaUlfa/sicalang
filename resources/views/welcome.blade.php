@@ -82,7 +82,7 @@ https://templatemo.com/tm-563-seo-dream
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
               <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">
             </a>
             <!-- ***** Logo End ***** -->
@@ -133,7 +133,11 @@ https://templatemo.com/tm-563-seo-dream
   </div> -->
 
   <div id="carouselExample" class="carousel slide">
-
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExample" data-slide-to="1"></li>
+    <li data-target="#carouselExample" data-slide-to="2"></li>
+  </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="{{ asset('bg/badut-opacity.png') }}" class="d-block w-100" alt="...">

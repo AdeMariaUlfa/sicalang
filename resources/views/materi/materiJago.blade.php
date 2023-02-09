@@ -9,10 +9,11 @@
     }
 
     .bg-card {
-        background-image: url("{{ asset('bg/jago-opacity.png') }}"); 
+        background-image: url("{{ asset('bg/jago-opacity2.png') }}"); 
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
     }
 </style>
 <div id="services" class="our-services section">
@@ -71,7 +72,7 @@
                         <div id="page4">    
                         <p><b>Daftar Pustaka</b>
                             <br>1. Perpustakaan Nasional Republik Indonesia. 2014. Candi Jago. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_jago) diakses pada tanggal 12 Oktober 2022.<br>
-                            2. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jenderal Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.
+                            2. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jenderal Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
                             3. Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
                             4. Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.
                         </p>

@@ -9,10 +9,11 @@
     }
 
     .bg-card {
-        /* background-image: url("{{ asset('bg/sumberawan-opacity.png') }}"); */
+        background-image: url("{{ asset('bg/sumberawan-opacity2.png') }}");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
     }
 </style>
 <div id="services" class="our-services section">

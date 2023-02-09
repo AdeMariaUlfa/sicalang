@@ -15,7 +15,7 @@
         background-size: cover;
     }
     .bg-card{
-        background-image: url("{{ asset('bg/badut-opacity.png') }}");
+        background-image: url("{{ asset('bg/badut-opacity2.png') }}");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
