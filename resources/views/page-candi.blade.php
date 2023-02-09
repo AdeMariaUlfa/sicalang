@@ -22,7 +22,7 @@
           <a href="/virtual/{{$candi}}">
             <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
               <i class="fa fa-map fa-8x" style="color:#14524f;"></i>
-              <h4>Virtual Tour</h4>
+              <h4>Virtual Tour candi {{$candi}}</h4>
               <div class="line-dec"></div>
 
             </div>
@@ -33,7 +33,7 @@
           <a href="/materi/{{$candi}}">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
               <div class="fa fa-file-text fa-8x" style="color:#14524f;"></div>
-              <h4 style="color:black;">Materi</h4>
+              <h4 style="color:black;">Materi candi {{$candi}}</h4>
               <div class="line-dec"></div>
             </div>
           </a>
@@ -48,7 +48,7 @@
           </a>
         </div>
         <div class="col-lg-3">
-          <a href="/lokasi-candi/{{$link}}">
+          <a href="/map/{{$candi}}">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
               <div class="fa fa-map-marker fa-8x" style="color:#14524f;"></div>
               <h4 style="color:black;">Lokasi Candi {{$candi}}</h4>

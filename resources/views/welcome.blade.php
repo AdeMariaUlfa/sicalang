@@ -17,8 +17,6 @@
 
   <style>
     .judul {
-      position: absolute;
-      bottom: 80px;
       width: 96.66666666666666%;
       color: #FFF;
     }
@@ -27,16 +25,12 @@
       z-index: 2;
       position: relative;
       font-weight: 700;
-      font-size: 20px;
+      font-size: 2vw;
       color: #5f1616;
     }
 
     .judul h2 {
-      margin-right: 45px;
-      margin-top: 30px;
-      padding-top: 20px;
-      margin-bottom: 45px;
-      font-size: 50px;
+      font-size: 4vw;
       font-weight: 800;
       color: #5f1616;
       line-height: 72px;
@@ -133,11 +127,11 @@ https://templatemo.com/tm-563-seo-dream
   </div> -->
 
   <div id="carouselExample" class="carousel slide">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExample" data-slide-to="1"></li>
-    <li data-target="#carouselExample" data-slide-to="2"></li>
-  </ol>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExample" data-slide-to="1"></li>
+      <li data-target="#carouselExample" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="{{ asset('bg/badut-opacity.png') }}" class="d-block w-100" alt="...">
@@ -160,7 +154,20 @@ https://templatemo.com/tm-563-seo-dream
       <div class="carousel-item">
         <img src="{{ asset('bg/sumberawan-opacity.png') }}" class="d-block w-100" alt="...">
       </div>
+      <div class="carousel-caption">
+        <div class="judul">
 
+
+          <h2>Selamat datang di SICALANG!</h2>
+          <h3>Sicalang merupakan media yang berisi virtual tour dan termasuk digital learning materi situs candi di Malang.</h3><br>
+
+          <div class="main-green-button scroll-to-section">
+            <a href="/login">Mulai Tour</a>
+          </div>
+
+        </div>
+
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -170,62 +177,6 @@ https://templatemo.com/tm-563-seo-dream
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
-
-  <!-- <div class="container">
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="row">
-          <div class="col-lg-6 align-self-center">
-            <div class="left-content header-text">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h2>Selamat datang di SICALANG!</h2>
-                  <h3>Sicalang merupakan media yang berisi virtual tour dan termasuk digital learning materi situs candi di Malang.</h3><br>
-                </div>
-                <div class="col-lg-12">
-                  <div class="main-green-button scroll-to-section">
-                    <a href="/login">Mulai Tour</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-  <div class="container">
-    <div class="judul">
-
-
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content header-text">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2>Selamat datang di SICALANG!</h2>
-                    <h3>Sicalang merupakan media yang berisi virtual tour dan termasuk digital learning materi situs candi di Malang.</h3><br>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="main-green-button scroll-to-section">
-                      <a href="/login">Mulai Tour</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
 
@@ -442,7 +393,6 @@ https://templatemo.com/tm-563-seo-dream
 
   <!-- Scripts -->
   <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('template/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
   <script src="{{ asset('template/assets/js/owl-carousel.js') }}"></script>
   <script src="{{ asset('template/assets/js/animation.js') }}"></script>
   <script src="{{ asset('template/assets/js/imagesloaded.js') }}"></script>

@@ -70,6 +70,28 @@ Route::get('/materi/Sumberawan', function () {
     return view('materi.materiSumberawan');
 });
 
+//Maps
+Route::get('/map/Badut', function () {
+    return view('map.map-badut');
+});
+Route::get('/map/Karangbesuki', function () {
+    return view('map.map-karangBesuki');
+});
+Route::get('/map/Songgoriti', function () {
+    return view('map.map-songgoriti');
+});
+Route::get('/map/Kidal', function () {
+    return view('map.map-kidal');
+});  
+Route::get('/map/Jago', function () {
+    return view('map.map-jago');
+});
+Route::get('/map/Singasari', function () {
+    return view('map.map-singosari');
+});
+Route::get('/map/Sumberawan', function () {
+    return view('map.map-sumberawan');
+});
 
 Route::get('/page-candi/{candi}/{link}', [HomeController::class, 'pageCandi']);
 Route::get('/login', [HomeController::class, 'login']);
