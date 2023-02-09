@@ -47,6 +47,15 @@
             </div>
           </a>
         </div>
+        <div class="col-lg-3">
+          <a href="/lokasi-candi/{{$link}}">
+            <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+              <div class="fa fa-map-marker fa-8x" style="color:#14524f;"></div>
+              <h4 style="color:black;">Lokasi Candi {{$candi}}</h4>
+              <div class="line-dec"></div>
+            </div>
+          </a>
+        </div>
 
 
       </div>

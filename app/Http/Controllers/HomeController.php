@@ -272,4 +272,8 @@ class HomeController extends Controller
     {
         return view('video-candi',compact('link'));
     }
+    public function lokasiCandi($link)
+    {
+        return view('video-candi',compact('link'));
+    }
 }

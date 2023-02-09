@@ -77,3 +77,4 @@ Route::post('/login', [HomeController::class, 'prosesLogin'])->name('proses-logi
 Route::get('/dashboard', [HomeController::class, 'dashboard']);
 Route::get('/quiz/{s}/{j}/{sblm}', [HomeController::class, 'quizCandi']);
 Route::get('/video-candi/{link}', [HomeController::class, 'videoCandi']);
+Route::get('/lokasi-candi/{link}', [HomeController::class, 'lokasiCandi']);
