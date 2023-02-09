@@ -15,7 +15,6 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
-
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{ asset('template/assets/css/templatemo-seo-dream.css') }}">
     <link rel="stylesheet" href="{{ asset('template/assets/css/animated.css') }}">

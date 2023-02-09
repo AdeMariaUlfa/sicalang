@@ -5,9 +5,10 @@
         text-align: center;
         display: block;
         width: 500px;
+        padding: 20px;
     }
 
-    body {
+    .bg-card {
         /* background-image: url("{{ asset('bg/sumberawan-opacity.png') }}"); */
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -17,7 +18,7 @@
 <div id="services" class="our-services section">
     <div class="container-fluid">
         <div class="row">
-            <div class="service-item" style="background-color: white;">
+            <div class="service-item bg-card">
                 <div class="row">
 
                     <div class="right-content">
@@ -47,9 +48,9 @@
                         </div>
                         <div id="page3">    
                         <p><b>Daftar Pustaka</b><br>
-                            Ayuni, F. Q. (2019). Peran Kepercayaan Sakral dalam Menghindari Nasib Buruk.<br>
-                            Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jenderal Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
-                            Soeroto, Myrtha. (2010). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Kedua. Yayasan Keluarga Batam Myrtle Publishing: Batam.
+                        1. Ayuni, F. Q. (2019). Peran Kepercayaan Sakral dalam Menghindari Nasib Buruk.<br>
+                        2. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jenderal Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
+                        3. Soeroto, Myrtha. (2010). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Kedua. Yayasan Keluarga Batam Myrtle Publishing: Batam.
                         </p>
                         </div>
                         <div class="pagination d-flex justify-content-center">

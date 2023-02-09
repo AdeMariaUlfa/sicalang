@@ -5,10 +5,11 @@
         text-align: center;
         display: block;
         width: 500px;
+        padding: 20px;
     }
 
-    body {
-        /* background-image: url("{{ asset('bg/karangbesuki-opacity.png') }}"); */
+    .bg-card {
+        background-image: url("{{ asset('bg/karangbesuki-opacity.png') }}");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -17,7 +18,7 @@
 <div id="services" class="our-services section">
     <div class="container-fluid">
         <div class="row">
-            <div class="service-item" style="background-color: white;">
+            <div class="service-item bg-card">
                 <div class="row">
                     <div class="right-content">
                         <h3 style="color:black;" class="d-flex justify-content-center"><b>Candi Karangbesuki</b></h3><br><br>
@@ -44,7 +45,7 @@
                         </div>
                         <div id="page3">
                             <p><b>Daftar Pustaka</b><br>
-                                Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.
+                                1. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.
                             </p>
                         </div>
                         <div class="pagination d-flex justify-content-center">

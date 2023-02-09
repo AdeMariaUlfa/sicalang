@@ -39,7 +39,7 @@
           </a>
         </div>
         <div class="col-lg-3">
-          <a href="">
+          <a href="/video-candi/{{$link}}">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
               <div class="fa fa-video fa-8x" style="color:#14524f;"></div>
               <h4 style="color:black;">Video Candi {{$candi}}</h4>

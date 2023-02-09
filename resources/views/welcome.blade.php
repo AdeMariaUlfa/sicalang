@@ -9,9 +9,39 @@
   <meta name="author" content="">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   <title>SICALANG</title>
 
+  <style>
+    .judul {
+      position: absolute;
+      bottom: 80px;
+      width: 96.66666666666666%;
+      color: #FFF;
+    }
+
+    .judul h3 {
+      z-index: 2;
+      position: relative;
+      font-weight: 700;
+      font-size: 20px;
+      color: #5f1616;
+    }
+
+    .judul h2 {
+      margin-right: 45px;
+      margin-top: 30px;
+      padding-top: 20px;
+      margin-bottom: 45px;
+      font-size: 50px;
+      font-weight: 800;
+      color: #5f1616;
+      line-height: 72px;
+    }
+  </style>
   <!-- Bootstrap core CSS -->
   <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -28,7 +58,6 @@ TemplateMo 563 SEO Dream
 https://templatemo.com/tm-563-seo-dream
 
 -->
-
 </head>
 
 <body>
@@ -54,7 +83,7 @@ https://templatemo.com/tm-563-seo-dream
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-             <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">              
+              <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -77,8 +106,99 @@ https://templatemo.com/tm-563-seo-dream
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <div class="main-banner">
-    <div class="container">
+  <!-- <div id="carousel-ID" class="carousel slide" data-ride="carousel">
+    <h2>Company name</h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h3>Company service 1</h3>
+        <img src="{{ asset('images/jago.jpg') }}" alt="...">
+      </div>
+      <div class="carousel-item">
+        <h3>Company service 2</h3>
+        <img src="..." alt="...">
+      </div>
+      <div class="carousel-item">
+        <h3>Company service 3</h3>
+        <img src="..." alt="...">
+      </div>
+      <div class="carousel-item">
+        <h3>Company service 4</h3>
+        <img src="..." alt="...">
+      </div>
+      <div class="carousel-item">
+        <h3>Company service 5</h3>
+        <img src="..." alt="...">
+      </div>
+    </div>
+  </div> -->
+
+  <div id="carouselExample" class="carousel slide">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ asset('bg/badut-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('bg/jago-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('bg/karangbesuki-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('bg/kidal-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('bg/singasari-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('bg/songgoriti-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('bg/sumberawan-opacity.png') }}" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6 align-self-center">
+            <div class="left-content header-text">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Selamat datang di SICALANG!</h2>
+                  <h3>Sicalang merupakan media yang berisi virtual tour dan termasuk digital learning materi situs candi di Malang.</h3><br>
+                </div>
+                <div class="col-lg-12">
+                  <div class="main-green-button scroll-to-section">
+                    <a href="/login">Mulai Tour</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="container">
+    <div class="judul">
+
+
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
@@ -103,6 +223,10 @@ https://templatemo.com/tm-563-seo-dream
       </div>
     </div>
   </div>
+
+
+
+
 
   <div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
     <div class="container">
@@ -157,31 +281,11 @@ https://templatemo.com/tm-563-seo-dream
             </div>
           </div>
         </div>
-       
+
       </div>
     </div>
   </div>
 
-  <!-- <div id="about" class="about-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-            <img src="{{ asset('template/assets/images/a.jpg') }}" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-          <div class="section-heading">
-            <h6>Candi di Malang</h6>
-            <h2>Situs Candi Peninggalan Kerajaan Hindu-Buddha di Malang</h2>
-          </div>
-          <p> Candi berasal dari kata ”candika”. Candika dalam agama Siwa merupakan salah satu Dewi Maut atau disebut dengan Dewi Durga (Soeroto, 2009). Candi sendiri menjelaskan tentang suatu bangunan yang berasal dari masa lampau sebagai bentuk peninggalan dari budaya Hindu-Buddha yang ada di Indonesia. Berdasarkan ciri khas dan coraknya, candi yang ada di Indonesia dapat dibagi menjadi dua yaitu candi yang bercorak agama Hindu dan candi yang bercorak agama Buddha. Berikut ini merupakan situs candi peninggalan dari kerajaan-kerajaan kuno yang ada di Indonesia, khususnya yang berada di wilayah Malang:<br>
-            1.Candi Badut,<br> 2.Candi Karangbesuki,<br> 3.Candi Songgoriti,<br> 4.Candi Kidal,<br> 5.Candi Jago,<br> 6.Candi Singhasari<br> 7.Candi Sumberawan</p>
-          <div class="main-green-button"><a href="/login">Pelajari Lebih Lanjut!</a></div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
 
   <div id="portfolio" class="our-portfolio section">

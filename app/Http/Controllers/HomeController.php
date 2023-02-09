@@ -41,9 +41,9 @@ class HomeController extends Controller
     {
         return view('dashboard');
     }
-    public function pageCandi($candi)
+    public function pageCandi($candi, $link)
     {
-        return view('page-candi', compact('candi'));
+        return view('page-candi', compact('candi', 'link'));
     }
     public function quizCandi($s, $j, $sblm)
     {
@@ -267,5 +267,9 @@ class HomeController extends Controller
             $search = Arr::get($soal, $s);
             return view('quiz.quiz', compact('search', 'hasil'));
         }
+    }
+    public function videoCandi($link)
+    {
+        return view('video-candi',compact('link'));
     }
 }

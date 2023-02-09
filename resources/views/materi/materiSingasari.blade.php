@@ -5,10 +5,11 @@
         text-align: center;
         display: block;
         width: 500px;
+        padding: 20px;
     }
 
-    body {
-        /* background-image: url("{{ asset('bg/singasari-opacity.png') }}"); */
+    .bg-card {
+        background-image: url("{{ asset('bg/singasari-opacity.png') }}");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -17,7 +18,7 @@
 <div id="services" class="our-services section">
     <div class="container-fluid">
         <div class="row">
-            <div class="service-item" style="background-color: white;">
+            <div class="service-item bg-card">
                 <div class="row">
 
                     <div class="right-content">
@@ -82,13 +83,13 @@
                         </div>
                         <div id="page6">
                             <p><b>Daftar Pustaka</b><br>
-                                Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.<br>
-                                Mardiono, P. (2020). Sejarah Kelam Majapahit: Jejak-Jejak Konflik Kekuasaan dan Tumbal Asmara di Majapahit. Indonesia: Araska Publishing.<br>
-                                Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi. 2019. Prasasti Gajahmada. (Online), (http://kebudayaan.kemdikbud.go.id/munas/4933-2/) diakses pada tanggal 01 Desember 2023.<br>
-                                Perpustakaan Nasional Republik Indonesia. 2014. Candi Singhasari. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_Singhasari) diakses pada tanggal 10 Oktober 2022.<br>
-                                Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jendral Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
-                                Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
-                                Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.
+                            1. Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.<br>
+                            2. Mardiono, P. (2020). Sejarah Kelam Majapahit: Jejak-Jejak Konflik Kekuasaan dan Tumbal Asmara di Majapahit. Indonesia: Araska Publishing.<br>
+                            3. Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi. 2019. Prasasti Gajahmada. (Online), (http://kebudayaan.kemdikbud.go.id/munas/4933-2/) diakses pada tanggal 01 Desember 2023.<br>
+                            4. Perpustakaan Nasional Republik Indonesia. 2014. Candi Singhasari. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_Singhasari) diakses pada tanggal 10 Oktober 2022.<br>
+                            5. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jendral Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
+                            6. Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
+                            7. Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.
                             </p>
                         </div>
                         <div class="pagination d-flex justify-content-center">

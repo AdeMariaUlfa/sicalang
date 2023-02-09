@@ -10,8 +10,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
 
-	<link rel="stylesheet" type="text/css" href="{{ asset('CANDISINGOSARI/css/font-awesome.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('CANDISINGOSARI/style.css') }}">
+	<link rel="stylesheet" type="{{ asset('CANDISINGOSARI/text/css') }}" href="css/font-awesome.css">
+	<link rel="stylesheet" type="{{ asset('CANDISINGOSARI/text/css') }}" href="style.css">
 
 	<!-- Insert this line above script imports  -->
 	<script>
@@ -100,25 +100,20 @@
 </head>
 
 <body id="body">
+	@extends('layouts.template')
+	@section('content')
 	<div id="container" style="color: black;"></div>
 
 
-	@extends('layouts.template')
-	@section('content')
+
 	<!--customhtml-->
 	<div class='customhotspot' id='CSI7copy'>
-		<div onclick='chclickinfospotCSI7copy0();' id='infospotCSI7copy0' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Lokasi.png') }}" style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotCSI7copy1();' id='infospotCSI7copy1' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Introduction.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCSI7copy2();' id='infospotCSI7copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCSI7copy3();' id='infospotCSI7copy3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='PANO_20221215_101516_1'>
-		<div onclick='chclickinfospotPANO_20221215_101516_12();' id='infospotPANO_20221215_101516_12' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
-	<div class='customhotspot' id='PANO_20221215_101154_0'>
-		<div onclick='chclickinfospotPANO_20221215_101154_02();' id='infospotPANO_20221215_101154_02' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Video.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
-	<div class='customhotspot' id='GS__1638copy'>
-		<div onclick='chclickinfospotGS__1638copy1();' id='infospotGS__1638copy1' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
-	</div><!--customhtml-end-->
+	<div class='customhotspot' id='PANO_20221215_101516_1'></div>
+	<div class='customhotspot' id='PANO_20221215_101154_0'></div>
+	<div class='customhotspot' id='GS__1638copy'></div><!--customhtml-end-->
 
 	<div id="tmp">
 		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
@@ -131,7 +126,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-@endsection
+	@endsection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/
@@ -159,45 +154,45 @@
 		CSI7copy.addEventListener('click', function(e) {});
 
 
-		var infospotCSI7copy0 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSI7copy0.position.set(-4510.78, -1936.69, -940.36);
-		infospotCSI7copy0.visible = false;
+		var infospotCSI7copy0 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCSI7copy0.position.set(-3684.08, -1433.91, -3046.17);
 		CSI7copy.add(infospotCSI7copy0);
 
 		infospotCSI7copy0.addEventListener('click', function() {
-
-			window.open('https://goo.gl/maps/Jqxci8iXLKMrtWQs5', '_blank');
-
-		});
-
-		var infospotCSI7copy1 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSI7copy1.position.set(-4570.16, -2016.67, -31.31);
-		infospotCSI7copy1.visible = false;
-		CSI7copy.add(infospotCSI7copy1);
-
-		infospotCSI7copy1.addEventListener('click', function() {
-
-			window.open('https://id.padlet.com/miaandria400/bd791u7u0i4y0mop', '_blank');
-
-		});
-
-		var infospotCSI7copy2 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCSI7copy2.position.set(-3684.08, -1433.91, -3046.17);
-		CSI7copy.add(infospotCSI7copy2);
-
-		infospotCSI7copy2.addEventListener('click', function() {
 
 			ChangePanorama('PANO_20221215_101516_1');
 
 		});
 
-		var infospotCSI7copy3 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCSI7copy3.position.set(-3816.32, -1294.23, 2945.37);
+		var infospotCSI7copy1 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCSI7copy1.position.set(-3816.32, -1294.23, 2945.37);
+		CSI7copy.add(infospotCSI7copy1);
+
+		infospotCSI7copy1.addEventListener('click', function() {
+
+			ChangePanorama('GS__1638copy');
+
+		});
+
+		var infospotCSI7copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCSI7copy2.position.set(4943.25, -550.41, 431.70);
+		infospotCSI7copy2.visible = false;
+		CSI7copy.add(infospotCSI7copy2);
+
+		infospotCSI7copy2.addEventListener('click', function() {
+
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/1.jpg') }}");
+
+		});
+
+		var infospotCSI7copy3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCSI7copy3.position.set(-4698.26, -1625.84, -502.45);
+		infospotCSI7copy3.visible = false;
 		CSI7copy.add(infospotCSI7copy3);
 
 		infospotCSI7copy3.addEventListener('click', function() {
 
-			ChangePanorama('GS__1638copy');
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/bangunan.jpg') }}");
 
 		});
 
@@ -233,17 +228,6 @@
 
 		});
 
-		var infospotPANO_20221215_101516_12 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221215_101516_12.position.set(4989.91, 74.93, 136.41);
-		infospotPANO_20221215_101516_12.visible = false;
-		PANO_20221215_101516_1.add(infospotPANO_20221215_101516_12);
-
-		infospotPANO_20221215_101516_12.addEventListener('click', function() {
-
-			window.open('https://id.padlet.com/miaandria400/zwd4kdvk4ue6gkue', '_blank');
-
-		});
-
 		viewer.add(PANO_20221215_101516_1);
 
 		var PANO_20221215_101154_0 = new PANOLENS.ImagePanorama("{{ asset('CANDISINGOSARI/panoramas/PANO_20221215_101154_0.jpg') }}");
@@ -276,17 +260,6 @@
 
 		});
 
-		var infospotPANO_20221215_101154_02 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221215_101154_02.position.set(4994.99, 11.25, 87.22);
-		infospotPANO_20221215_101154_02.visible = false;
-		PANO_20221215_101154_0.add(infospotPANO_20221215_101154_02);
-
-		infospotPANO_20221215_101154_02.addEventListener('click', function() {
-
-			window.open('https://youtu.be/WwRfxTajVdM', '_blank');
-
-		});
-
 		viewer.add(PANO_20221215_101154_0);
 
 		var GS__1638copy = new PANOLENS.ImagePanorama("{{ asset('CANDISINGOSARI/panoramas/GS__1638copy.jpg') }}");
@@ -309,22 +282,11 @@
 
 		});
 
-		var infospotGS__1638copy1 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotGS__1638copy1.position.set(4966.33, 377.56, 359.35);
-		infospotGS__1638copy1.visible = false;
+		var infospotGS__1638copy1 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotGS__1638copy1.position.set(3331.34, 257.07, 3714.34);
 		GS__1638copy.add(infospotGS__1638copy1);
 
 		infospotGS__1638copy1.addEventListener('click', function() {
-
-			window.open('https://id.padlet.com/miaandria400/a1t3d9g9e1no3049', '_blank');
-
-		});
-
-		var infospotGS__1638copy2 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotGS__1638copy2.position.set(3331.34, 257.07, 3714.34);
-		GS__1638copy.add(infospotGS__1638copy2);
-
-		infospotGS__1638copy2.addEventListener('click', function() {
 
 			ChangePanorama('CSI7copy');
 
@@ -333,7 +295,7 @@
 		viewer.add(GS__1638copy);
 
 		$(document).ready(function() {
-			ChangePanorama('GS__1638copy');
+			ChangePanorama('CSI7copy');
 		});
 
 
@@ -379,21 +341,15 @@
 
 			/*viewerupdatecallback*/
 			if (viewer.panorama == CSI7copy) {
-				ShowMyInfospot(infospotCSI7copy0, 'infospotCSI7copy0');
-				ShowMyInfospot(infospotCSI7copy1, 'infospotCSI7copy1');
+				ShowMyInfospot(infospotCSI7copy2, 'infospotCSI7copy2');
+				ShowMyInfospot(infospotCSI7copy3, 'infospotCSI7copy3');
 			}
 
-			if (viewer.panorama == PANO_20221215_101516_1) {
-				ShowMyInfospot(infospotPANO_20221215_101516_12, 'infospotPANO_20221215_101516_12');
-			}
+			if (viewer.panorama == PANO_20221215_101516_1) {}
 
-			if (viewer.panorama == PANO_20221215_101154_0) {
-				ShowMyInfospot(infospotPANO_20221215_101154_02, 'infospotPANO_20221215_101154_02');
-			}
+			if (viewer.panorama == PANO_20221215_101154_0) {}
 
-			if (viewer.panorama == GS__1638copy) {
-				ShowMyInfospot(infospotGS__1638copy1, 'infospotGS__1638copy1');
-			}
+			if (viewer.panorama == GS__1638copy) {}
 			/*viewerupdatecallback-end*/
 
 
@@ -465,32 +421,18 @@
 		}
 
 		/*customjs*/
-		function chclickinfospotCSI7copy0() {
-			window.open('https://goo.gl/maps/Jqxci8iXLKMrtWQs5', '_blank');
+		function chclickinfospotCSI7copy2() {
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/1.jpg') }}");
 
 		}
 
-		function chclickinfospotCSI7copy1() {
-			window.open('https://id.padlet.com/miaandria400/bd791u7u0i4y0mop', '_blank');
-
-		}
-
-		function chclickinfospotPANO_20221215_101516_12() {
-			window.open('https://id.padlet.com/miaandria400/zwd4kdvk4ue6gkue', '_blank');
-
-		}
-
-		function chclickinfospotPANO_20221215_101154_02() {
-			window.open('https://youtu.be/WwRfxTajVdM', '_blank');
-
-		}
-
-		function chclickinfospotGS__1638copy1() {
-			window.open('https://id.padlet.com/miaandria400/a1t3d9g9e1no3049', '_blank');
+		function chclickinfospotCSI7copy3() {
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/bangunan.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
+
 </body>
 
 </html>

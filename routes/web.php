@@ -71,8 +71,9 @@ Route::get('/materi/Sumberawan', function () {
 });
 
 
-Route::get('/page-candi/{candi}', [HomeController::class, 'pageCandi']);
+Route::get('/page-candi/{candi}/{link}', [HomeController::class, 'pageCandi']);
 Route::get('/login', [HomeController::class, 'login']);
 Route::post('/login', [HomeController::class, 'prosesLogin'])->name('proses-login');;
 Route::get('/dashboard', [HomeController::class, 'dashboard']);
 Route::get('/quiz/{s}/{j}/{sblm}', [HomeController::class, 'quizCandi']);
+Route::get('/video-candi/{link}', [HomeController::class, 'videoCandi']);

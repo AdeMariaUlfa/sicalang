@@ -100,25 +100,21 @@
 </head>
 
 <body id="body">
+	@extends('layouts.template')
+	@section('content')
 	<div id="container" style="color: black;"></div>
 
 
-	@extends('layouts.template')
-	@section('content')
+
 	<!--customhtml-->
 	<div class='customhotspot' id='CSUM1copy'></div>
-	<div class='customhotspot' id='CSUM2copy'>
-		<div onclick='chclickinfospotCSUM2copy2();' id='infospotCSUM2copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Video.png') }}" style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotCSUM2copy3();' id='infospotCSUM2copy3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Lokasi.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
+	<div class='customhotspot' id='CSUM2copy'></div>
 	<div class='customhotspot' id='CSUM3copy'>
 		<div onclick='chclickinfospotCSUM3copy2();' id='infospotCSUM3copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='CSUM4copy'>
-		<div onclick='chclickinfospotCSUM4copy2();' id='infospotCSUM4copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Image.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
+	<div class='customhotspot' id='CSUM4copy'></div>
 	<div class='customhotspot' id='CSUM6copy'>
-		<div onclick='chclickinfospotCSUM6copy2();' id='infospotCSUM6copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Introduction.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCSUM6copy2();' id='infospotCSUM6copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div><!--customhtml-end-->
 
 	<div id="tmp">
@@ -202,25 +198,13 @@
 
 		});
 
-		var infospotCSUM2copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM2copy2.position.set(4807.85, -1304.99, -289.04);
-		infospotCSUM2copy2.visible = false;
+		var infospotCSUM2copy2 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCSUM2copy2.position.set(2583.39, -745.76, -4207.81);
 		CSUM2copy.add(infospotCSUM2copy2);
 
 		infospotCSUM2copy2.addEventListener('click', function() {
 
-			window.open('https://youtu.be/gtJxUpBeh5Y', '_blank');
-
-		});
-
-		var infospotCSUM2copy3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM2copy3.position.set(4405.08, -1323.13, -1949.90);
-		infospotCSUM2copy3.visible = false;
-		CSUM2copy.add(infospotCSUM2copy3);
-
-		infospotCSUM2copy3.addEventListener('click', function() {
-
-			window.open('https://goo.gl/maps/Rh5n6KQpC6nn1HGq9', '_blank');
+			ChangePanorama('CSUM6copy');
 
 		});
 
@@ -257,13 +241,13 @@
 		});
 
 		var infospotCSUM3copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM3copy2.position.set(4884.15, -921.05, 508.77);
+		infospotCSUM3copy2.position.set(4534.15, -2034.90, 503.81);
 		infospotCSUM3copy2.visible = false;
 		CSUM3copy.add(infospotCSUM3copy2);
 
 		infospotCSUM3copy2.addEventListener('click', function() {
 
-			window.open('https://drive.google.com/file/d/1GoZqMyKMBVjYylj-er2GXpU740Fj2c6w/view?usp=share_link', '_blank');
+			showMedia(1, 'images/i.jpg');
 
 		});
 
@@ -296,17 +280,6 @@
 		infospotCSUM4copy1.addEventListener('click', function() {
 
 			ChangePanorama('CSUM6copy');
-
-		});
-
-		var infospotCSUM4copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM4copy2.position.set(4864.20, -744.74, -842.44);
-		infospotCSUM4copy2.visible = false;
-		CSUM4copy.add(infospotCSUM4copy2);
-
-		infospotCSUM4copy2.addEventListener('click', function() {
-
-			window.open('https://drive.google.com/file/d/1fR5G1SpRCZs5kSdSDMYDe2J6Fnx-nPnp/view?usp=sharing', '_blank');
 
 		});
 
@@ -343,13 +316,13 @@
 		});
 
 		var infospotCSUM6copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM6copy2.position.set(-4923.67, -372.49, 738.21);
+		infospotCSUM6copy2.position.set(4707.08, -1603.97, -498.22);
 		infospotCSUM6copy2.visible = false;
 		CSUM6copy.add(infospotCSUM6copy2);
 
 		infospotCSUM6copy2.addEventListener('click', function() {
 
-			window.open('https://id.padlet.com/sumadrym05/45z8wuty7jtplhhq', '_blank');
+			showMedia(1, 'images/2.jpg');
 
 		});
 
@@ -403,18 +376,13 @@
 			/*viewerupdatecallback*/
 			if (viewer.panorama == CSUM1copy) {}
 
-			if (viewer.panorama == CSUM2copy) {
-				ShowMyInfospot(infospotCSUM2copy2, 'infospotCSUM2copy2');
-				ShowMyInfospot(infospotCSUM2copy3, 'infospotCSUM2copy3');
-			}
+			if (viewer.panorama == CSUM2copy) {}
 
 			if (viewer.panorama == CSUM3copy) {
 				ShowMyInfospot(infospotCSUM3copy2, 'infospotCSUM3copy2');
 			}
 
-			if (viewer.panorama == CSUM4copy) {
-				ShowMyInfospot(infospotCSUM4copy2, 'infospotCSUM4copy2');
-			}
+			if (viewer.panorama == CSUM4copy) {}
 
 			if (viewer.panorama == CSUM6copy) {
 				ShowMyInfospot(infospotCSUM6copy2, 'infospotCSUM6copy2');
@@ -490,32 +458,18 @@
 		}
 
 		/*customjs*/
-		function chclickinfospotCSUM2copy2() {
-			window.open('https://youtu.be/gtJxUpBeh5Y', '_blank');
-
-		}
-
-		function chclickinfospotCSUM2copy3() {
-			window.open('https://goo.gl/maps/Rh5n6KQpC6nn1HGq9', '_blank');
-
-		}
-
 		function chclickinfospotCSUM3copy2() {
-			window.open('https://drive.google.com/file/d/1GoZqMyKMBVjYylj-er2GXpU740Fj2c6w/view?usp=share_link', '_blank');
-
-		}
-
-		function chclickinfospotCSUM4copy2() {
-			window.open('https://drive.google.com/file/d/1fR5G1SpRCZs5kSdSDMYDe2J6Fnx-nPnp/view?usp=sharing', '_blank');
+			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/i.jpg') }}");
 
 		}
 
 		function chclickinfospotCSUM6copy2() {
-			window.open('https://id.padlet.com/sumadrym05/45z8wuty7jtplhhq', '_blank');
+			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/2.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
+
 </body>
 
 </html>

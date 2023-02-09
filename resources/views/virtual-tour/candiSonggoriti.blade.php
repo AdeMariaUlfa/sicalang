@@ -8,8 +8,7 @@
 	<meta name="description" content="Baruuuuurururuurru"><!--projectdescription-end-->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta charset="utf-8">
-	<meta name="viewport"
-		content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
 
 	<link rel="stylesheet" type="text/css" href="{{ asset('CANDISONGGORITI/css/font-awesome.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('CANDISONGGORITI/style.css') }}">
@@ -17,7 +16,8 @@
 	<!-- Insert this line above script imports  -->
 	<script>
 		if (typeof module === 'object') {
-			window.module = module; module = undefined;
+			window.module = module;
+			module = undefined;
 		}
 	</script>
 
@@ -27,7 +27,9 @@
 	<script src="{{ asset('CANDISONGGORITI/panolens.min.js') }}"></script>
 
 	<!-- Insert this line after script imports -->
-	<script>if (window.module) module = window.module;</script>
+	<script>
+		if (window.module) module = window.module;
+	</script>
 
 	<style>
 		/* SCROLLBAR STYLING */
@@ -98,120 +100,111 @@
 </head>
 
 <body id="body">
+	@extends('layouts.template')
+	@section('content')
 	<div id="container" style="color: black;"></div>
 
 
-	@extends('layouts.template')
-	@section('content')
+
 	<!--customhtml-->
 	<div class='customhotspot' id='CSONGGORITI1copy'>
-		<div onclick='chclickinfospotCSONGGORITI1copy2();' id='infospotCSONGGORITI1copy2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Lokasi.png') }}"
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCSONGGORITI1copy2();' id='infospotCSONGGORITI1copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='CSONGGORITI2copy'>
-		<div onclick='chclickinfospotCSONGGORITI2copy2();' id='infospotCSONGGORITI2copy2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Video.png') }}"
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCSONGGORITI2copy2();' id='infospotCSONGGORITI2copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='CSONGGORITI3copy'>
-		<div onclick='chclickinfospotCSONGGORITI3copy2();' id='infospotCSONGGORITI3copy2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Introduction.png') }}"
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCSONGGORITI3copy2();' id='infospotCSONGGORITI3copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='CSONGGORITI4copy'>
-		<div onclick='chclickinfospotCSONGGORITI4copy2();' id='infospotCSONGGORITI4copy2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Info.png') }}"
-				style='width: 64px; height: 64px;'></div>
-	</div><!--customhtml-end-->
+	<div class='customhotspot' id='CSONGGORITI4copy'></div><!--customhtml-end-->
 
 	<div id="tmp">
-		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;"
-			id="tmpcontent"></div>
+		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
 		<div class="mediaclosebutton" onclick="hideTemp()"><i class="fa fa-times-circle"></i></div>
 	</div>
 
 
 	<div id="loading" class="fullwrapper" style="display: table; width: 100%; height: 100%;">
-		<div
-			style="display: table-cell; vertical-align: middle; text-align: center; color: white; font-size: 30px; padding: 50px;">
+		<div style="display: table-cell; vertical-align: middle; text-align: center; color: white; font-size: 30px; padding: 50px;">
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-@endsection
+	@endsection
 	<script>
-
 		var container = document.querySelector('#container');
 		/*panolens*/
 
-		var viewer = new PANOLENS.Viewer({ container: container, controlBar: false, output: 'console', autoHideInfospot: false, });
+		var viewer = new PANOLENS.Viewer({
+			container: container,
+			controlBar: false,
+			output: 'console',
+			autoHideInfospot: false,
+		});
 
 		/*panolens-end*/
 
-		viewer.addUpdateCallback(function () { });
+		viewer.addUpdateCallback(function() {});
 
 		/*panoramas*/
 
 		var CSONGGORITI1copy = new PANOLENS.ImagePanorama("{{ asset('CANDISONGGORITI/panoramas/CSONGGORITI1copy.jpg') }}");
-		CSONGGORITI1copy.addEventListener('progress', function (e) {
+		CSONGGORITI1copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		CSONGGORITI1copy.addEventListener('load', function (e) {
+		CSONGGORITI1copy.addEventListener('load', function(e) {
 			//$("#loading").fadeOut();
 		});
-		CSONGGORITI1copy.addEventListener('click', function (e) {
-		});
+		CSONGGORITI1copy.addEventListener('click', function(e) {});
 
 
 		var infospotCSONGGORITI1copy0 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
 		infospotCSONGGORITI1copy0.position.set(3226.28, -886.18, -3706.71);
 		CSONGGORITI1copy.add(infospotCSONGGORITI1copy0);
 
-		infospotCSONGGORITI1copy0.addEventListener('click', function () {
+		infospotCSONGGORITI1copy0.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI2copy');
 
 		});
 
 		var infospotCSONGGORITI1copy1 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCSONGGORITI1copy1.position.set(2013.61, -41.56, 4573.68);
+		infospotCSONGGORITI1copy1.position.set(3259.13, -255.37, 3772.89);
 		CSONGGORITI1copy.add(infospotCSONGGORITI1copy1);
 
-		infospotCSONGGORITI1copy1.addEventListener('click', function () {
+		infospotCSONGGORITI1copy1.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI4copy');
 
 		});
 
 		var infospotCSONGGORITI1copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI1copy2.position.set(4770.85, -1420.71, 372.31);
+		infospotCSONGGORITI1copy2.position.set(4895.07, -979.04, 80.47);
 		infospotCSONGGORITI1copy2.visible = false;
 		CSONGGORITI1copy.add(infospotCSONGGORITI1copy2);
 
-		infospotCSONGGORITI1copy2.addEventListener('click', function () {
+		infospotCSONGGORITI1copy2.addEventListener('click', function() {
 
-			window.open('https://goo.gl/maps/6NFjhPw4bfZTXJia6', '_blank');
+			showMedia(1, 'images/1.jpg');
 
 		});
 
 		viewer.add(CSONGGORITI1copy);
 
 		var CSONGGORITI2copy = new PANOLENS.ImagePanorama("{{ asset('CANDISONGGORITI/panoramas/CSONGGORITI2copy.jpg') }}");
-		CSONGGORITI2copy.addEventListener('progress', function (e) {
+		CSONGGORITI2copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		CSONGGORITI2copy.addEventListener('load', function (e) {
+		CSONGGORITI2copy.addEventListener('load', function(e) {
 			//$("#loading").fadeOut();
 		});
-		CSONGGORITI2copy.addEventListener('click', function (e) {
-		});
+		CSONGGORITI2copy.addEventListener('click', function(e) {});
 
 
 		var infospotCSONGGORITI2copy0 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
 		infospotCSONGGORITI2copy0.position.set(4159.61, -679.69, -2671.95);
 		CSONGGORITI2copy.add(infospotCSONGGORITI2copy0);
 
-		infospotCSONGGORITI2copy0.addEventListener('click', function () {
+		infospotCSONGGORITI2copy0.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI3copy');
 
@@ -221,41 +214,40 @@
 		infospotCSONGGORITI2copy1.position.set(2581.24, -301.38, 4263.27);
 		CSONGGORITI2copy.add(infospotCSONGGORITI2copy1);
 
-		infospotCSONGGORITI2copy1.addEventListener('click', function () {
+		infospotCSONGGORITI2copy1.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI1copy');
 
 		});
 
 		var infospotCSONGGORITI2copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI2copy2.position.set(4816.79, -203.98, 1284.63);
+		infospotCSONGGORITI2copy2.position.set(4669.25, 1512.94, 933.64);
 		infospotCSONGGORITI2copy2.visible = false;
 		CSONGGORITI2copy.add(infospotCSONGGORITI2copy2);
 
-		infospotCSONGGORITI2copy2.addEventListener('click', function () {
+		infospotCSONGGORITI2copy2.addEventListener('click', function() {
 
-			window.open('https://youtu.be/qt-KwZapQQM', '_blank');
+			showMedia(1, 'images/3.jpg');
 
 		});
 
 		viewer.add(CSONGGORITI2copy);
 
 		var CSONGGORITI3copy = new PANOLENS.ImagePanorama("{{ asset('CANDISONGGORITI/panoramas/CSONGGORITI3copy.jpg') }}");
-		CSONGGORITI3copy.addEventListener('progress', function (e) {
+		CSONGGORITI3copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		CSONGGORITI3copy.addEventListener('load', function (e) {
+		CSONGGORITI3copy.addEventListener('load', function(e) {
 			//$("#loading").fadeOut();
 		});
-		CSONGGORITI3copy.addEventListener('click', function (e) {
-		});
+		CSONGGORITI3copy.addEventListener('click', function(e) {});
 
 
 		var infospotCSONGGORITI3copy0 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
 		infospotCSONGGORITI3copy0.position.set(1777.43, -916.82, 4571.60);
 		CSONGGORITI3copy.add(infospotCSONGGORITI3copy0);
 
-		infospotCSONGGORITI3copy0.addEventListener('click', function () {
+		infospotCSONGGORITI3copy0.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI2copy');
 
@@ -265,41 +257,40 @@
 		infospotCSONGGORITI3copy1.position.set(2691.94, -673.84, -4147.45);
 		CSONGGORITI3copy.add(infospotCSONGGORITI3copy1);
 
-		infospotCSONGGORITI3copy1.addEventListener('click', function () {
+		infospotCSONGGORITI3copy1.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI4copy');
 
 		});
 
 		var infospotCSONGGORITI3copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI3copy2.position.set(4874.09, 474.26, -984.34);
+		infospotCSONGGORITI3copy2.position.set(4608.54, 1738.34, -803.95);
 		infospotCSONGGORITI3copy2.visible = false;
 		CSONGGORITI3copy.add(infospotCSONGGORITI3copy2);
 
-		infospotCSONGGORITI3copy2.addEventListener('click', function () {
+		infospotCSONGGORITI3copy2.addEventListener('click', function() {
 
-			window.open('https://padlet.com/sumadrym05/gq8zlzxmm462tb0f', '_blank');
+			showMedia(1, 'images/2.jpg');
 
 		});
 
 		viewer.add(CSONGGORITI3copy);
 
 		var CSONGGORITI4copy = new PANOLENS.ImagePanorama("{{ asset('CANDISONGGORITI/panoramas/CSONGGORITI4copy.jpg') }}");
-		CSONGGORITI4copy.addEventListener('progress', function (e) {
+		CSONGGORITI4copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		CSONGGORITI4copy.addEventListener('load', function (e) {
+		CSONGGORITI4copy.addEventListener('load', function(e) {
 			//$("#loading").fadeOut();
 		});
-		CSONGGORITI4copy.addEventListener('click', function (e) {
-		});
+		CSONGGORITI4copy.addEventListener('click', function(e) {});
 
 
 		var infospotCSONGGORITI4copy0 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
 		infospotCSONGGORITI4copy0.position.set(2790.91, -1476.17, -3872.96);
 		CSONGGORITI4copy.add(infospotCSONGGORITI4copy0);
 
-		infospotCSONGGORITI4copy0.addEventListener('click', function () {
+		infospotCSONGGORITI4copy0.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI1copy');
 
@@ -309,26 +300,17 @@
 		infospotCSONGGORITI4copy1.position.set(1988.82, -1347.50, 4378.77);
 		CSONGGORITI4copy.add(infospotCSONGGORITI4copy1);
 
-		infospotCSONGGORITI4copy1.addEventListener('click', function () {
+		infospotCSONGGORITI4copy1.addEventListener('click', function() {
 
 			ChangePanorama('CSONGGORITI1copy');
 
 		});
 
-		var infospotCSONGGORITI4copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI4copy2.position.set(4828.52, -1100.78, 634.84);
-		infospotCSONGGORITI4copy2.visible = false;
-		CSONGGORITI4copy.add(infospotCSONGGORITI4copy2);
-
-		infospotCSONGGORITI4copy2.addEventListener('click', function () {
-
-			window.open('https://drive.google.com/file/d/1XJ0OSJkJptmmHyPOEQ5UZoIWOpFqOY2C/view?usp=sharing', '_blank');
-
-		});
-
 		viewer.add(CSONGGORITI4copy);
 
-		$(document).ready(function () { ChangePanorama('CSONGGORITI1copy'); });
+		$(document).ready(function() {
+			ChangePanorama('CSONGGORITI1copy');
+		});
 
 
 		/*panoramas-end*/
@@ -336,7 +318,7 @@
 
 		function hideTemp() {
 			$("#tmp").fadeOut();
-			setTimeout(function () {
+			setTimeout(function() {
 				$("#tmpcontent").html("");
 			}, 1000);
 		}
@@ -369,7 +351,7 @@
 
 
 		//Update Callback
-		viewer.addUpdateCallback(function () {
+		viewer.addUpdateCallback(function() {
 
 			/*viewerupdatecallback*/
 			if (viewer.panorama == CSONGGORITI1copy) {
@@ -384,9 +366,7 @@
 				ShowMyInfospot(infospotCSONGGORITI3copy2, 'infospotCSONGGORITI3copy2');
 			}
 
-			if (viewer.panorama == CSONGGORITI4copy) {
-				ShowMyInfospot(infospotCSONGGORITI4copy2, 'infospotCSONGGORITI4copy2');
-			}
+			if (viewer.panorama == CSONGGORITI4copy) {}
 			/*viewerupdatecallback-end*/
 
 
@@ -395,6 +375,7 @@
 
 
 		var hotspotsvisible = true;
+
 		function ShowMyInfospot(hs, elid) {
 			var thehs = toScreenPosition(hs);
 			if (thehs.z < 1) {
@@ -422,7 +403,7 @@
 			vector.project(viewer.camera);
 
 			vector.x = (vector.x * widthHalf) + widthHalf;
-			vector.y = - (vector.y * heightHalf) + heightHalf;
+			vector.y = -(vector.y * heightHalf) + heightHalf;
 
 
 			return {
@@ -434,15 +415,16 @@
 		};
 
 		var currentPanorama;
+
 		function ChangePanorama(panorama) {
 			currentPanorama = panorama;
 			HideInfospots();
 			$("#loading").fadeIn();
 			//$(".customhotspot").fadeOut();
-			setTimeout(function () {
+			setTimeout(function() {
 				viewer.setPanorama(window[panorama]);
 			}, 100);
-			setTimeout(function () {
+			setTimeout(function() {
 				$("#" + panorama).fadeIn();
 				$("#loading").fadeOut();
 			}, 1000);
@@ -457,26 +439,22 @@
 
 		/*customjs*/
 		function chclickinfospotCSONGGORITI1copy2() {
-			window.open('https://goo.gl/maps/6NFjhPw4bfZTXJia6', '_blank');
+			showMedia(1, "{{ asset('CANDISONGGORITI/images/1.jpg') }}");
 
 		}
 
 		function chclickinfospotCSONGGORITI2copy2() {
-			window.open('https://youtu.be/qt-KwZapQQM', '_blank');
+			showMedia(1, "{{ asset('CANDISONGGORITI/images/3.jpg') }}");
 
 		}
 
 		function chclickinfospotCSONGGORITI3copy2() {
-			window.open('https://padlet.com/sumadrym05/gq8zlzxmm462tb0f', '_blank');
+			showMedia(1, "{{ asset('CANDISONGGORITI/images/2.jpg') }}");
 
 		}
-
-		function chclickinfospotCSONGGORITI4copy2() {
-			window.open('https://drive.google.com/file/d/1XJ0OSJkJptmmHyPOEQ5UZoIWOpFqOY2C/view?usp=sharing', '_blank');
-
-		}
-/*customjs-end*/
+		/*customjs-end*/
 	</script>
+
 </body>
 
 </html>

@@ -5,10 +5,11 @@
         text-align: center;
         display: block;
         width: 500px;
+        padding: 20px;
     }
 
-    body {
-        /* background-image: url("{{ asset('bg/kidal-opacity.png') }}"); */
+    .bg-card {
+        background-image: url("{{ asset('bg/kidal-opacity.png') }}");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -17,7 +18,7 @@
 <div id="services" class="our-services section">
     <div class="container-fluid">
         <div class="row">
-            <div class="service-item" style="background-color: white;">
+            <div class="service-item bg-card">
                 <div class="row">
 
                     <div class="right-content">
@@ -68,7 +69,7 @@
                                 <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
                             </span>
                         </div>
-                        <p style="text-align: justify; text-indent: 0.5in;">Pada kesustraan Jawa kuno terdapat suatu mitos yang terkenal di masyarakat yakni mitos Garudheya. Garudheya merupakan seekor garuda yang berhasil membebaskan ibunya dari perbudakan dengan menggunakan air amerta (air kehidupan) sebagai tebusan (Sedyawati, 2013). Konon relief timbul dari Garudheya merupakan amanat dari Raja Anusapati yang menginginkan untuk meruwat Ken Dedes yaitu ibunda yang sangat dicintainya dari perbudakan. Selain sebagai tempat pendharmaan Raja Anusapati dan peruwatan Ken Dedes, Candi Kidal juga berfungsi sebagai tempat pemujaan bagi pemeluk agama Hindu hingga saat ini. </p>
+                        <p style="text-align: justify; text-indent: 0.5in;">Pada kesustraan Jawa kuno terdapat suatu mitos yang terkenal di masyarakat yakni mitos Garudheya. Garudheya merupakan garuda yang berhasil membebaskan ibunya dari perbudakan dengan menggunakan air amerta (air kehidupan) sebagai tebusan (Sedyawati, 2013). Konon relief timbul dari Garudheya merupakan amanat dari Raja Anusapati yang menginginkan untuk meruwat Ken Dedes yaitu ibunda yang sangat dicintainya dari perbudakan. Selain sebagai tempat pendharmaan Raja Anusapati dan peruwatan Ken Dedes, Candi Kidal juga berfungsi sebagai tempat pemujaan bagi pemeluk agama Hindu hingga saat ini. </p>
                         </div>
                         <div id="page5">
                         <div class="d-flex justify-content-center">
@@ -92,10 +93,10 @@
                         </div>
                         <div id="page6">    
                         <p> <b>Daftar Pustaka</b><br>
-                            Perpustakaan Nasional Republik Indonesia. 2014. Candi Kidal. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_kidal) diakses pada tanggal 28 September 2022.<br>
-                            Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jenderal Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
-                            Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
-                            Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.
+                        1. Perpustakaan Nasional Republik Indonesia. 2014. Candi Kidal. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_kidal) diakses pada tanggal 28 September 2022.<br>
+                        2. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jenderal Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
+                        3. Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
+                        4. Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.
                         </p>
                         </div>
                         <div class="pagination d-flex justify-content-center">

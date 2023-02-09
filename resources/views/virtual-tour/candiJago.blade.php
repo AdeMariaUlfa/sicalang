@@ -100,24 +100,23 @@
 </head>
 
 <body id="body">
-	<div id="container" style="color: black;"></div>
-
 	@extends('layouts.template')
 	@section('content')
+	<div id="container" style="color: black;"></div>
+
+
+
 	<!--customhtml-->
 	<div class='customhotspot' id='PANO_20221214_103634_1'>
-		<div onclick='chclickinfospotPANO_20221214_103634_12();' id='infospotPANO_20221214_103634_12' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Lokasi.png') }}" style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotPANO_20221214_103634_13();' id='infospotPANO_20221214_103634_13' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Introduction.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotPANO_20221214_103634_12();' id='infospotPANO_20221214_103634_12' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotPANO_20221214_103634_13();' id='infospotPANO_20221214_103634_13' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotPANO_20221214_103634_14();' id='infospotPANO_20221214_103634_14' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='PANO_20221214_103229_0'>
-		<div onclick='chclickinfospotPANO_20221214_103229_02();' id='infospotPANO_20221214_103229_02' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
+	<div class='customhotspot' id='PANO_20221214_103229_0'></div>
 	<div class='customhotspot' id='CJAGO7'>
-		<div onclick='chclickinfospotCJAGO72();' id='infospotCJAGO72' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Video.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCJAGO72();' id='infospotCJAGO72' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='CANDIJAGO7'>
-		<div onclick='chclickinfospotCANDIJAGO72();' id='infospotCANDIJAGO72' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
-	</div><!--customhtml-end-->
+	<div class='customhotspot' id='CANDIJAGO7'></div><!--customhtml-end-->
 
 	<div id="tmp">
 		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
@@ -179,24 +178,35 @@
 		});
 
 		var infospotPANO_20221214_103634_12 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_103634_12.position.set(4811.92, -683.39, 1141.29);
+		infospotPANO_20221214_103634_12.position.set(-952.33, -443.04, -4882.90);
 		infospotPANO_20221214_103634_12.visible = false;
 		PANO_20221214_103634_1.add(infospotPANO_20221214_103634_12);
 
 		infospotPANO_20221214_103634_12.addEventListener('click', function() {
 
-			window.open('https://goo.gl/maps/yeraGvCUM4Xhwmua7', '_blank');
+			showMedia(1, "{{ asset('CANDIJAGO/images/1.jpg') }}");
 
 		});
 
 		var infospotPANO_20221214_103634_13 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_103634_13.position.set(4930.81, -715.06, -297.29);
+		infospotPANO_20221214_103634_13.position.set(-4508.89, -1493.35, 1545.69);
 		infospotPANO_20221214_103634_13.visible = false;
 		PANO_20221214_103634_1.add(infospotPANO_20221214_103634_13);
 
 		infospotPANO_20221214_103634_13.addEventListener('click', function() {
 
-			window.open('https://id.padlet.com/ningsihandria836/p32qxao3yyl33z1j', '_blank');
+			showMedia(1, "{{ asset('CANDIJAGO/images/p.jpg') }}");
+
+		});
+
+		var infospotPANO_20221214_103634_14 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotPANO_20221214_103634_14.position.set(4883.36, 958.53, 381.73);
+		infospotPANO_20221214_103634_14.visible = false;
+		PANO_20221214_103634_1.add(infospotPANO_20221214_103634_14);
+
+		infospotPANO_20221214_103634_14.addEventListener('click', function() {
+
+			showMedia(1, "{{ asset('CANDIJAGO/images/h.jpg') }}");
 
 		});
 
@@ -229,17 +239,6 @@
 		infospotPANO_20221214_103229_01.addEventListener('click', function() {
 
 			ChangePanorama('CJAGO7');
-
-		});
-
-		var infospotPANO_20221214_103229_02 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_103229_02.position.set(4831.19, -324.32, 1212.63);
-		infospotPANO_20221214_103229_02.visible = false;
-		PANO_20221214_103229_0.add(infospotPANO_20221214_103229_02);
-
-		infospotPANO_20221214_103229_02.addEventListener('click', function() {
-
-			window.open('https://id.padlet.com/ningsihandria836/uxhm5d0jz9q392fe', '_blank');
 
 		});
 
@@ -276,13 +275,13 @@
 		});
 
 		var infospotCJAGO72 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCJAGO72.position.set(4944.35, -381.91, 605.30);
+		infospotCJAGO72.position.set(4946.22, -511.56, 462.79);
 		infospotCJAGO72.visible = false;
 		CJAGO7.add(infospotCJAGO72);
 
 		infospotCJAGO72.addEventListener('click', function() {
 
-			window.open('https://youtu.be/1c6WpEcFAWg', '_blank');
+			showMedia(1, "{{ asset('CANDIJAGO/images/4i.jpg') }}");
 
 		});
 
@@ -318,21 +317,10 @@
 
 		});
 
-		var infospotCANDIJAGO72 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCANDIJAGO72.position.set(4922.78, 475.18, 676.24);
-		infospotCANDIJAGO72.visible = false;
-		CANDIJAGO7.add(infospotCANDIJAGO72);
-
-		infospotCANDIJAGO72.addEventListener('click', function() {
-
-			window.open('https://id.padlet.com/ningsihandria836/6akboxberur80cha', '_blank');
-
-		});
-
 		viewer.add(CANDIJAGO7);
 
 		$(document).ready(function() {
-			ChangePanorama('CJAGO7');
+			ChangePanorama('PANO_20221214_103634_1');
 		});
 
 
@@ -380,19 +368,16 @@
 			if (viewer.panorama == PANO_20221214_103634_1) {
 				ShowMyInfospot(infospotPANO_20221214_103634_12, 'infospotPANO_20221214_103634_12');
 				ShowMyInfospot(infospotPANO_20221214_103634_13, 'infospotPANO_20221214_103634_13');
+				ShowMyInfospot(infospotPANO_20221214_103634_14, 'infospotPANO_20221214_103634_14');
 			}
 
-			if (viewer.panorama == PANO_20221214_103229_0) {
-				ShowMyInfospot(infospotPANO_20221214_103229_02, 'infospotPANO_20221214_103229_02');
-			}
+			if (viewer.panorama == PANO_20221214_103229_0) {}
 
 			if (viewer.panorama == CJAGO7) {
 				ShowMyInfospot(infospotCJAGO72, 'infospotCJAGO72');
 			}
 
-			if (viewer.panorama == CANDIJAGO7) {
-				ShowMyInfospot(infospotCANDIJAGO72, 'infospotCANDIJAGO72');
-			}
+			if (viewer.panorama == CANDIJAGO7) {}
 			/*viewerupdatecallback-end*/
 
 
@@ -465,31 +450,27 @@
 
 		/*customjs*/
 		function chclickinfospotPANO_20221214_103634_12() {
-			window.open('https://goo.gl/maps/yeraGvCUM4Xhwmua7', '_blank');
+			showMedia(1, "{{ asset('CANDIJAGO/images/1.jpg') }}");
 
 		}
 
 		function chclickinfospotPANO_20221214_103634_13() {
-			window.open('https://id.padlet.com/ningsihandria836/p32qxao3yyl33z1j', '_blank');
+			showMedia(1, "{{ asset('CANDIJAGO/images/p.jpg') }}");
 
 		}
 
-		function chclickinfospotPANO_20221214_103229_02() {
-			window.open('https://id.padlet.com/ningsihandria836/uxhm5d0jz9q392fe', '_blank');
+		function chclickinfospotPANO_20221214_103634_14() {
+			showMedia(1, "{{ asset('CANDIJAGO/images/h.jpg') }}");
 
 		}
 
 		function chclickinfospotCJAGO72() {
-			window.open('https://youtu.be/1c6WpEcFAWg', '_blank');
-
-		}
-
-		function chclickinfospotCANDIJAGO72() {
-			window.open('https://id.padlet.com/ningsihandria836/6akboxberur80cha', '_blank');
+			showMedia(1, "{{ asset('CANDIJAGO/images/4i.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
+
 </body>
 
 </html>

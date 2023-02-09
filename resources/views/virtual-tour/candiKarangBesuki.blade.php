@@ -21,8 +21,7 @@
 		}
 	</script>
 
-	<script src="{{ asset('CANDIKARANGBESUKI/imagedata.js') }}">
-	</script>
+	<script src="{{ asset('CANDIKARANGBESUKI/imagedata.js') }}"></script>
 	<script src="{{ asset('CANDIKARANGBESUKI/jquery.js') }}"></script>
 	<script src="{{ asset('CANDIKARANGBESUKI/three.min.js') }}"></script>
 	<script src="{{ asset('CANDIKARANGBESUKI/panolens.min.js') }}"></script>
@@ -101,23 +100,20 @@
 </head>
 
 <body id="body">
+	@extends('layouts.template')
+	@section('content')
 	<div id="container" style="color: black;"></div>
 
 
-	@extends('layouts.template')
-	@section('content')
+
 	<!--customhtml-->
-	<div class='customhotspot' id='CKB1copy'>
-		<div onclick='chclickinfospotCKB1copy2();' id='infospotCKB1copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Lokasi.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
-	<div class='customhotspot' id='CKB2copy'>
-		<div onclick='chclickinfospotCKB2copy2();' id='infospotCKB2copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Video.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
+	<div class='customhotspot' id='CKB1copy'></div>
+	<div class='customhotspot' id='CKB2copy'></div>
 	<div class='customhotspot' id='CKB3copy'>
 		<div onclick='chclickinfospotCKB3copy2();' id='infospotCKB3copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='CKB4copy'>
-		<div onclick='chclickinfospotCKB4copy2();' id='infospotCKB4copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Introduction.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCKB4copy2();' id='infospotCKB4copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div><!--customhtml-end-->
 
 	<div id="tmp">
@@ -131,7 +127,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-@endsection
+	@endsection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/
@@ -179,17 +175,6 @@
 
 		});
 
-		var infospotCKB1copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCKB1copy2.position.set(4475.72, -1893.32, 1148.51);
-		infospotCKB1copy2.visible = false;
-		CKB1copy.add(infospotCKB1copy2);
-
-		infospotCKB1copy2.addEventListener('click', function() {
-
-			window.open('https://goo.gl/maps/V1mqwixaKisNSUHe9', '_blank');
-
-		});
-
 		viewer.add(CKB1copy);
 
 		var CKB2copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKARANGBESUKI/panoramas/CKB2copy.jpg') }}");
@@ -219,17 +204,6 @@
 		infospotCKB2copy1.addEventListener('click', function() {
 
 			ChangePanorama('CKB3copy');
-
-		});
-
-		var infospotCKB2copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCKB2copy2.position.set(4825.20, -1287.56, -51.66);
-		infospotCKB2copy2.visible = false;
-		CKB2copy.add(infospotCKB2copy2);
-
-		infospotCKB2copy2.addEventListener('click', function() {
-
-			window.open('https://youtu.be/BTXK9e1fmdY', '_blank');
 
 		});
 
@@ -266,13 +240,13 @@
 		});
 
 		var infospotCKB3copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCKB3copy2.position.set(4659.89, -1767.05, -257.75);
+		infospotCKB3copy2.position.set(4708.69, -1623.71, -335.59);
 		infospotCKB3copy2.visible = false;
 		CKB3copy.add(infospotCKB3copy2);
 
 		infospotCKB3copy2.addEventListener('click', function() {
 
-			window.open('https://drive.google.com/file/d/1lnQrfVx4dSbjmN066vEjjnLNiVrTlSp4/view?usp=sharing', '_blank');
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/1.jpg') }}");
 
 		});
 
@@ -309,13 +283,13 @@
 		});
 
 		var infospotCKB4copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCKB4copy2.position.set(4541.18, -1125.62, 1740.94);
+		infospotCKB4copy2.position.set(4614.54, -1435.96, 1244.87);
 		infospotCKB4copy2.visible = false;
 		CKB4copy.add(infospotCKB4copy2);
 
 		infospotCKB4copy2.addEventListener('click', function() {
 
-			window.open('https://id.padlet.com/miaandrianingsih1234/6ejbg998h0p4q3qd', '_blank');
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/2.jpg') }}");
 
 		});
 
@@ -367,13 +341,9 @@
 		viewer.addUpdateCallback(function() {
 
 			/*viewerupdatecallback*/
-			if (viewer.panorama == CKB1copy) {
-				ShowMyInfospot(infospotCKB1copy2, 'infospotCKB1copy2');
-			}
+			if (viewer.panorama == CKB1copy) {}
 
-			if (viewer.panorama == CKB2copy) {
-				ShowMyInfospot(infospotCKB2copy2, 'infospotCKB2copy2');
-			}
+			if (viewer.panorama == CKB2copy) {}
 
 			if (viewer.panorama == CKB3copy) {
 				ShowMyInfospot(infospotCKB3copy2, 'infospotCKB3copy2');
@@ -453,27 +423,18 @@
 		}
 
 		/*customjs*/
-		function chclickinfospotCKB1copy2() {
-			window.open('https://goo.gl/maps/V1mqwixaKisNSUHe9', '_blank');
-
-		}
-
-		function chclickinfospotCKB2copy2() {
-			window.open('https://youtu.be/BTXK9e1fmdY', '_blank');
-
-		}
-
 		function chclickinfospotCKB3copy2() {
-			window.open('https://drive.google.com/file/d/1lnQrfVx4dSbjmN066vEjjnLNiVrTlSp4/view?usp=sharing', '_blank');
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/1.jpg') }}");
 
 		}
 
 		function chclickinfospotCKB4copy2() {
-			window.open('https://id.padlet.com/miaandrianingsih1234/6ejbg998h0p4q3qd', '_blank');
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/2.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
+
 </body>
 
 </html>

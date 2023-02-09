@@ -100,18 +100,16 @@
 </head>
 
 <body id="body">
+@extends('layouts.template')
+@section('content')
 	<div id="container" style="color: black;"></div>
 
 
-	@extends('layouts.template')
-	@section('content')
+
 	<!--customhtml-->
-	<div class='customhotspot' id='PANO_20221214_114518_3'>
-		<div onclick='chclickinfospotPANO_20221214_114518_32();' id='infospotPANO_20221214_114518_32' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Video.png') }}" style="width:64px; height: 64px;"></div>
-		<div onclick='chclickinfospotPANO_20221214_114518_33();' id='infospotPANO_20221214_114518_33' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Introduction.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
+	<div class='customhotspot' id='PANO_20221214_114518_3'></div>
 	<div class='customhotspot' id='PANO_20221214_113745_1copy'>
-		<div onclick='chclickinfospotPANO_20221214_113745_1copy1();' id='infospotPANO_20221214_113745_1copy1' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Image.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotPANO_20221214_113745_1copy1();' id='infospotPANO_20221214_113745_1copy1' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='PANO_20221214_114135_2'>
 		<div onclick='chclickinfospotPANO_20221214_114135_22();' id='infospotPANO_20221214_114135_22' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
@@ -119,13 +117,10 @@
 	<div class='customhotspot' id='CANDIBADUT6'>
 		<div onclick='chclickinfospotCANDIBADUT62();' id='infospotCANDIBADUT62' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='CANDIBADUT1'>
-		<div onclick='chclickinfospotCANDIBADUT11();' id='infospotCANDIBADUT11' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Lokasi.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
+	<div class='customhotspot' id='CANDIBADUT1'></div>
 	<div class='customhotspot' id='CANDIBADUT2'>
-		<div onclick='chclickinfospotCANDIBADUT20();' id='infospotCANDIBADUT20' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
-	</div>
-	<!--customhtml-end-->
+		<div onclick='chclickinfospotCANDIBADUT23();' id='infospotCANDIBADUT23' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div><!--customhtml-end-->
 
 	<div id="tmp">
 		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
@@ -186,33 +181,11 @@
 
 		});
 
-		var infospotPANO_20221214_114518_32 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_114518_32.position.set(4662.36, -1195.37, 1328.23);
-		infospotPANO_20221214_114518_32.visible = false;
+		var infospotPANO_20221214_114518_32 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotPANO_20221214_114518_32.position.set(2428.42, -160.06, 4359.55);
 		PANO_20221214_114518_3.add(infospotPANO_20221214_114518_32);
 
 		infospotPANO_20221214_114518_32.addEventListener('click', function() {
-
-			window.open('https://youtu.be/CeEwVSbyiLc', '_blank');
-
-		});
-
-		var infospotPANO_20221214_114518_33 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_114518_33.position.set(4857.33, -1179.88, 18.10);
-		infospotPANO_20221214_114518_33.visible = false;
-		PANO_20221214_114518_3.add(infospotPANO_20221214_114518_33);
-
-		infospotPANO_20221214_114518_33.addEventListener('click', function() {
-
-			window.open('https://id.padlet.com/miaandrianingsih1234/cbadewnq6ghu0555', '_blank');
-
-		});
-
-		var infospotPANO_20221214_114518_34 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotPANO_20221214_114518_34.position.set(2428.42, -160.06, 4359.55);
-		PANO_20221214_114518_3.add(infospotPANO_20221214_114518_34);
-
-		infospotPANO_20221214_114518_34.addEventListener('click', function() {
 
 			ChangePanorama('CANDIBADUT1');
 
@@ -241,13 +214,13 @@
 		});
 
 		var infospotPANO_20221214_113745_1copy1 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_113745_1copy1.position.set(4624.44, -351.01, -1847.52);
+		infospotPANO_20221214_113745_1copy1.position.set(4612.62, -440.68, -1857.83);
 		infospotPANO_20221214_113745_1copy1.visible = false;
 		PANO_20221214_113745_1copy.add(infospotPANO_20221214_113745_1copy1);
 
 		infospotPANO_20221214_113745_1copy1.addEventListener('click', function() {
 
-			window.open('https://drive.google.com/file/d/10hfMSvdPIWZgROF95AhMRHRBakXdZ_Cc/view?usp=share_link', '_blank');
+			showMedia(1, "{{ asset('CANDIBADUT/images/4.jpg') }}");
 
 		});
 
@@ -284,13 +257,13 @@
 		});
 
 		var infospotPANO_20221214_114135_22 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_114135_22.position.set(4882.17, 874.98, 582.84);
+		infospotPANO_20221214_114135_22.position.set(4883.29, 925.29, 509.16);
 		infospotPANO_20221214_114135_22.visible = false;
 		PANO_20221214_114135_2.add(infospotPANO_20221214_114135_22);
 
 		infospotPANO_20221214_114135_22.addEventListener('click', function() {
 
-			window.open('https://drive.google.com/file/d/1Pdth80ONXmpKWoIWRXPQ0A6LO_IAzwOD/view?usp=share_link', '_blank');
+			showMedia(1, 'images/1.jpg');
 
 		});
 
@@ -326,14 +299,14 @@
 
 		});
 
-		var infospotCANDIBADUT62 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCANDIBADUT62.position.set(4828.67, 1245.34, -212.75);
+		var infospotCANDIBADUT62 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCANDIBADUT62.position.set(4791.45, 1372.86, -236.66);
 		infospotCANDIBADUT62.visible = false;
 		CANDIBADUT6.add(infospotCANDIBADUT62);
 
 		infospotCANDIBADUT62.addEventListener('click', function() {
 
-			window.open('https://drive.google.com/file/d/1qbHIfmfFrz9mVwK1pQMWdkLq02_AoLkP/view?usp=share_link', '_blank');
+			showMedia(1, 'images/3.jpg');
 
 		});
 
@@ -359,14 +332,23 @@
 
 		});
 
-		var infospotCANDIBADUT11 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCANDIBADUT11.position.set(4547.30, -1933.20, 720.10);
-		infospotCANDIBADUT11.visible = false;
+		var infospotCANDIBADUT11 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCANDIBADUT11.position.set(4484.73, -396.08, -2161.69);
 		CANDIBADUT1.add(infospotCANDIBADUT11);
 
 		infospotCANDIBADUT11.addEventListener('click', function() {
 
-			window.open('https://goo.gl/maps/vqe3hYbxMJaESBAL6', '_blank');
+			ChangePanorama('PANO_20221214_114518_3');
+
+		});
+
+		var infospotCANDIBADUT12 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCANDIBADUT12.position.set(3428.12, -328.56, 3615.02);
+		CANDIBADUT1.add(infospotCANDIBADUT12);
+
+		infospotCANDIBADUT12.addEventListener('click', function() {
+
+			ChangePanorama('CANDIBADUT6');
 
 		});
 
@@ -382,44 +364,44 @@
 		CANDIBADUT2.addEventListener('click', function(e) {});
 
 
-		var infospotCANDIBADUT20 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCANDIBADUT20.position.set(4681.19, 1721.77, 169.95);
-		infospotCANDIBADUT20.visible = false;
+		var infospotCANDIBADUT20 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCANDIBADUT20.position.set(-4914.85, -836.55, -243.84);
 		CANDIBADUT2.add(infospotCANDIBADUT20);
 
 		infospotCANDIBADUT20.addEventListener('click', function() {
-
-			window.open('https://drive.google.com/file/d/1ZG-YPETJIDO2chXNivZ0PubwnumCOYGt/view?usp=share_link', '_blank');
-
-		});
-
-		var infospotCANDIBADUT21 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCANDIBADUT21.position.set(-4914.85, -836.55, -243.84);
-		CANDIBADUT2.add(infospotCANDIBADUT21);
-
-		infospotCANDIBADUT21.addEventListener('click', function() {
 
 			ChangePanorama('CANDIBADUT1');
 
 		});
 
-		var infospotCANDIBADUT22 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCANDIBADUT22.position.set(2684.01, 111.04, -4205.44);
-		CANDIBADUT2.add(infospotCANDIBADUT22);
+		var infospotCANDIBADUT21 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCANDIBADUT21.position.set(2684.01, 111.04, -4205.44);
+		CANDIBADUT2.add(infospotCANDIBADUT21);
 
-		infospotCANDIBADUT22.addEventListener('click', function() {
+		infospotCANDIBADUT21.addEventListener('click', function() {
 
 			ChangePanorama('PANO_20221214_114518_3');
 
 		});
 
-		var infospotCANDIBADUT23 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCANDIBADUT23.position.set(2233.13, 129.85, 4460.39);
+		var infospotCANDIBADUT22 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCANDIBADUT22.position.set(2233.13, 129.85, 4460.39);
+		CANDIBADUT2.add(infospotCANDIBADUT22);
+
+		infospotCANDIBADUT22.addEventListener('click', function() {
+
+			ChangePanorama('CANDIBADUT6');
+
+		});
+
+		var infospotCANDIBADUT23 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCANDIBADUT23.position.set(4685.73, 1709.70, 168.43);
+		infospotCANDIBADUT23.visible = false;
 		CANDIBADUT2.add(infospotCANDIBADUT23);
 
 		infospotCANDIBADUT23.addEventListener('click', function() {
 
-			ChangePanorama('CANDIBADUT6');
+			showMedia(1, 'images/2.jpg');
 
 		});
 
@@ -471,10 +453,7 @@
 		viewer.addUpdateCallback(function() {
 
 			/*viewerupdatecallback*/
-			if (viewer.panorama == PANO_20221214_114518_3) {
-				ShowMyInfospot(infospotPANO_20221214_114518_32, 'infospotPANO_20221214_114518_32');
-				ShowMyInfospot(infospotPANO_20221214_114518_33, 'infospotPANO_20221214_114518_33');
-			}
+			if (viewer.panorama == PANO_20221214_114518_3) {}
 
 			if (viewer.panorama == PANO_20221214_113745_1copy) {
 				ShowMyInfospot(infospotPANO_20221214_113745_1copy1, 'infospotPANO_20221214_113745_1copy1');
@@ -488,12 +467,10 @@
 				ShowMyInfospot(infospotCANDIBADUT62, 'infospotCANDIBADUT62');
 			}
 
-			if (viewer.panorama == CANDIBADUT1) {
-				ShowMyInfospot(infospotCANDIBADUT11, 'infospotCANDIBADUT11');
-			}
+			if (viewer.panorama == CANDIBADUT1) {}
 
 			if (viewer.panorama == CANDIBADUT2) {
-				ShowMyInfospot(infospotCANDIBADUT20, 'infospotCANDIBADUT20');
+				ShowMyInfospot(infospotCANDIBADUT23, 'infospotCANDIBADUT23');
 			}
 			/*viewerupdatecallback-end*/
 
@@ -566,38 +543,23 @@
 		}
 
 		/*customjs*/
-		function chclickinfospotPANO_20221214_114518_32() {
-			window.open('https://youtu.be/CeEwVSbyiLc', '_blank');
-
-		}
-
-		function chclickinfospotPANO_20221214_114518_33() {
-			window.open('https://id.padlet.com/miaandrianingsih1234/cbadewnq6ghu0555', '_blank');
-
-		}
-
 		function chclickinfospotPANO_20221214_113745_1copy1() {
-			window.open('https://drive.google.com/file/d/10hfMSvdPIWZgROF95AhMRHRBakXdZ_Cc/view?usp=share_link', '_blank');
+			showMedia(1, "{{ asset('CANDIBADUT/images/4.jpg') }}");
 
 		}
 
 		function chclickinfospotPANO_20221214_114135_22() {
-			window.open('https://drive.google.com/file/d/1Pdth80ONXmpKWoIWRXPQ0A6LO_IAzwOD/view?usp=share_link', '_blank');
+			showMedia(1, "{{ asset('CANDIBADUT/images/1.jpg') }}");
 
 		}
 
 		function chclickinfospotCANDIBADUT62() {
-			window.open('https://drive.google.com/file/d/1qbHIfmfFrz9mVwK1pQMWdkLq02_AoLkP/view?usp=share_link', '_blank');
+			showMedia(1, "{{ asset('CANDIBADUT/images/3.jpg') }}");
 
 		}
 
-		function chclickinfospotCANDIBADUT11() {
-			window.open('https://goo.gl/maps/vqe3hYbxMJaESBAL6', '_blank');
-
-		}
-
-		function chclickinfospotCANDIBADUT20() {
-			window.open('https://drive.google.com/file/d/1ZG-YPETJIDO2chXNivZ0PubwnumCOYGt/view?usp=share_link', '_blank');
+		function chclickinfospotCANDIBADUT23() {
+			showMedia(1, "{{ asset('CANDIBADUT/images/2.jpg') }}");
 
 		}
 		/*customjs-end*/
