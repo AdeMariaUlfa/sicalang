@@ -127,11 +127,6 @@ https://templatemo.com/tm-563-seo-dream
   </div> -->
 
   <div id="carouselExample" class="carousel slide">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExample" data-slide-to="1"></li>
-      <li data-target="#carouselExample" data-slide-to="2"></li>
-    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="{{ asset('bg/badut-opacity.png') }}" class="d-block w-100" alt="...">

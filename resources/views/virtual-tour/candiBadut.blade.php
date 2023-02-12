@@ -100,7 +100,7 @@
 </head>
 
 <body id="body">
-@extends('layouts.template')
+@extends('layouts.template-virtual')
 @section('content')
 	<div id="container" style="color: black;"></div>
 
