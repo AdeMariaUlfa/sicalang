@@ -81,17 +81,17 @@ https://templatemo.com/tm-563-seo-dream
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
-            <ul class="nav">
+            <!-- <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Beranda</a></li>
               <li class="scroll-to-section"><a href="#features">Langkah Penggunaan</a></li>
-              <!-- <li class="scroll-to-section"><a href="#about">About Us</a></li> -->
-              <!-- <li class="scroll-to-section">
+              <li class="scroll-to-section"><a href="#about">About Us</a></li> 
+              <li class="scroll-to-section">
                 <div class="main-blue-button"><a href="/login">LOGIN</a></div>
-              </li> -->
-            </ul>
-            <a class='menu-trigger'>
+              </li>
+            </ul> -->
+            <!-- <a class='menu-trigger'>
               <span>Menu</span>
-            </a>
+            </a> -->
             <!-- ***** Menu End ***** -->
           </nav>
         </div>
@@ -153,11 +153,11 @@ https://templatemo.com/tm-563-seo-dream
         <div class="judul">
 
 
-          <h2>Selamat datang di SICALANG!</h2>
-          <h3>Sicalang merupakan media yang berisi virtual tour dan termasuk digital learning materi situs candi di Malang.</h3><br>
+          <h2>SELAMAT DATANG DI SICALANG</h2>
+          <h3>SICALANG merupakan media pembelajaran digital virtual tour berbasis aplikasi 3Sixty yang dilengkapi dengan materi situs candi di Malang</h3><br>
 
           <div class="main-green-button scroll-to-section">
-            <a href="/login">Mulai Tour</a>
+            <a href="/login">LOGIN</a>
           </div>
 
         </div>
@@ -178,7 +178,7 @@ https://templatemo.com/tm-563-seo-dream
 
 
 
-  <div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
+  <!-- <div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -234,7 +234,7 @@ https://templatemo.com/tm-563-seo-dream
 
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 

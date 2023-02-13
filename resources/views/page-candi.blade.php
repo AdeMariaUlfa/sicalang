@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-3 d-flex justify-content-center">
         <div class="section-heading">
-          <h2>Candi {{$candi}}</h2>
+          <p style="text-transform:uppercase; font-size: 40px; color:#14524f;"><b>Candi {{$candi}}</b></p>
         </div>
       </div>
       <div class="row d-flex justify-content-center">
@@ -22,7 +22,7 @@
           <a href="/virtual/{{$candi}}">
             <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
               <i class="fa fa-map fa-8x" style="color:#14524f;"></i>
-              <h4>Virtual Tour candi {{$candi}}</h4>
+              <h4>Virtual Tour Candi {{$candi}}</h4>
               <div class="line-dec"></div>
 
             </div>
@@ -33,7 +33,7 @@
           <a href="/materi/{{$candi}}">
             <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
               <div class="fa fa-file-text fa-8x" style="color:#14524f;"></div>
-              <h4 style="color:black;">Materi candi {{$candi}}</h4>
+              <h4 style="color:black;">Materi Candi {{$candi}}</h4>
               <div class="line-dec"></div>
             </div>
           </a>

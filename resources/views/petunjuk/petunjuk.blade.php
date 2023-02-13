@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
         <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <h2>Petunjuk Singkat Penggunaan Website</h2>
+          <h2>PETUNJUK SINGKAT PENGGUNAAN SICALANG</h2>
           <p></p>
         </div>
       </div>
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="service-item" style="background-color: #c6ded8;">
+      <!-- <div class="service-item" style="background-color: #c6ded8;">
         <div class="row">
           <h4>Petunjuk Icon Virtual</h4>
           <div class="row">
@@ -125,7 +125,7 @@
 
 
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>

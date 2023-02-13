@@ -68,7 +68,7 @@
             </div>
             <div class="row">
               <div class="col-lg-1">
-                <h4>3.5</h4>
+                <h4>4.4</h4>
               </div>
               <div class="col-lg-8">
                 <h5>Menyajikan hasil analisis kronologi, perubahan, dan kesinambungan dalam kehidupan bangsa Indonesia pada aspek politik, sosial, budaya, geografis, dan pendidikan masa Hindu- Buddha dan Islam.</h5><br>
@@ -88,14 +88,14 @@
               <h4>01</h4>
             </div>
             <div class="col-lg-8">
-              <h5>Melalui Aplikasi SICALANG diharapkan siswa mampu menjelaskan situs-situs candi yang ada di Malang dengan benar.</h5><br>
+              <h5>Melalui Aplikasi SICALANG, diharapkan siswa mampu menjelaskan situs-situs candi yang ada di Malang dengan benar.</h5><br>
             </div>
             <div class="row">
               <div class="col-lg-1">
                 <h4>02</h4>
               </div>
               <div class="col-lg-8">
-                <h5>Melalui Aplikasi SICALANG diharapkan siswa mampu menjelaskan tujuan dibangunnya situs-situs candi yang ada di Malang dengan benar.</h5><br>
+                <h5>Melalui Aplikasi SICALANG, diharapkan siswa mampu menjelaskan tujuan dibangunnya situs-situs candi yang ada di Malang dengan benar.</h5><br>
               </div>
             </div>
             <div class="row">
@@ -103,7 +103,15 @@
                 <h4>03</h4>
               </div>
               <div class="col-lg-8">
-                <h5>Melalui Aplikasi SICALANG diharapkan siswa mampu menganalisis langgam arsitektur situs-situs candi yang ada di Malang dengan benar.</h5><br>
+                <h5>Melalui Aplikasi SICALANG, diharapkan siswa mampu menganalisis langgam arsitektur situs-situs candi yang ada di Malang dengan benar.</h5><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-1">
+                <h4>04</h4>
+              </div>
+              <div class="col-lg-8">
+                <h5>Melalui aplikasi SICALANG, diharapkan siswa mampu mempresentasikan hasil analisis situs candi di Malang dengan benar.</h5><br>
               </div>
             </div>
           </div>
