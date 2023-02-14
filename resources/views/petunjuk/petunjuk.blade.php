@@ -5,130 +5,95 @@
     font-family: monospace;
   }
 </style>
-<div id="services" class="our-services section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3">
-        <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <h2>PETUNJUK SINGKAT PENGGUNAAN SICALANG</h2>
-          <p></p>
-        </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+        <h2 class="text-center">PETUNJUK SINGKAT PENGGUNAAN SICALANG</h2>
+        <p></p>
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+</div>
+<div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
+
+  <div class="container">
     <div class="row">
-      <div class="col-lg-3 ">
-        <div class="service-item" style="background-color: #f08080;">
+      <div class="col-lg-12">
+        <div class="features-content">
           <div class="row">
-            <h4 style="color:white;">01</h4>
-            <p style="color:white;">Pastikan perangkat dalam keadaan online</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="service-item" style="background-color: #ddb9db;">
-          <div class="row">
-            <h4 style="color:white;">02</h4>
-            <p style="color:white;">Pilih menu yang telah disajikan dalam aplikasi.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="service-item" style="background-color: #ffa4cf;">
-          <div class="row">
-            <h4 style="color:white;">03</h4>
-            <p style="color:white;">Ketika pengguna mengalami loading yang lama saat mengakses virtual tour silahkan menyegarkan kembali halaman anda.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="service-item" style="background-color: #aaa4ff;">
-          <div class="row">
-            <h4 style="color:white;">04</h4>
-            <p style="color:white;">Pilihlah materi situs candi yang akan anda pelajari dengan cara menekan menu situs candi yang ingin anda pilih. Pada menu materi situs candi disajikan tujuh pilhan menu situs candi yang ada di Malang.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="service-item" style="background-color: #faa6fd;">
-          <div class="row">
-            <h4 style="color:white;">05</h4>
-            <p style="color:white;">Pada setiap menu situs candi disajikan menu virtual tour, materi dan video tentang situs candi yang anda pilih.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="service-item" style="background-color: #b6aff4;">
-          <div class="row">
-            <h4 style="color:white;">06</h4>
-            <p style="color:white;">Ketika anda mengakses menu virtual tour candi disajikan beberapa icon petunjuk.Agar anda dapat menemukan icon tersebut silahkan mengusap layar ponsel pintar (smartphone) anda agar dapat menemukan icon yang telah disediakan dan mengelilingi situs candi yang sedang anda akses.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="service-item" style="background-color: #c9dbcc;">
-          <div class="row">
-            <h4 style="color:white;">07</h4>
-            <p style="color:white;"> Jika anda menggunakan laptop atau PC anda dapat menggeser kursor anda untuk mengelilingi situs candi secara virtual dan mengakses icon atau tombol navigasi yang telah disajikan.</p>
-          </div>
-        </div>
-      </div>
+            <div class="col-lg-4">
+              <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
 
-      <!-- <div class="service-item" style="background-color: #c6ded8;">
-        <div class="row">
-          <h4>Petunjuk Icon Virtual</h4>
-          <div class="row">
-            <div class="col-lg-2">
-              <div class="icon">
-                <img src="{{asset('icon/Info.png')}}" alt="">
+                <i class="fa fa-desktop fa-5x" style="color: black;" aria-hidden="true"></i>
+                <div class="line-dec"></div>
+                <p>Pastikan perangkat dalam keadaan online</p>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-content">
-                <h4>Informasi</h4>
-                <p>Berisi tentang Informasi situs yang ditampilkan</p>
+            <div class="col-lg-4">
+              <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+
+                <i class="fa fa-window-restore fa-5x" style="color:black;" aria-hidden="true"></i>
+                <div class="line-dec"></div>
+                <p>Pilih menu yang telah disajikan dalam aplikasi.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+
+                <div class="spinner-border" style="width: 4rem; height: 4rem; color:black;" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="line-dec"></div>
+                <p>Refresh ketika mengalami loading/kendala </p>
               </div>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-lg-2">
-              <div class="icon">
-               
-                <img src="{{asset('icon/chevron-up-solid.svg')}}" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="right-content">
-                <h4>Panah</h4>
-                <p>Akan mengarahkan anda pada titik tertentu pada situs candi yang anda telusuri</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-2">
-              <div class="icon">
-              <img src="{{asset('icon/circle.svg')}}" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="right-content">
-                <h4>Lingkaran</h4>
-                <p>Akan mengarahkan anda untuk berpindah pada sisi candi berikutnya</p>
-              </div>
-            </div>
-          </div>
-
-       
-
-
         </div>
-      </div> -->
+      </div>
 
     </div>
   </div>
 </div>
 
+<div id="features" class="features section" style=" background: -webkit-linear-gradient(to right, #a3e2df 50%, #effffe 100%);  background-color: rgba(51,204,197,255); background: -moz-linear-gradient(to right, #a3e2df 0%, #effffe 100%);  background: linear-gradient(to right, #a3e2df 0%, #effffe 100%);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="features-content">
+          <div class="row">
+
+            <div class="col-lg-4">
+              <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+
+                <i class="fa fa-file-text fa-6x" style="color:black;"></i>
+                <div class="line-dec"></div>
+                <p>Ketika membuka menu materi, pilih situs candi yang ingin dikunjungi</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+
+                <i class="fa fa-list-ol fa-6x" style="color:black;" aria-hidden="true"></i>
+                <div class="line-dec"></div>
+                <p>Terdapat icon dalam virtual tour."<img src="{{asset('icon/Info.png')}}" style="width: 20px;height: 20px;">" menunjukan informasi, "<img src="{{asset('icon/circle.svg')}}" style="width: 20px;height: 20px;">" berpindah pada sisi candi berikutnya, "<img src="{{asset('icon/chevron-up-solid.svg')}}" style="width: 20px;height: 20px;">" menuju pada titik tertentu. </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <i class="fa fa-map fa-6x" style="color:black;" aria-hidden="true"></i>
+                <div class="line-dec"></div>
+                <p>Usap layar smarthphone anda atau kursor agar menemukan icon pada virtual tour </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 @endsection

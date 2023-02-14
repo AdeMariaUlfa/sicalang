@@ -6,6 +6,7 @@
             <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <h2>KUIS SICALANG</h2>
             </div>
+            @if($search['no'] == 1)
             <div class="service-item wow bounceInUp bg-primary" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row bg-primary">
                     <h4><b>Petunjuk Mengerjakan Kuis</b></h4>
@@ -20,7 +21,8 @@
                         </div>
                     </div>
                 </div>
-            </div><br><br> 
+            </div>
+            @endif<br><br> 
             <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row">
                     <h4>No {{$search['no']}}</h4>
