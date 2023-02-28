@@ -26,7 +26,7 @@
             <div class="col-lg-4">
               <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
 
-                <i class="fa fa-desktop fa-5x" style="color: black;" aria-hidden="true"></i>
+                <i class="fa fa-desktop fa-4x" style="color: black;" aria-hidden="true"></i>
                 <div class="line-dec"></div>
                 <p>Pastikan perangkat dalam keadaan online</p>
               </div>
@@ -34,7 +34,7 @@
             <div class="col-lg-4">
               <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
 
-                <i class="fa fa-window-restore fa-5x" style="color:black;" aria-hidden="true"></i>
+                <i class="fa fa-window-restore fa-4x" style="color:black;" aria-hidden="true"></i>
                 <div class="line-dec"></div>
                 <p>Pilih menu yang telah disajikan dalam aplikasi.</p>
               </div>
@@ -67,7 +67,7 @@
             <div class="col-lg-4">
               <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
 
-                <i class="fa fa-file-text fa-6x" style="color:black;"></i>
+                <i class="fa fa-file-text fa-4x" style="color:black;"></i>
                 <div class="line-dec"></div>
                 <p>Ketika membuka menu materi, pilih situs candi yang ingin dikunjungi</p>
               </div>
@@ -76,7 +76,7 @@
             <div class="col-lg-4">
               <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
 
-                <i class="fa fa-list-ol fa-6x" style="color:black;" aria-hidden="true"></i>
+                <i class="fa fa-list-ol fa-4x" style="color:black;" aria-hidden="true"></i>
                 <div class="line-dec"></div>
                 <p>Terdapat icon dalam virtual tour."<img src="{{asset('icon/Info.png')}}" style="width: 20px;height: 20px;">" menunjukan informasi, "<img src="{{asset('icon/circle.svg')}}" style="width: 20px;height: 20px;">" berpindah pada sisi candi berikutnya, "<img src="{{asset('icon/chevron-up-solid.svg')}}" style="width: 20px;height: 20px;">" menuju pada titik tertentu. </p>
               </div>
@@ -84,7 +84,7 @@
 
             <div class="col-lg-4">
               <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-                <i class="fa fa-map fa-6x" style="color:black;" aria-hidden="true"></i>
+                <i class="fa fa-map fa-4x" style="color:black;" aria-hidden="true"></i>
                 <div class="line-dec"></div>
                 <p>Usap layar smarthphone anda atau kursor agar menemukan icon pada virtual tour </p>
               </div>
