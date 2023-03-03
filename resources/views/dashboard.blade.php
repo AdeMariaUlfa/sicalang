@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="section-heading">
-          <p style="color:#14524f; font-size: 30px;"><b><i>SELAMAT DATANG DI SICALANG</i></b></p>
+          <p style="color:#14524f; font-size: 30px;"><b><i>SELAMAT DATANG DI SI CALANG</i></b></p>
           <?php 
           
           ?>
@@ -22,7 +22,7 @@
               <div class="fa fa-file-text fa-4x" style="color:#14524f;"></div>
               <h4>Pentunjuk Penggunaan</h4>
               <div class="line-dec"></div>
-              <p>Petunjuk Singkat Penggunaan Sicalang</p>
+              <p>Petunjuk Singkat Penggunaan Si Calang</p>
             </div>
           </a>
         </div>
@@ -53,7 +53,7 @@
               <i class="fa fa-lightbulb-o fa-4x" style="color:#14524f;"></i>
               <h4>Kuis</h4>
               <div class="line-dec"></div>
-              <p>Setelah Mengunjungi Menu Virtual Tour, Kerjakan Kuis berikut ini!</p>
+              <p>Latihan Soal</p>
             </div>
           </a>
         </div>

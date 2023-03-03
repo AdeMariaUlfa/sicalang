@@ -159,7 +159,7 @@ class HomeController extends Controller
             ],
             '6' => [
                 'no' => '6',
-                'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singasari yang menganut agama Syiwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Syiwa Buddha Tantrayana yaitu?',
+                'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singhasari yang menganut agama Syiwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Syiwa Buddha Tantrayana yaitu?',
                 'jawaban' => [
                     'A. Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
                     'B. Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Buddha dengan Animisme.',
@@ -177,7 +177,7 @@ class HomeController extends Controller
             ],
             '7' => [
                 'no' => '7',
-                'soal' => 'Bangunan Candi Singasari memiliki ciri-ciri sebagai berikut!
+                'soal' => 'Bangunan Candi Singhasari memiliki ciri-ciri sebagai berikut!
                 <br>
                 1)	Memiliki bentuk tubuh bangunan candi yang ramping.
                 <br>

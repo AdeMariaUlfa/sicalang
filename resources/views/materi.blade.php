@@ -31,7 +31,7 @@ body {
                     <div class="hover-content">
                         <div class="inner-content">
                             <a href="/page-candi/Karangbesuki/BTXK9e1fmdY">
-                                <h4>Candi KarangBesuki</h4>
+                                <h4>Candi Karangbesuki</h4>
                             </a>
                             
                         </div>
@@ -92,7 +92,7 @@ body {
                     <div class="hover-content">
                         <div class="inner-content">
                             <a href="/page-candi/Singasari/WwRfxTajVdM">
-                                <h4>Candi Singasari</h4>
+                                <h4>Candi Singhasari</h4>
                             </a>
 
                         </div>

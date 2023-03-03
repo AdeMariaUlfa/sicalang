@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-  <title>SICALANG</title>
+  <title>SI CALANG</title>
 
   <style>
     .judul {
@@ -77,7 +77,7 @@ https://templatemo.com/tm-563-seo-dream
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="/" class="logo">
-              <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">
+              <img src="{{ asset('template/assets/images/logo2.png') }}" style="width:60%;" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -153,8 +153,8 @@ https://templatemo.com/tm-563-seo-dream
         <div class="judul">
 
 
-          <h2>SELAMAT DATANG DI SICALANG</h2>
-          <h3>SICALANG merupakan media pembelajaran digital virtual tour berbasis aplikasi 3Sixty yang dilengkapi dengan materi situs candi di Malang</h3><br>
+          <h2>SELAMAT DATANG DI SI CALANG</h2>
+          <h3>Si Calang merupakan media pembelajaran digital virtual tour berbasis aplikasi 3Sixty yang dilengkapi dengan materi situs candi di Malang</h3><br>
 
           <div class="main-green-button scroll-to-section">
             <a href="/login">LOGIN</a>
@@ -243,9 +243,9 @@ https://templatemo.com/tm-563-seo-dream
       <div class="row">
         <div class="col-lg-5">
           <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-            <h6 style="color:black;">Gallery</h6>
-            <h2 style="color:black;">Beberapa foto candi-candi yang ada di Malang</h2>
-            <p>(sumber: dokumentasi pribadi 2022)</p>
+            <h6 style="color:black;">GALERI</h6>
+            <h2 style="color:black;">Beberapa Foto Situs Candi di Malang</h2>
+            <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
           </div>
         </div>
       </div>

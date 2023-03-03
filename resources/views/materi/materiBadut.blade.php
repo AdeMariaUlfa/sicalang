@@ -19,7 +19,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+        font-family: 'Comic Sans MS', 'Comic Sans';
     }
 </style>
 <div id="services" class="our-services section">

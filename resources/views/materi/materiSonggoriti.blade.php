@@ -13,7 +13,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+        font-family: 'Comic Sans MS', 'Comic Sans';
     }
 </style>
 <div id="services" class="our-services section">

@@ -12,7 +12,7 @@
 <body>
   <div class="parent clearfix">
     <div class="bg-illustration">
-    <img src="{{ asset('template/assets/images/sicalang2.png') }}" width="500px" height="300px" >
+    <img src="{{ asset('template/assets/images/sicalang3.png') }}" width="500px" height="300px" >
     </div>
     
     <div class="login">
@@ -25,7 +25,7 @@
             <input type="text" name="nama" placeholder="Tuliskan Nama Lengkap">
             <input type="text" name="kelas" placeholder="Tuliskan Kelasmu">
 
-            <button type="submit">LOG-IN</button>
+            <button type="submit">LOGIN</button>
             <p>kembali ke halaman utama? <a href="/"><b>klik disini</b></a></p>
 
           </form>

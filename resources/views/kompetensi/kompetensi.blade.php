@@ -88,14 +88,14 @@
               <h4>01</h4>
             </div>
             <div class="col-lg-8">
-              <h5>Melalui Aplikasi SICALANG, siswa mampu menjelaskan situs-situs candi yang ada di Malang dengan benar.</h5><br>
+              <h5>Melalui aplikasi Si Calang, siswa mampu menjelaskan situs-situs candi di Malang dengan benar.</h5><br>
             </div>
             <div class="row">
               <div class="col-lg-1">
                 <h4>02</h4>
               </div>
               <div class="col-lg-8">
-                <h5>Melalui Aplikasi SICALANG, siswa mampu menjelaskan tujuan dibangunnya situs-situs candi yang ada di Malang dengan benar.</h5><br>
+                <h5>Melalui aplikasi Si Calang, siswa mampu membandingkan tujuan dibangunnya situs-situs candi di Malang dengan benar.</h5><br>
               </div>
             </div>
             <div class="row">
@@ -103,7 +103,7 @@
                 <h4>03</h4>
               </div>
               <div class="col-lg-8">
-                <h5>Melalui Aplikasi SICALANG, siswa mampu menganalisis langgam arsitektur situs-situs candi yang ada di Malang dengan benar.</h5><br>
+                <h5>Melalui aplikasi Si Calang, siswa mampu menganalisis langgam arsitektur situs-situs candi di Malang dengan benar.</h5><br>
               </div>
             </div>
             <div class="row">
@@ -111,7 +111,7 @@
                 <h4>04</h4>
               </div>
               <div class="col-lg-8">
-                <h5>Melalui aplikasi SICALANG, siswa mampu mempresentasikan hasil analisis situs candi di Malang dengan benar.</h5><br>
+                <h5>Melalui aplikasi Si Calang, siswa mampu mempresentasikan hasil analisis situs-situs candi di Malang benar.</h5><br>
               </div>
             </div>
           </div>
