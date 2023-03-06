@@ -268,9 +268,9 @@ class HomeController extends Controller
             return view('quiz.quiz', compact('search', 'hasil'));
         }
     }
-    public function videoCandi($link)
+    public function videoCandi($candi,$link)
     {
-        return view('video-candi',compact('link'));
+        return view('video-candi',compact('candi','link'));
     }
     public function lokasiCandi($link)
     {

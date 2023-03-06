@@ -7,6 +7,8 @@
                 <iframe width="900" height="500" src="https://www.youtube.com/embed/{{$link}}?autoplay=1&mute=1">
                 </iframe>
             </div>
+            <p style="text-align: center;">Video Candi{{$candi}}</p>
+            <p style="text-align: center;">(Sumber: Dokumentasi Pribadi, 2022)</p>
         </div>
     </div>
 </div>

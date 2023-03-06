@@ -9,12 +9,13 @@
             @if($search['no'] == 1)
             <div class="service-item wow bounceInUp bg-primary" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="row bg-primary">
-                    <h4><b>Petunjuk Mengerjakan Kuis</b></h4>
+                    <h4 style="color: white;" ><b>Petunjuk Mengerjakan Kuis</b></h4>
                     <div class="row bg-primary">
                         <div class="col-lg-12">
-                              <p>
+                              <p style="color: white;">
                                 - Pilihlah salah satu jawaban yang menurut kamu benar<br>
                                 - Ketika kamu memilih salah satu jawaban otomatis akan langsung berganti ke soal selanjutnya<br>
+                                - Ketika kamu ragu dengan jawabanmu, kamu bisa menekan tombol back untuk mengganti jawabanmu<br>
                                 - Di akhir kuis akan langsung tampil SKOR kamu, selamat mengerjakan!
                               </p>
                             

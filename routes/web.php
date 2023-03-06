@@ -41,7 +41,7 @@ Route::get('/virtual/Kidal', function () {
 Route::get('/virtual/Jago', function () {
     return view('virtual-tour.candiJago');
 });
-Route::get('/virtual/Singasari', function () {
+Route::get('/virtual/Singhasari', function () {
     return view('virtual-tour.candiSingosari');
 });
 Route::get('/virtual/Sumberawan', function () {
@@ -63,7 +63,7 @@ Route::get('/materi/Kidal', function () {
 Route::get('/materi/Jago', function () {
     return view('materi.materiJago');
 });
-Route::get('/materi/Singasari', function () {
+Route::get('/materi/Singhasari', function () {
     return view('materi.materiSingasari');
 });
 Route::get('/materi/Sumberawan', function () {
@@ -86,7 +86,7 @@ Route::get('/map/Kidal', function () {
 Route::get('/map/Jago', function () {
     return view('map.map-jago');
 });
-Route::get('/map/Singasari', function () {
+Route::get('/map/Singhasari', function () {
     return view('map.map-singosari');
 });
 Route::get('/map/Sumberawan', function () {
@@ -98,5 +98,5 @@ Route::get('/login', [HomeController::class, 'login']);
 Route::post('/login', [HomeController::class, 'prosesLogin'])->name('proses-login');;
 Route::get('/dashboard', [HomeController::class, 'dashboard']);
 Route::get('/quiz/{s}/{j}/{sblm}', [HomeController::class, 'quizCandi']);
-Route::get('/video-candi/{link}', [HomeController::class, 'videoCandi']);
+Route::get('/video-candi/{candi}/{link}', [HomeController::class, 'videoCandi']);
 Route::get('/lokasi-candi/{link}', [HomeController::class, 'lokasiCandi']);
