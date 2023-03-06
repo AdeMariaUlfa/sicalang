@@ -56,8 +56,9 @@
                         <div id="page3">
                             <p><b>Daftar Pustaka</b><br>
                             1. Soeroto, Myrtha. (2010). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Kedua. Yayasan Keluarga Batam Myrtle Publishing: Batam.<br>
-                            2. Widiah, S. (2018). Studi historis Prasasti Cunggrang sebagai sumber sejarah pada masa Mpu Sindok tahun 929-947 M. Avatara, 6(1), 221–237. https://jurnalmahasiswa.unesa.ac.id/index.php/avatara/article/view/22843.
+                            2. Widiah, S. (2018). Studi historis Prasasti Cunggrang sebagai sumber sejarah pada masa Mpu Sindok tahun 929-947 M. Avatara, 6(1), 221–237. 
                             </p>
+                            <p>&ensp;&ensp;https://jurnalmahasiswa.unesa.ac.id/index.php/avatara/article/view/22843.</p>
                         </div>
                         <div class="pagination d-flex justify-content-center">
                             <a onclick="page(1)" href="#">1</a>

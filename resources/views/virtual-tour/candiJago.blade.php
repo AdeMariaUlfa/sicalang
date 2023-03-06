@@ -21,7 +21,8 @@
 		}
 	</script>
 
-	<script src="{{ asset('CANDIJAGO/imagedata.js') }}"></script>
+	<script src="{{ asset('CANDIJAGO/imagedata.js') }}">
+	</script>
 	<script src="{{ asset('CANDIJAGO/jquery.js') }}"></script>
 	<script src="{{ asset('CANDIJAGO/three.min.js') }}"></script>
 	<script src="{{ asset('CANDIJAGO/panolens.min.js') }}"></script>
@@ -112,7 +113,9 @@
 		<div onclick='chclickinfospotPANO_20221214_103634_13();' id='infospotPANO_20221214_103634_13' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 		<div onclick='chclickinfospotPANO_20221214_103634_14();' id='infospotPANO_20221214_103634_14' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='PANO_20221214_103229_0'></div>
+	<div class='customhotspot' id='PANO_20221214_103229_0'>
+		<div onclick='chclickinfospotPANO_20221214_103229_02();' id='infospotPANO_20221214_103229_02' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
 	<div class='customhotspot' id='CJAGO7'>
 		<div onclick='chclickinfospotCJAGO72();' id='infospotCJAGO72' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIJAGO/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
@@ -178,35 +181,35 @@
 		});
 
 		var infospotPANO_20221214_103634_12 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_103634_12.position.set(-952.33, -443.04, -4882.90);
+		infospotPANO_20221214_103634_12.position.set(-896.50, -419.20, -4894.59);
 		infospotPANO_20221214_103634_12.visible = false;
 		PANO_20221214_103634_1.add(infospotPANO_20221214_103634_12);
 
 		infospotPANO_20221214_103634_12.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIJAGO/images/1.jpg') }}");
+			showMedia(1, 'images/11.jpg');
 
 		});
 
 		var infospotPANO_20221214_103634_13 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_103634_13.position.set(-4508.89, -1493.35, 1545.69);
+		infospotPANO_20221214_103634_13.position.set(-4567.38, -1646.93, 1157.16);
 		infospotPANO_20221214_103634_13.visible = false;
 		PANO_20221214_103634_1.add(infospotPANO_20221214_103634_13);
 
 		infospotPANO_20221214_103634_13.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIJAGO/images/p.jpg') }}");
+			showMedia(1, 'images/22.jpg');
 
 		});
 
 		var infospotPANO_20221214_103634_14 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotPANO_20221214_103634_14.position.set(4883.36, 958.53, 381.73);
+		infospotPANO_20221214_103634_14.position.set(4865.14, 1044.94, 401.28);
 		infospotPANO_20221214_103634_14.visible = false;
 		PANO_20221214_103634_1.add(infospotPANO_20221214_103634_14);
 
 		infospotPANO_20221214_103634_14.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIJAGO/images/h.jpg') }}");
+			showMedia(1, 'images/33.jpg');
 
 		});
 
@@ -239,6 +242,17 @@
 		infospotPANO_20221214_103229_01.addEventListener('click', function() {
 
 			ChangePanorama('CJAGO7');
+
+		});
+
+		var infospotPANO_20221214_103229_02 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotPANO_20221214_103229_02.position.set(4960.02, -427.01, 390.41);
+		infospotPANO_20221214_103229_02.visible = false;
+		PANO_20221214_103229_0.add(infospotPANO_20221214_103229_02);
+
+		infospotPANO_20221214_103229_02.addEventListener('click', function() {
+
+			showMedia(1, 'images/55.jpg');
 
 		});
 
@@ -275,13 +289,13 @@
 		});
 
 		var infospotCJAGO72 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCJAGO72.position.set(4946.22, -511.56, 462.79);
+		infospotCJAGO72.position.set(4958.55, -388.29, 499.88);
 		infospotCJAGO72.visible = false;
 		CJAGO7.add(infospotCJAGO72);
 
 		infospotCJAGO72.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIJAGO/images/4i.jpg') }}");
+			showMedia(1, 'images/44.jpg');
 
 		});
 
@@ -371,7 +385,9 @@
 				ShowMyInfospot(infospotPANO_20221214_103634_14, 'infospotPANO_20221214_103634_14');
 			}
 
-			if (viewer.panorama == PANO_20221214_103229_0) {}
+			if (viewer.panorama == PANO_20221214_103229_0) {
+				ShowMyInfospot(infospotPANO_20221214_103229_02, 'infospotPANO_20221214_103229_02');
+			}
 
 			if (viewer.panorama == CJAGO7) {
 				ShowMyInfospot(infospotCJAGO72, 'infospotCJAGO72');
@@ -450,27 +466,31 @@
 
 		/*customjs*/
 		function chclickinfospotPANO_20221214_103634_12() {
-			showMedia(1, "{{ asset('CANDIJAGO/images/1.jpg') }}");
+			showMedia(1, "{{ asset('CANDIJAGO/images/11.jpg') }}");
 
 		}
 
 		function chclickinfospotPANO_20221214_103634_13() {
-			showMedia(1, "{{ asset('CANDIJAGO/images/p.jpg') }}");
+			showMedia(1, "{{ asset('CANDIJAGO/images/22.jpg') }}");
 
 		}
 
 		function chclickinfospotPANO_20221214_103634_14() {
-			showMedia(1, "{{ asset('CANDIJAGO/images/h.jpg') }}");
+			showMedia(1, "{{ asset('CANDIJAGO/images/33.jpg') }}");
+
+		}
+
+		function chclickinfospotPANO_20221214_103229_02() {
+			showMedia(1, "{{ asset('CANDIJAGO/images/55.jpg') }}");
 
 		}
 
 		function chclickinfospotCJAGO72() {
-			showMedia(1, "{{ asset('CANDIJAGO/images/4i.jpg') }}");
+			showMedia(1, "{{ asset('CANDIJAGO/images/44.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
-
 </body>
 
 </html>

@@ -14,7 +14,8 @@
         background-attachment: fixed;
         background-size: cover;
     }
-    .bg-card{
+
+    .bg-card {
         background-image: url("{{ asset('bg/badut-opacity2.png') }}");
         background-size: cover;
         background-repeat: no-repeat;
@@ -25,7 +26,7 @@
 <div id="services" class="our-services section">
     <div class="container-fluid">
         <div class="row">
-            <div class="service-item bg-card" >
+            <div class="service-item bg-card">
                 <div class="row">
                     <div class="right-content">
                         <div id="page1">
@@ -78,15 +79,17 @@
                             <p style="text-align: justify; text-indent: 0.5in;">Candi Badut ditemukan pertama kali oleh Maurenboucher dan Be de Haan pada tahun 1923 dalam kondisi tidak berbentuk dan ditumbuhi banyak pepohonan (Soeroto, 2009). Pada tahun 1925 B. De Haan mengawali pemugaran dengan melaksanakan penggalian mencapai dasar bangunan candi. Hasil dari penggalian tersebut, Candi Badut telah ditemukan dalam keadaan runtuh, kecuali bagian kaki candi yang masih dapat dilihat susunannya, meskipun pada bagian tersebut banyak kerusakan. Batu-batu yang berada disekitar Candi Badut kemudian dipilah-pilah dan dikumpulkan berdasarkan ukurannya. Pada tahun 1926 M, bagian kaki dan tubuh candi dapat dibangun kembali atau dipugar, namun bagian atap candi tidak diketemukan kembali (Soviyani dkk, 1995). Pemugaran selanjutnya pada tahun 1977 M. Pemugaran terakhir dilakukan pada tahun 1990-1993 M, berhasil mencapai bentuk bangunan Candi Badut yang sekarang (Soeroto, 2009).</p><br><br>
                         </div>
                         <div id="page3">
-                            <p><b>Daftar Pustaka</b>
-                            <br>1.Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.<br>
-                            2.Perpustakaan Nasional Republik Indonesia. 2014. Candi Badut. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_badut) diakses pada tanggal 28 September 2022.<br>
-                            3.Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.<br>
-                            4.Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
-                            5.Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.<br>
-                            6.Soviyani, Aris dkk. (1995). Candi Badut dan Pemugarannya. Bagian Proyek Pembinaan Peninggalan Sejarah dan Purbakala: Jawa Timur.<br>
-                            7.Sulistio, A., Natadjaja, L., & Febriani, R. (2018). Perancangan Buku Fotografi Historis Candi Badut Sebagai Candi Tertua Di Jawa Timur. Jurnal DKV Adiwarna, 1(12), 1–9.
-                            </p>
+                            <p><b>Daftar Pustaka</b></p>
+                            <p></p>
+                            <p>1.Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.</p>
+                            <p>2.Perpustakaan Nasional Republik Indonesia. 2014. Candi Badut. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_badut) diakses pada tanggal </p>
+                            <p>&ensp; 28 September 2022.</p>
+                            <p>3.Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat &ensp; Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.</p>
+                            <p>4.Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.</p>
+                            <p>5.Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.</p>
+                            <p>6.Soviyani, Aris dkk. (1995). Candi Badut dan Pemugarannya. Bagian Proyek Pembinaan Peninggalan Sejarah dan Purbakala: Jawa Timur.</p>
+                            <p>7.Sulistio, A., Natadjaja, L., & Febriani, R. (2018). Perancangan Buku Fotografi Historis Candi Badut Sebagai Candi Tertua Di Jawa Timur. Jurnal DKV Adiwarna, 1(12), 1–9.</p>
+                            
                         </div>
                         <div class="pagination d-flex justify-content-center">
                             <a onclick="page(1)" href="#">1</a>

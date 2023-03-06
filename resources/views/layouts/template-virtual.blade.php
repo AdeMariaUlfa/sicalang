@@ -16,7 +16,7 @@
     <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="{{ asset('template/assets/css/templatemo-seo-dream.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/assets/css/templatemo-seo-non.css') }}">
     <link rel="stylesheet" href="{{ asset('template/assets/css/animated.css') }}">
     <link rel="stylesheet" href="{{ asset('template2/assets/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('template/assets/css/owl.css') }}">
@@ -125,25 +125,13 @@
 
 <body>
 
-    <!-- ***** Preloader Start ***** -->
-    <div id="js-preloader" class="js-preloader">
-        <div class="preloader-inner">
-            <span class="dot"></span>
-            <div class="dots">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area" style="background: rgba(0,0,0,0); max-width: 60%">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                   
+                
                         <ul class="nav">
                             @isset($jumlah)
                             <div class="main-blue-button"><a href="/dashboard" style="cursor: pointer; margin-left:10px;"><i class="fa fa-arrow-left"></i> BACK</a></div>
@@ -152,7 +140,7 @@
                             @endif
                         </ul>
                         <!-- ***** Menu End ***** -->
-                    
+                
                 </div>
             </div>
         </div>

@@ -63,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
@@ -108,11 +109,15 @@
 
 	<!--customhtml-->
 	<div class='customhotspot' id='CSUM1copy'></div>
-	<div class='customhotspot' id='CSUM2copy'></div>
+	<div class='customhotspot' id='CSUM2copy'>
+		<div onclick='chclickinfospotCSUM2copy3();' id='infospotCSUM2copy3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
 	<div class='customhotspot' id='CSUM3copy'>
 		<div onclick='chclickinfospotCSUM3copy2();' id='infospotCSUM3copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='CSUM4copy'></div>
+	<div class='customhotspot' id='CSUM4copy'>
+		<div onclick='chclickinfospotCSUM4copy2();' id='infospotCSUM4copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
 	<div class='customhotspot' id='CSUM6copy'>
 		<div onclick='chclickinfospotCSUM6copy2();' id='infospotCSUM6copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISUMBERAWAN/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div><!--customhtml-end-->
@@ -208,6 +213,17 @@
 
 		});
 
+		var infospotCSUM2copy3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCSUM2copy3.position.set(4799.26, -569.49, -1240.56);
+		infospotCSUM2copy3.visible = false;
+		CSUM2copy.add(infospotCSUM2copy3);
+
+		infospotCSUM2copy3.addEventListener('click', function() {
+
+			showMedia(1, 'images/44.jpg');
+
+		});
+
 		viewer.add(CSUM2copy);
 
 		var CSUM3copy = new PANOLENS.ImagePanorama("{{ asset('CANDISUMBERAWAN/panoramas/CSUM3copy.jpg') }}");
@@ -241,13 +257,13 @@
 		});
 
 		var infospotCSUM3copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM3copy2.position.set(4534.15, -2034.90, 503.81);
+		infospotCSUM3copy2.position.set(4513.04, -2103.91, 353.68);
 		infospotCSUM3copy2.visible = false;
 		CSUM3copy.add(infospotCSUM3copy2);
 
 		infospotCSUM3copy2.addEventListener('click', function() {
 
-			showMedia(1, 'images/i.jpg');
+			showMedia(1, 'images/11.jpg');
 
 		});
 
@@ -280,6 +296,17 @@
 		infospotCSUM4copy1.addEventListener('click', function() {
 
 			ChangePanorama('CSUM6copy');
+
+		});
+
+		var infospotCSUM4copy2 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
+		infospotCSUM4copy2.position.set(4807.21, -1247.00, -541.36);
+		infospotCSUM4copy2.visible = false;
+		CSUM4copy.add(infospotCSUM4copy2);
+
+		infospotCSUM4copy2.addEventListener('click', function() {
+
+			showMedia(1, 'images/33.jpg');
 
 		});
 
@@ -316,13 +343,13 @@
 		});
 
 		var infospotCSUM6copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSUM6copy2.position.set(4707.08, -1603.97, -498.22);
+		infospotCSUM6copy2.position.set(4757.19, -1453.63, -455.73);
 		infospotCSUM6copy2.visible = false;
 		CSUM6copy.add(infospotCSUM6copy2);
 
 		infospotCSUM6copy2.addEventListener('click', function() {
 
-			showMedia(1, 'images/2.jpg');
+			showMedia(1, 'images/22.jpg');
 
 		});
 
@@ -376,13 +403,17 @@
 			/*viewerupdatecallback*/
 			if (viewer.panorama == CSUM1copy) {}
 
-			if (viewer.panorama == CSUM2copy) {}
+			if (viewer.panorama == CSUM2copy) {
+				ShowMyInfospot(infospotCSUM2copy3, 'infospotCSUM2copy3');
+			}
 
 			if (viewer.panorama == CSUM3copy) {
 				ShowMyInfospot(infospotCSUM3copy2, 'infospotCSUM3copy2');
 			}
 
-			if (viewer.panorama == CSUM4copy) {}
+			if (viewer.panorama == CSUM4copy) {
+				ShowMyInfospot(infospotCSUM4copy2, 'infospotCSUM4copy2');
+			}
 
 			if (viewer.panorama == CSUM6copy) {
 				ShowMyInfospot(infospotCSUM6copy2, 'infospotCSUM6copy2');
@@ -458,18 +489,27 @@
 		}
 
 		/*customjs*/
+		function chclickinfospotCSUM2copy3() {
+			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/44.jpg') }}");
+
+		}
+
 		function chclickinfospotCSUM3copy2() {
-			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/i.jpg') }}");
+			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/11.jpg') }}");
+
+		}
+
+		function chclickinfospotCSUM4copy2() {
+			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/33.jpg') }}");
 
 		}
 
 		function chclickinfospotCSUM6copy2() {
-			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/2.jpg') }}");
+			showMedia(1, "{{ asset('CANDISUMBERAWAN/images/22.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
-
 </body>
 
 </html>

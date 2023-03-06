@@ -63,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
@@ -100,16 +101,15 @@
 </head>
 
 <body id="body">
+	<div id="container" style="color: black;"></div>
 	@extends('layouts.template-virtual')
 	@section('content')
-	<div id="container" style="color: black;"></div>
-
-
 
 	<!--customhtml-->
 	<div class='customhotspot' id='CK1copy'></div>
 	<div class='customhotspot' id='CK2copy'>
 		<div onclick='chclickinfospotCK2copy3();' id='infospotCK2copy3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKIDAL/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotCK2copy4();' id='infospotCK2copy4' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKIDAL/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='CK3'>
 		<div onclick='chclickinfospotCK32();' id='infospotCK32' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKIDAL/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
@@ -132,7 +132,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-	@endsection
+@endsection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/
@@ -233,13 +233,24 @@
 		});
 
 		var infospotCK2copy3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCK2copy3.position.set(4987.76, -306.68, 3.63);
+		infospotCK2copy3.position.set(4907.00, -932.44, -29.67);
 		infospotCK2copy3.visible = false;
 		CK2copy.add(infospotCK2copy3);
 
 		infospotCK2copy3.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIKIDAL/images/4.jpg') }}");
+			showMedia(1, 'images/44.jpg');
+
+		});
+
+		var infospotCK2copy4 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCK2copy4.position.set(4281.68, -127.31, 2565.42);
+		infospotCK2copy4.visible = false;
+		CK2copy.add(infospotCK2copy4);
+
+		infospotCK2copy4.addEventListener('click', function() {
+
+			showMedia(1, 'images/55.jpg');
 
 		});
 
@@ -276,13 +287,13 @@
 		});
 
 		var infospotCK32 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCK32.position.set(4822.28, -49.79, 1287.52);
+		infospotCK32.position.set(4813.46, 32.91, 1322.97);
 		infospotCK32.visible = false;
 		CK3.add(infospotCK32);
 
 		infospotCK32.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIKIDAL/images/2.jpg') }}");
+			showMedia(1, 'images/22.jpg');
 
 		});
 
@@ -319,13 +330,13 @@
 		});
 
 		var infospotCK4copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCK4copy2.position.set(4731.44, -1042.73, -1196.56);
+		infospotCK4copy2.position.set(4713.81, -1049.58, -1257.11);
 		infospotCK4copy2.visible = false;
 		CK4copy.add(infospotCK4copy2);
 
 		infospotCK4copy2.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIKIDAL/images/3.jpg') }}");
+			showMedia(1, 'images/33.jpg');
 
 		});
 
@@ -362,13 +373,13 @@
 		});
 
 		var infospotCK52 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCK52.position.set(4833.25, -717.33, 1046.21);
+		infospotCK52.position.set(4816.64, -715.71, 1108.93);
 		infospotCK52.visible = false;
 		CK5.add(infospotCK52);
 
 		infospotCK52.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIKIDAL/images/1.jpg') }}");
+			showMedia(1, 'images/11.jpg');
 
 		});
 
@@ -424,6 +435,7 @@
 
 			if (viewer.panorama == CK2copy) {
 				ShowMyInfospot(infospotCK2copy3, 'infospotCK2copy3');
+				ShowMyInfospot(infospotCK2copy4, 'infospotCK2copy4');
 			}
 
 			if (viewer.panorama == CK3) {
@@ -509,27 +521,31 @@
 
 		/*customjs*/
 		function chclickinfospotCK2copy3() {
-			showMedia(1, "{{ asset('CANDIKIDAL/images/4.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/44.jpg') }}");
+
+		}
+
+		function chclickinfospotCK2copy4() {
+			showMedia(1, "{{ asset('CANDIKIDAL/images/55.jpg') }}");
 
 		}
 
 		function chclickinfospotCK32() {
-			showMedia(1, "{{ asset('CANDIKIDAL/images/2.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/22.jpg') }}");
 
 		}
 
 		function chclickinfospotCK4copy2() {
-			showMedia(1, "{{ asset('CANDIKIDAL/images/3.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/33.jpg') }}");
 
 		}
 
 		function chclickinfospotCK52() {
-			showMedia(1, "{{ asset('CANDIKIDAL/images/1.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/11.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
-
 </body>
 
 </html>

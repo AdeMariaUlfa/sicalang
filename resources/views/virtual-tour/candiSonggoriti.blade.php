@@ -63,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
@@ -116,7 +117,9 @@
 	<div class='customhotspot' id='CSONGGORITI3copy'>
 		<div onclick='chclickinfospotCSONGGORITI3copy2();' id='infospotCSONGGORITI3copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='CSONGGORITI4copy'></div><!--customhtml-end-->
+	<div class='customhotspot' id='CSONGGORITI4copy'>
+		<div onclick='chclickinfospotCSONGGORITI4copy2();' id='infospotCSONGGORITI4copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISONGGORITI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div><!--customhtml-end-->
 
 	<div id="tmp">
 		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
@@ -178,7 +181,7 @@
 		});
 
 		var infospotCSONGGORITI1copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI1copy2.position.set(4895.07, -979.04, 80.47);
+		infospotCSONGGORITI1copy2.position.set(4881.50, -1042.58, 98.20);
 		infospotCSONGGORITI1copy2.visible = false;
 		CSONGGORITI1copy.add(infospotCSONGGORITI1copy2);
 
@@ -221,7 +224,7 @@
 		});
 
 		var infospotCSONGGORITI2copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI2copy2.position.set(4669.25, 1512.94, 933.64);
+		infospotCSONGGORITI2copy2.position.set(4588.14, 1737.43, 934.92);
 		infospotCSONGGORITI2copy2.visible = false;
 		CSONGGORITI2copy.add(infospotCSONGGORITI2copy2);
 
@@ -264,7 +267,7 @@
 		});
 
 		var infospotCSONGGORITI3copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSONGGORITI3copy2.position.set(4608.54, 1738.34, -803.95);
+		infospotCSONGGORITI3copy2.position.set(4525.29, 1947.25, -817.71);
 		infospotCSONGGORITI3copy2.visible = false;
 		CSONGGORITI3copy.add(infospotCSONGGORITI3copy2);
 
@@ -297,12 +300,23 @@
 		});
 
 		var infospotCSONGGORITI4copy1 = new PANOLENS.Infospot(512, hotspotIcons[12].data, true);
-		infospotCSONGGORITI4copy1.position.set(1988.82, -1347.50, 4378.77);
+		infospotCSONGGORITI4copy1.position.set(2706.59, -1281.43, 3993.11);
 		CSONGGORITI4copy.add(infospotCSONGGORITI4copy1);
 
 		infospotCSONGGORITI4copy1.addEventListener('click', function() {
 
-			ChangePanorama('CSONGGORITI1copy');
+			ChangePanorama('CSONGGORITI3copy');
+
+		});
+
+		var infospotCSONGGORITI4copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCSONGGORITI4copy2.position.set(4772.98, -1305.18, 652.77);
+		infospotCSONGGORITI4copy2.visible = false;
+		CSONGGORITI4copy.add(infospotCSONGGORITI4copy2);
+
+		infospotCSONGGORITI4copy2.addEventListener('click', function() {
+
+			showMedia(1, 'images/4.jpg');
 
 		});
 
@@ -366,7 +380,9 @@
 				ShowMyInfospot(infospotCSONGGORITI3copy2, 'infospotCSONGGORITI3copy2');
 			}
 
-			if (viewer.panorama == CSONGGORITI4copy) {}
+			if (viewer.panorama == CSONGGORITI4copy) {
+				ShowMyInfospot(infospotCSONGGORITI4copy2, 'infospotCSONGGORITI4copy2');
+			}
 			/*viewerupdatecallback-end*/
 
 
@@ -452,9 +468,13 @@
 			showMedia(1, "{{ asset('CANDISONGGORITI/images/2.jpg') }}");
 
 		}
+
+		function chclickinfospotCSONGGORITI4copy2() {
+			showMedia(1, "{{ asset('CANDISONGGORITI/images/4.jpg') }}");
+
+		}
 		/*customjs-end*/
 	</script>
-
 </body>
 
 </html>

@@ -63,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
@@ -100,11 +101,9 @@
 </head>
 
 <body id="body">
+	<div id="container" style="color: black;"></div>
 	@extends('layouts.template-virtual')
 	@section('content')
-	<div id="container" style="color: black;"></div>
-
-
 
 	<!--customhtml-->
 	<div class='customhotspot' id='CKB1copy'></div>
@@ -246,7 +245,7 @@
 
 		infospotCKB3copy2.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/1.jpg') }}");
+			showMedia(1, 'images/1.jpg');
 
 		});
 
@@ -289,7 +288,7 @@
 
 		infospotCKB4copy2.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/2.jpg') }}");
+			showMedia(1, 'images/2.jpg');
 
 		});
 
@@ -434,7 +433,6 @@
 		}
 		/*customjs-end*/
 	</script>
-
 </body>
 
 </html>

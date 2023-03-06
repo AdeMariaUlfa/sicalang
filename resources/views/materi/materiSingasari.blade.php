@@ -86,9 +86,9 @@
                             <p><b>Daftar Pustaka</b><br>
                             1. Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.<br>
                             2. Mardiono, P. (2020). Sejarah Kelam Majapahit: Jejak-Jejak Konflik Kekuasaan dan Tumbal Asmara di Majapahit. Indonesia: Araska Publishing.<br>
-                            3. Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi. 2019. Prasasti Gajahmada. (Online), (http://kebudayaan.kemdikbud.go.id/munas/4933-2/) diakses pada tanggal 01 Desember 2023.<br>
-                            4. Perpustakaan Nasional Republik Indonesia. 2014. Candi Singhasari. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_Singhasari) diakses pada tanggal 10 Oktober 2022.<br>
-                            5. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat Jendral Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
+                            3. Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi. 2019. Prasasti Gajahmada. (Online), (http://kebudayaan.kemdikbud.go.id/munas/4933-2/) diakses pada tanggal <br>&ensp;&ensp;01 Desember 2023.<br>
+                            4. Perpustakaan Nasional Republik Indonesia. 2014. Candi Singhasari. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_Singhasari) diakses pada tanggal <br>&ensp;&ensp;10 Oktober 2022.<br>
+                            5. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, <br>&ensp;&ensp; Direktorat Jendral Kebudayaan, Kementerian Pendidikan dan Kebudayaan: Jakarta.<br>
                             6. Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.<br>
                             7. Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.
                             </p>

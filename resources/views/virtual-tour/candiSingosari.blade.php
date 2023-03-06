@@ -10,8 +10,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
 
-	<link rel="stylesheet" type="{{ asset('CANDISINGOSARI/text/css') }}" href="css/font-awesome.css">
-	<link rel="stylesheet" type="{{ asset('CANDISINGOSARI/text/css') }}" href="style.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('CANDISINGOSARI/css/font-awesome.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('CANDISINGOSARI/style.css') }}">
 
 	<!-- Insert this line above script imports  -->
 	<script>
@@ -63,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
@@ -100,20 +101,21 @@
 </head>
 
 <body id="body">
+	<div id="container" style="color: black;"></div>
 	@extends('layouts.template-virtual')
 	@section('content')
-	<div id="container" style="color: black;"></div>
-
-
-
 	<!--customhtml-->
 	<div class='customhotspot' id='CSI7copy'>
 		<div onclick='chclickinfospotCSI7copy2();' id='infospotCSI7copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 		<div onclick='chclickinfospotCSI7copy3();' id='infospotCSI7copy3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='PANO_20221215_101516_1'></div>
+	<div class='customhotspot' id='PANO_20221215_101516_1'>
+		<div onclick='chclickinfospotPANO_20221215_101516_12();' id='infospotPANO_20221215_101516_12' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
 	<div class='customhotspot' id='PANO_20221215_101154_0'></div>
-	<div class='customhotspot' id='GS__1638copy'></div><!--customhtml-end-->
+	<div class='customhotspot' id='GS__1638copy'>
+		<div onclick='chclickinfospotGS__1638copy2();' id='infospotGS__1638copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div><!--customhtml-end-->
 
 	<div id="tmp">
 		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
@@ -175,24 +177,24 @@
 		});
 
 		var infospotCSI7copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSI7copy2.position.set(4943.25, -550.41, 431.70);
+		infospotCSI7copy2.position.set(4948.65, -470.28, 509.60);
 		infospotCSI7copy2.visible = false;
 		CSI7copy.add(infospotCSI7copy2);
 
 		infospotCSI7copy2.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDISINGOSARI/images/1.jpg') }}");
+			showMedia(1, 'images/11.jpg');
 
 		});
 
 		var infospotCSI7copy3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCSI7copy3.position.set(-4698.26, -1625.84, -502.45);
+		infospotCSI7copy3.position.set(-4602.32, -1869.95, -533.25);
 		infospotCSI7copy3.visible = false;
 		CSI7copy.add(infospotCSI7copy3);
 
 		infospotCSI7copy3.addEventListener('click', function() {
 
-			showMedia(1, "{{ asset('CANDISINGOSARI/images/bangunan.jpg') }}");
+			showMedia(1, 'images/22.jpg');
 
 		});
 
@@ -225,6 +227,17 @@
 		infospotPANO_20221215_101516_11.addEventListener('click', function() {
 
 			ChangePanorama('PANO_20221215_101154_0');
+
+		});
+
+		var infospotPANO_20221215_101516_12 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotPANO_20221215_101516_12.position.set(4986.58, -174.08, 125.56);
+		infospotPANO_20221215_101516_12.visible = false;
+		PANO_20221215_101516_1.add(infospotPANO_20221215_101516_12);
+
+		infospotPANO_20221215_101516_12.addEventListener('click', function() {
+
+			showMedia(1, 'images/33.jpg');
 
 		});
 
@@ -292,6 +305,17 @@
 
 		});
 
+		var infospotGS__1638copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotGS__1638copy2.position.set(4962.33, 397.38, 413.22);
+		infospotGS__1638copy2.visible = false;
+		GS__1638copy.add(infospotGS__1638copy2);
+
+		infospotGS__1638copy2.addEventListener('click', function() {
+
+			showMedia(1, 'images/44.jpg');
+
+		});
+
 		viewer.add(GS__1638copy);
 
 		$(document).ready(function() {
@@ -345,11 +369,15 @@
 				ShowMyInfospot(infospotCSI7copy3, 'infospotCSI7copy3');
 			}
 
-			if (viewer.panorama == PANO_20221215_101516_1) {}
+			if (viewer.panorama == PANO_20221215_101516_1) {
+				ShowMyInfospot(infospotPANO_20221215_101516_12, 'infospotPANO_20221215_101516_12');
+			}
 
 			if (viewer.panorama == PANO_20221215_101154_0) {}
 
-			if (viewer.panorama == GS__1638copy) {}
+			if (viewer.panorama == GS__1638copy) {
+				ShowMyInfospot(infospotGS__1638copy2, 'infospotGS__1638copy2');
+			}
 			/*viewerupdatecallback-end*/
 
 
@@ -422,17 +450,26 @@
 
 		/*customjs*/
 		function chclickinfospotCSI7copy2() {
-			showMedia(1, "{{ asset('CANDISINGOSARI/images/1.jpg') }}");
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/11.jpg') }}");
 
 		}
 
 		function chclickinfospotCSI7copy3() {
-			showMedia(1, "{{ asset('CANDISINGOSARI/images/bangunan.jpg') }}");
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/22.jpg') }}");
+
+		}
+
+		function chclickinfospotPANO_20221215_101516_12() {
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/33.jpg') }}");
+
+		}
+
+		function chclickinfospotGS__1638copy2() {
+			showMedia(1, "{{ asset('CANDISINGOSARI/images/44.jpg') }}");
 
 		}
 		/*customjs-end*/
 	</script>
-
 </body>
 
 </html>

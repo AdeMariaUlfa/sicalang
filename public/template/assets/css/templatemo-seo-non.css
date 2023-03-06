@@ -363,6 +363,7 @@ header
 }
 
 .header-area {
+  position: absolute;
   background-color: #33ccc5;
   top: 0px;
   left: 0px;
