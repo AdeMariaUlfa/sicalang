@@ -146,7 +146,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="/dashboard" class="logo">
-                           <img src="{{ asset('template/assets/images/logo.png') }}" style="width:60%;" alt="">
+                           <img src="{{ asset('template/assets/images/logo2.png') }}" style="width:60%;" alt="">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->

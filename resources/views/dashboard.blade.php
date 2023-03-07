@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="section-heading">
-        <marquee width="500" height="40"> <p style="color:#14524f; font-size: 30px;"><b><i>SELAMAT DATANG DI SI CALANG</i></b></p></marquee>
+        <h1 width="500" height="40"> <p style="color:#14524f; font-family: lucida; font-size: 30px;"><b><i>SELAMAT DATANG DI SI CALANG</i></b></p></h1>
           <?php 
           
           ?>

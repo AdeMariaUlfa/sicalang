@@ -38,9 +38,9 @@
                                     <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
                                 </div>
                             </div>
-                            <p style="text-align: justify; text-indent: 0.5in;">Candi Badut atau disebut dengan Candi Liswa berlokasi di Desa Karangbesuki Kecamatan Dau, Kota Malang Jawa Timur. Candi Badut bercorak agama Hindu Syiwa yang memiliki tinggi sekitar 8 m dengan lebar 12,27 m x 14,04 m. Candi Badut merupakan candi tertua di Jawa Timur. Menurut Prasasti Dinoyo Candi Badut dibangun atas perintah Raja Gajayana putra dari Dewasimha Kerajaan Kanjuruhan (Sedyawati dkk, 2013), yang diperkirakan berdiri pada tahun 682 Caka atau di tahun 760M (Istari, 2015). </p>
-                            <p style="text-align: justify; text-indent: 0.5in;">Pada prasasti Dinoyo baris keempat disebutkan bahwa, Raja Gajayana mendirikan Candi Badut sebagai tempat pemujaan untuk Dewa Agastya. Arca Agastya yang dahulunya dibuat dari kayu cendana, oleh Raja Gajayana diganti dengan arca batu hitam (Soekmono, 1973). Candi Badut yang dibangun sebagai tempat memuliakan Resi Agastya tersebut berguna untuk memusnahkan penyakit yang dapat menghilangkan semangat atau kekuatan dan malapetaka (Soviyani dkk, 1995). Candi Badut berfungsi sebagai lokasi upacara keagaamaan dan tempat pemujaan bagi umat yang beragama Hindu-Syiwa. Selain sebagai tempat pemujaan, hingga saat ini Candi Badut digunakan sebagai destinasi wisata situs sejarah, sarana pendidikan, dan juga sebagai tempat penelitian.</p>
-                            <p style="text-align: justify; text-indent: 0.5in;">Prasasti Dinoyo juga menceritakan masa pemerintahan dari Raja Dewasimha beserta putranya Sang Liswa. Dimana kedua raja tersebut sangat disayangi oleh rakyat dari Kerajaan Kanjuruhan (Sulistio dkk, 2018). Sang Liswa merupakan gelar dari Raja Gajayana. Liswa dalam kamus Sansekerta memiliki arti ”anak Kemidi, tukang tari” dalam bahasa jawa dinamakan ”Badut” (Soviyani dkk, 1995).
+                            <p style="text-align: justify; text-indent: 0.5in;">Candi Badut atau disebut dengan Candi Liswa berlokasi di Desa Karangbesuki Kecamatan Dau, Kota Malang, Jawa Timur. Candi Badut bercorak agama Hindu Siwa yang memiliki tinggi sekitar 8 meter dengan lebar 12,27 meter x 14,04 meter. Candi Badut merupakan candi tertua di Jawa Timur. Menurut Prasasti Dinoyo Candi Badut dibangun atas perintah Raja Gajayana putra dari Dewasimha Kerajaan Kanjuruhan (Sedyawati dkk, 2013), yang diperkirakan berdiri pada tahun 682 Saka atau di tahun 760M (Istari, 2015). </p>
+                            <p style="text-align: justify; text-indent: 0.5in;">Pada Prasasti Dinoyo baris keempat disebutkan bahwa, Raja Gajayana mendirikan Candi Badut sebagai tempat pemujaan untuk Dewa Agastya. Arca Agastya yang dahulunya dibuat dari kayu cendana, oleh Raja Gajayana diganti dengan arca batu hitam (Soekmono, 1973). Candi Badut yang dibangun sebagai tempat memuliakan Resi Agastya tersebut berguna untuk memusnahkan penyakit yang dapat menghilangkan semangat atau kekuatan dan malapetaka (Soviyani dkk, 1995). Candi Badut berfungsi sebagai lokasi upacara keagaamaan dan tempat pemujaan bagi umat yang beragama Hindu Siwa. Selain sebagai tempat pemujaan, hingga saat ini Candi Badut digunakan sebagai destinasi wisata situs sejarah, sarana pendidikan, dan juga sebagai tempat penelitian.</p>
+                            <p style="text-align: justify; text-indent: 0.5in;">Prasasti Dinoyo juga menceritakan masa pemerintahan dari Raja Dewasimha beserta putranya Sang Liswa. Kedua raja tersebut sangat disayangi oleh rakyat dari Kerajaan Kanjuruhan (Sulistio dkk, 2018). Sang Liswa merupakan gelar dari Raja Gajayana. Liswa dalam kamus Sansekerta memiliki arti ”anak Kemidi, tukang tari” dalam bahasa jawa dinamakan ”Badut” (Soviyani dkk, 1995).
                                 Namun hingga saat ini, belum ditemukan bukti yang kuat mengenai Candi Badut dengan Sang Liswa.
                             </p>
                         </div>
@@ -52,7 +52,7 @@
                                     <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
                                 </span>
                             </div>
-                            <p style="text-align: justify; text-indent: 0.5in;">Gaya arsitektur dari Candi Badut tidak seperti candi-candi yang ada di Jawa Timur pada umumnya, melainkan mengikuti gaya arsiktektur yang lebih tua, seperti bangunan candi yang ada di Jawa Tengah (Istari, 2015). Candi ini tersusun dari batu andesit yang berdiri di atas batur setinggi 2 m. Candi Badut memiliki bentuk tubuh tambun (Lihat Foto 2) mirip seperti bentuk tubuh Candi Dieng yang ada di Jawa Tengah. Candi Badut memiliki ruangan yang agak besar dan batur (kaki candi) yang relatif tinggi dimana, gaya arsitektur tersebut mencerminkan gaya arsitektur Jawa Tengah (Soviyani dkk, 1995). Di antara kaki dan tubuh Candi Badut terdapat selasar cukup lebar yang berfungsi sebagai tempat untuk melakukan pradaksina (ritual memutari candi searah dengan jarum jam).</p>
+                            <p style="text-align: justify; text-indent: 0.5in;">Gaya arsitektur dari Candi Badut tidak seperti candi-candi yang ada di Jawa Timur pada umumnya, melainkan mengikuti gaya arsiktektur yang lebih tua, seperti bangunan candi yang ada di Jawa Tengah (Istari, 2015). Candi ini tersusun dari batu andesit yang berdiri di atas batur setinggi 2 m. Candi Badut memiliki bentuk tubuh tambun <i>(Lihat Foto 2)</i> mirip seperti bentuk tubuh Candi Dieng yang ada di Jawa Tengah. Candi Badut memiliki ruangan yang agak besar dan batur (kaki candi) yang relatif tinggi dimana, gaya arsitektur tersebut mencerminkan gaya arsitektur Jawa Tengah (Soviyani dkk, 1995). Di antara kaki dan tubuh Candi Badut terdapat selasar cukup lebar yang berfungsi sebagai tempat untuk melakukan <i>Pradaksina</i> (ritual memutari candi searah dengan jarum jam).</p>
                             <div class="d-flex justify-content-center">
                                 <span class="img-container "> <!-- Inline parent element -->
                                     <img src="{{ asset('images/Foto 3. Pahatan Kalamakara di ambang pintu Candi Badut.jpg') }}" alt="">
@@ -60,7 +60,7 @@
                                     <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
                                 </span>
                             </div>
-                            <p style="text-align: justify; text-indent: 0.5in;">Pahatan Kalamakara atau relief kepala raksasa yang indah menghiasi ambang pintu dan relung setiap Candi Badut dibuat tanpa adanya rahang bawah (Sedyawati dkk, 2013) tidak seperti candi-candi lain yang ada di Jawa Timur dimana pahatan Kalamakara lengkap dengan rahang bawah (Lihat Foto 3). Pahatan kalamakara tersebut mirip dengan pahatan candi yang ada di Jawa Tengah. Pada ketiga sisi Candi Badut terdapat relung yang berisi, Arca Dewi Durga di bagian utara (Lihat Foto 4), Arca Agastya di bagian selatan dan Arca Ganesha di bagian timur yang hilang. </p>
+                            <p style="text-align: justify; text-indent: 0.5in;">Pahatan Kalamakara atau relief kepala raksasa yang indah menghiasi ambang pintu dan relung setiap Candi Badut dibuat tanpa adanya rahang bawah (Sedyawati dkk, 2013) tidak seperti candi-candi lain yang ada di Jawa Timur dimana pahatan Kalamakara lengkap dengan rahang bawah <i>(Lihat Foto 3).</i> Pahatan kalamakara tersebut mirip dengan pahatan candi yang ada di Jawa Tengah. Pada ketiga sisi Candi Badut terdapat relung yang berisi, Arca Dewi Durga di bagian utara <i>(Lihat Foto 4),</i> Arca Agastya di bagian selatan dan Arca Ganesha di bagian timur yang hilang. </p>
                             <div class="d-flex justify-content-center">
                                 <span class="img-container "> <!-- Inline parent element -->
                                     <img src="{{ asset('images/Foto 4. Arca Dewi Durga.jpg') }}" alt="">
@@ -68,7 +68,7 @@
                                     <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
                                 </span>
                             </div>
-                            <p style="text-align: justify; text-indent: 0.5in;">Di dalam ruang bilik Candi Badut yang berukuran 5,53 m x 3,67 m berisi Lingga dan Yoni (Lihat Foto 5). Lingga dan Yoni tersebut merupakan simbol dari Siwa dan Parwati yang sekaligus menandakan bahwa Candi Badut merupakan Candi Hindu.</p>
+                            <p style="text-align: justify; text-indent: 0.5in;">Di dalam ruang bilik Candi Badut yang berukuran 5,53 meter x 3,67 meter berisi Lingga dan Yoni <i>(Lihat Foto 5).</i> Lingga dan Yoni tersebut merupakan simbol dari Siwa dan Parwati yang sekaligus menandakan bahwa Candi Badut merupakan Candi Hindu.</p>
                             <div class="d-flex justify-content-center">
                                 <span class="img-container "> <!-- Inline parent element -->
                                     <img src="{{ asset('images/Foto 5. Lingga dan Yoni.jpg') }}" alt="">
@@ -81,14 +81,15 @@
                         <div id="page3">
                             <p><b>Daftar Pustaka</b></p>
                             <p></p>
-                            <p>1.Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.</p>
-                            <p>2.Perpustakaan Nasional Republik Indonesia. 2014. Candi Badut. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_badut) diakses pada tanggal </p>
-                            <p>&ensp; 28 September 2022.</p>
-                            <p>3.Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman, Direktorat &ensp; Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.</p>
-                            <p>4.Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.</p>
-                            <p>5.Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.</p>
-                            <p>6.Soviyani, Aris dkk. (1995). Candi Badut dan Pemugarannya. Bagian Proyek Pembinaan Peninggalan Sejarah dan Purbakala: Jawa Timur.</p>
-                            <p>7.Sulistio, A., Natadjaja, L., & Febriani, R. (2018). Perancangan Buku Fotografi Historis Candi Badut Sebagai Candi Tertua Di Jawa Timur. Jurnal DKV Adiwarna, 1(12), 1–9.</p>
+                            <p>1. Istari, T. M. R. (2015). Ragam Hias Candi-Candi di Jawa: Motif dan Maknanya. Kepel Press: Yogyakarta.</p>
+                            <p>2. Perpustakaan Nasional Republik Indonesia. 2014. Candi Badut. (Online), (https://candi.perpusnas.go.id/temples/deskripsi-jawa_timur-candi_badut) diakses pada tanggal </p>
+                            <p> &ensp; 28 September 2022.</p>
+                            <p>3. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman,</p>
+                            <p> &ensp; Direktorat Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.</p>
+                            <p>4. Soekmono, R. (1973). Pengantar Sejarah Kebudayaan Indonesia 2. Yayasan Kanisius: Yogyakarta.</p>
+                            <p>5. Soeroto, Myrtha. (2009). Album Arsitektur Candi Cagar Budaya Klasik Hindu Buddha; Cetakan Pertama. Yayasan Keluarga Batam Myrtle Publishing: Batam.</p>
+                            <p>6. Soviyani, Aris dkk. (1995). Candi Badut dan Pemugarannya. Bagian Proyek Pembinaan Peninggalan Sejarah dan Purbakala: Jawa Timur.</p>
+                            <p>7. Sulistio, A., Natadjaja, L., & Febriani, R. (2018). Perancangan Buku Fotografi Historis Candi Badut Sebagai Candi Tertua Di Jawa Timur. Jurnal DKV Adiwarna, 1(12), 1–9.</p>
                             
                         </div>
                         <div class="pagination d-flex justify-content-center">

@@ -16,7 +16,7 @@
                                 - Pilihlah salah satu jawaban yang menurut kamu benar<br>
                                 - Ketika kamu memilih salah satu jawaban otomatis akan langsung berganti ke soal selanjutnya<br>
                                 - Ketika kamu ragu dengan jawabanmu, kamu bisa menekan tombol back untuk mengganti jawabanmu<br>
-                                - Di akhir kuis akan langsung tampil SKOR kamu, selamat mengerjakan!
+                                - Di akhir kuis akan langsung tampil skor kamu, selamat mengerjakan!
                               </p>
                             
                         </div>
