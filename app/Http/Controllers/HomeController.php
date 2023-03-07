@@ -159,12 +159,12 @@ class HomeController extends Controller
             ],
             '6' => [
                 'no' => '6',
-                'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singhasari yang menganut agama Syiwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Syiwa Buddha Tantrayana yaitu?',
+                'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singhasari yang menganut agama Siwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Siwa Buddha Tantrayana yaitu?',
                 'jawaban' => [
-                    'A. Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
-                    'B. Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Buddha dengan Animisme.',
-                    'C. Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Buddha.',
-                    'D. Aliran Syiwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Animisme.'
+                    'A. Siwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
+                    'B. Siwa Buddha Tantrayana adalah perpaduan antara ajaran Buddha dengan Animisme.',
+                    'C. Aliran Siwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Buddha.',
+                    'D. Aliran Siwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Animisme.'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -206,7 +206,7 @@ class HomeController extends Controller
             ],
             '8' => [
                 'no' => '8',
-                'soal' => 'Berdasarkan prasasti Gajahmada tahun 1273 Saka (1351 Masehi), Candi Singhasari dibangun sebagai tempat untuk mendharmakan raja terakhir dari Kerajaan Singhasari, yaitu raja? ',
+                'soal' => 'Berdasarkan Prasasti Gajahmada tahun 1273 Saka (1351 Masehi), Candi Singhasari dibangun sebagai tempat untuk mendharmakan raja terakhir dari Kerajaan Singhasari, yaitu raja? ',
                 'jawaban' => [
                     'A. Kertanegara',
                     'B. Ken Arok',
@@ -224,7 +224,7 @@ class HomeController extends Controller
             ],
             '9' => [
                 'no' => '9',
-                'soal' => 'Candi Sumberawan merupakan satu-satunya candi berbentuk Stupa yang ada di Jawa Timur. Menurut kitab Negarakertagama, Candi Sumberawan disebut sebagai candi?',
+                'soal' => 'Candi Sumberawan merupakan satu-satunya candi berbentuk Stupa yang ada di Jawa Timur. Menurut Kitab Negarakertagama, Candi Sumberawan disebut sebagai candi?',
                 'jawaban' => [
                     'A. Catya',
                     'B. Liswa',
@@ -242,7 +242,7 @@ class HomeController extends Controller
             ],
             '10' => [
                 'no' => '10',
-                'soal' => 'Upacara adat selametan sumber air yang selalu diperingati setiap bulan Syuro penanggalan Jawa di Stupa Sumberawan dinamakan?',
+                'soal' => 'Upacara adat <i>selametan</i> sumber air yang selalu diperingati setiap bulan <i>Suro</i> penanggalan Jawa di Stupa Sumberawan dinamakan?',
                 'jawaban' => [
                     'A. Puja Bakti',
                     'B. Tri waisya',
