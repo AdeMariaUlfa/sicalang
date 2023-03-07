@@ -91,7 +91,7 @@ body {
                     <img src="{{ asset('images/singasari.png') }}" alt="">
                     <div class="hover-content">
                         <div class="inner-content">
-                            <a href="/page-candi/Singhasari/WwRfxTajVdM">
+                            <a href="/page-candi/Singhasari/PTtpEgLYhpA">
                                 <h4>Candi Singhasari</h4>
                             </a>
 
