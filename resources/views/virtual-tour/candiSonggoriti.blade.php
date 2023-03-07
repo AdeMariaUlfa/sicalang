@@ -132,7 +132,7 @@
 			<!--loadingtext-->Loading...<!--loadingtext-end-->
 		</div>
 	</div>
-	@endsection
+	@ensection
 	<script>
 		var container = document.querySelector('#container');
 		/*panolens*/

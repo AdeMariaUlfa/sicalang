@@ -101,13 +101,19 @@
 </head>
 
 <body id="body">
-	<div id="container" style="color: black;"></div>
 	@extends('layouts.template-virtual')
 	@section('content')
+	<div id="container" style="color: black;"></div>
+
+
 
 	<!--customhtml-->
-	<div class='customhotspot' id='CKB1copy'></div>
-	<div class='customhotspot' id='CKB2copy'></div>
+	<div class='customhotspot' id='CKB1copy'>
+		<div onclick='chclickinfospotCKB1copy2();' id='infospotCKB1copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
+	<div class='customhotspot' id='CKB2copy'>
+		<div onclick='chclickinfospotCKB2copy2();' id='infospotCKB2copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
 	<div class='customhotspot' id='CKB3copy'>
 		<div onclick='chclickinfospotCKB3copy2();' id='infospotCKB3copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIKARANGBESUKI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
 	</div>
@@ -174,6 +180,17 @@
 
 		});
 
+		var infospotCKB1copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCKB1copy2.position.set(4431.07, -1928.54, 1259.65);
+		infospotCKB1copy2.visible = false;
+		CKB1copy.add(infospotCKB1copy2);
+
+		infospotCKB1copy2.addEventListener('click', function() {
+
+			showMedia(1, 'images/33.jpg');
+
+		});
+
 		viewer.add(CKB1copy);
 
 		var CKB2copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKARANGBESUKI/panoramas/CKB2copy.jpg') }}");
@@ -203,6 +220,17 @@
 		infospotCKB2copy1.addEventListener('click', function() {
 
 			ChangePanorama('CKB3copy');
+
+		});
+
+		var infospotCKB2copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCKB2copy2.position.set(4754.35, -1535.07, -71.72);
+		infospotCKB2copy2.visible = false;
+		CKB2copy.add(infospotCKB2copy2);
+
+		infospotCKB2copy2.addEventListener('click', function() {
+
+			showMedia(1, 'images/44.jpg');
 
 		});
 
@@ -239,13 +267,13 @@
 		});
 
 		var infospotCKB3copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCKB3copy2.position.set(4708.69, -1623.71, -335.59);
+		infospotCKB3copy2.position.set(4743.38, -1540.13, -253.70);
 		infospotCKB3copy2.visible = false;
 		CKB3copy.add(infospotCKB3copy2);
 
 		infospotCKB3copy2.addEventListener('click', function() {
 
-			showMedia(1, 'images/1.jpg');
+			showMedia(1, 'images/22.jpg');
 
 		});
 
@@ -282,13 +310,13 @@
 		});
 
 		var infospotCKB4copy2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotCKB4copy2.position.set(4614.54, -1435.96, 1244.87);
+		infospotCKB4copy2.position.set(4509.68, -1668.91, 1341.21);
 		infospotCKB4copy2.visible = false;
 		CKB4copy.add(infospotCKB4copy2);
 
 		infospotCKB4copy2.addEventListener('click', function() {
 
-			showMedia(1, 'images/2.jpg');
+			showMedia(1, 'images/11.jpg');
 
 		});
 
@@ -340,9 +368,13 @@
 		viewer.addUpdateCallback(function() {
 
 			/*viewerupdatecallback*/
-			if (viewer.panorama == CKB1copy) {}
+			if (viewer.panorama == CKB1copy) {
+				ShowMyInfospot(infospotCKB1copy2, 'infospotCKB1copy2');
+			}
 
-			if (viewer.panorama == CKB2copy) {}
+			if (viewer.panorama == CKB2copy) {
+				ShowMyInfospot(infospotCKB2copy2, 'infospotCKB2copy2');
+			}
 
 			if (viewer.panorama == CKB3copy) {
 				ShowMyInfospot(infospotCKB3copy2, 'infospotCKB3copy2');
@@ -422,13 +454,23 @@
 		}
 
 		/*customjs*/
+		function chclickinfospotCKB1copy2() {
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/33.jpg') }}");
+
+		}
+
+		function chclickinfospotCKB2copy2() {
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/44.jpg') }}");
+
+		}
+
 		function chclickinfospotCKB3copy2() {
-			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/1.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/22.jpg') }}");
 
 		}
 
 		function chclickinfospotCKB4copy2() {
-			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/2.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKARANGBESUKI/images/11.jpg') }}");
 
 		}
 		/*customjs-end*/

@@ -26,7 +26,7 @@
 	<script src="{{ asset('CANDISINGOSARI/three.min.js') }}"></script>
 	<script src="{{ asset('CANDISINGOSARI/panolens.min.js') }}"></script>
 
-	<!-- Insert this line after script imports -->
+	<!-- Insert this line after ascript imports -->
 	<script>
 		if (window.module) module = window.module;
 	</script>
@@ -101,9 +101,12 @@
 </head>
 
 <body id="body">
-	<div id="container" style="color: black;"></div>
 	@extends('layouts.template-virtual')
 	@section('content')
+	<div id="container" style="color: black;"></div>
+
+
+
 	<!--customhtml-->
 	<div class='customhotspot' id='CSI7copy'>
 		<div onclick='chclickinfospotCSI7copy2();' id='infospotCSI7copy2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDISINGOSARI/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>

@@ -63,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
@@ -108,11 +109,19 @@
 
 	<!--customhtml-->
 	<div class='customhotspot' id='PANO_20221214_114518_3'></div>
-	<div class='customhotspot' id='PANO_20221214_113745_1copy'></div>
-	<div class='customhotspot' id='PANO_20221214_114135_2'></div>
-	<div class='customhotspot' id='CANDIBADUT6'></div>
+	<div class='customhotspot' id='PANO_20221214_113745_1copy'>
+		<div onclick='chclickinfospotPANO_20221214_113745_1copy1();' id='infospotPANO_20221214_113745_1copy1' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
+	<div class='customhotspot' id='PANO_20221214_114135_2'>
+		<div onclick='chclickinfospotPANO_20221214_114135_22();' id='infospotPANO_20221214_114135_22' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
+	<div class='customhotspot' id='CANDIBADUT6'>
+		<div onclick='chclickinfospotCANDIBADUT62();' id='infospotCANDIBADUT62' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div>
 	<div class='customhotspot' id='CANDIBADUT1'></div>
-	<div class='customhotspot' id='CANDIBADUT2'></div><!--customhtml-end-->
+	<div class='customhotspot' id='CANDIBADUT2'>
+		<div onclick='chclickinfospotCANDIBADUT23();' id='infospotCANDIBADUT23' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src="{{ asset('CANDIBADUT/customhotspots/Info.png') }}" style='width: 64px; height: 64px;'></div>
+	</div><!--customhtml-end-->
 
 	<div id="tmp">
 		<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
@@ -205,6 +214,17 @@
 
 		});
 
+		var infospotPANO_20221214_113745_1copy1 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotPANO_20221214_113745_1copy1.position.set(4616.13, -343.32, -1870.01);
+		infospotPANO_20221214_113745_1copy1.visible = false;
+		PANO_20221214_113745_1copy.add(infospotPANO_20221214_113745_1copy1);
+
+		infospotPANO_20221214_113745_1copy1.addEventListener('click', function() {
+
+			showMedia(1, 'images/44.jpg');
+
+		});
+
 		viewer.add(PANO_20221214_113745_1copy);
 
 		var PANO_20221214_114135_2 = new PANOLENS.ImagePanorama("{{ asset('CANDIBADUT/panoramas/PANO_20221214_114135_2.jpg') }}");
@@ -237,6 +257,17 @@
 
 		});
 
+		var infospotPANO_20221214_114135_22 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotPANO_20221214_114135_22.position.set(4862.67, 996.48, 551.68);
+		infospotPANO_20221214_114135_22.visible = false;
+		PANO_20221214_114135_2.add(infospotPANO_20221214_114135_22);
+
+		infospotPANO_20221214_114135_22.addEventListener('click', function() {
+
+			showMedia(1, 'images/11.jpg');
+
+		});
+
 		viewer.add(PANO_20221214_114135_2);
 
 		var CANDIBADUT6 = new PANOLENS.ImagePanorama("{{ asset('CANDIBADUT/panoramas/CANDIBADUT6.jpg') }}");
@@ -266,6 +297,17 @@
 		infospotCANDIBADUT61.addEventListener('click', function() {
 
 			ChangePanorama('CANDIBADUT1');
+
+		});
+
+		var infospotCANDIBADUT62 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCANDIBADUT62.position.set(4785.24, 1396.75, -226.73);
+		infospotCANDIBADUT62.visible = false;
+		CANDIBADUT6.add(infospotCANDIBADUT62);
+
+		infospotCANDIBADUT62.addEventListener('click', function() {
+
+			showMedia(1, 'images/33.jpg');
 
 		});
 
@@ -353,6 +395,17 @@
 
 		});
 
+		var infospotCANDIBADUT23 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+		infospotCANDIBADUT23.position.set(4647.58, 1813.33, 166.74);
+		infospotCANDIBADUT23.visible = false;
+		CANDIBADUT2.add(infospotCANDIBADUT23);
+
+		infospotCANDIBADUT23.addEventListener('click', function() {
+
+			showMedia(1, 'images/22.jpg');
+
+		});
+
 		viewer.add(CANDIBADUT2);
 
 		$(document).ready(function() {
@@ -403,15 +456,23 @@
 			/*viewerupdatecallback*/
 			if (viewer.panorama == PANO_20221214_114518_3) {}
 
-			if (viewer.panorama == PANO_20221214_113745_1copy) {}
+			if (viewer.panorama == PANO_20221214_113745_1copy) {
+				ShowMyInfospot(infospotPANO_20221214_113745_1copy1, 'infospotPANO_20221214_113745_1copy1');
+			}
 
-			if (viewer.panorama == PANO_20221214_114135_2) {}
+			if (viewer.panorama == PANO_20221214_114135_2) {
+				ShowMyInfospot(infospotPANO_20221214_114135_22, 'infospotPANO_20221214_114135_22');
+			}
 
-			if (viewer.panorama == CANDIBADUT6) {}
+			if (viewer.panorama == CANDIBADUT6) {
+				ShowMyInfospot(infospotCANDIBADUT62, 'infospotCANDIBADUT62');
+			}
 
 			if (viewer.panorama == CANDIBADUT1) {}
 
-			if (viewer.panorama == CANDIBADUT2) {}
+			if (viewer.panorama == CANDIBADUT2) {
+				ShowMyInfospot(infospotCANDIBADUT23, 'infospotCANDIBADUT23');
+			}
 			/*viewerupdatecallback-end*/
 
 
@@ -483,9 +544,27 @@
 		}
 
 		/*customjs*/
+		function chclickinfospotPANO_20221214_113745_1copy1() {
+			showMedia(1, "{{ asset('CANDIBADUT/images/44.jpg') }}");
+
+		}
+
+		function chclickinfospotPANO_20221214_114135_22() {
+			showMedia(1, "{{ asset('CANDIBADUT/images/11.jpg') }}");
+
+		}
+
+		function chclickinfospotCANDIBADUT62() {
+			showMedia(1, "{{ asset('CANDIBADUT/images/33.jpg') }}");
+
+		}
+
+		function chclickinfospotCANDIBADUT23() {
+			showMedia(1, "{{ asset('CANDIBADUT/images/22.jpg') }}");
+
+		}
 		/*customjs-end*/
 	</script>
-	
 </body>
 
 </html>

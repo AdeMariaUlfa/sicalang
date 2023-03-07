@@ -21,8 +21,7 @@
 		}
 	</script>
 
-	<script src="{{ asset('CANDIJAGO/imagedata.js') }}">
-	</script>
+	<script src="{{ asset('CANDIJAGO/imagedata.js') }}"></script>
 	<script src="{{ asset('CANDIJAGO/jquery.js') }}"></script>
 	<script src="{{ asset('CANDIJAGO/three.min.js') }}"></script>
 	<script src="{{ asset('CANDIJAGO/panolens.min.js') }}"></script>
@@ -64,7 +63,8 @@
 			height: 100%;
 			overflow: hidden;
 			background-color: #000;
-			color: black;
+			color:
+				black;
 		}
 
 		a:link,
