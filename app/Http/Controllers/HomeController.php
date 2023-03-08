@@ -242,7 +242,7 @@ class HomeController extends Controller
             ],
             '10' => [
                 'no' => '10',
-                'soal' => 'Upacara adat <i>selametan</i> sumber air yang selalu diperingati setiap bulan <i>Suro</i> penanggalan Jawa di Stupa Sumberawan dinamakan?',
+                'soal' => 'Upacara adat <i>selametan</i> sumber air yang selalu diperingati setiap bulan <i>Syuro</i> penanggalan Jawa di Stupa Sumberawan dinamakan?',
                 'jawaban' => [
                     'A. Puja Bakti',
                     'B. Tri waisya',
