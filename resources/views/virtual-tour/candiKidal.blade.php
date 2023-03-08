@@ -152,7 +152,7 @@
 
 		/*panoramas*/
 
-		var CK1copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/cpanoramas/CK1copy.jpg') }}");
+		var CK1copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/panoramas/CK1copy.jpg') }}");
 		CK1copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
@@ -194,7 +194,7 @@
 
 		viewer.add(CK1copy);
 
-		var CK2copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/cpanoramas/CK2copy.jpg') }}");
+		var CK2copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/panoramas/CK2copy.jpg') }}");
 		CK2copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
@@ -258,7 +258,7 @@
 
 		viewer.add(CK2copy);
 
-		var CK3 = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/cpanoramas/CK3.jpg') }}");
+		var CK3 = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/panoramas/CK3.jpg') }}");
 		CK3.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
@@ -301,7 +301,7 @@
 
 		viewer.add(CK3);
 
-		var CK4copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/cpanoramas/CK4copy.jpg') }}");
+		var CK4copy = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/panoramas/CK4copy.jpg') }}");
 		CK4copy.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
@@ -344,7 +344,7 @@
 
 		viewer.add(CK4copy);
 
-		var CK5 = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/cpanoramas/CK5.jpg') }}");
+		var CK5 = new PANOLENS.ImagePanorama("{{ asset('CANDIKIDAL/panoramas/CK5.jpg') }}");
 		CK5.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
@@ -523,27 +523,27 @@
 
 		/*customjs*/
 		function chclickinfospotCK2copy3() {
-			showMedia(1, "{{ asset('CANDIKIDAL/cimages/44.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/44.jpg') }}");
 
 		}
 
 		function chclickinfospotCK2copy4() {
-			showMedia(1, "{{ asset('CANDIKIDAL/cimages/55.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/55.jpg') }}");
 
 		}
 
 		function chclickinfospotCK32() {
-			showMedia(1, "{{ asset('CANDIKIDAL/cimages/22.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/22.jpg') }}");
 
 		}
 
 		function chclickinfospotCK4copy2() {
-			showMedia(1, "{{ asset('CANDIKIDAL/cimages/33.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/33.jpg') }}");
 
 		}
 
 		function chclickinfospotCK52() {
-			showMedia(1, "{{ asset('CANDIKIDAL/cimages/11.jpg') }}");
+			showMedia(1, "{{ asset('CANDIKIDAL/images/11.jpg') }}");
 
 		}
 		/*customjs-end*/
