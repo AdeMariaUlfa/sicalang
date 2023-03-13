@@ -143,10 +143,10 @@ class HomeController extends Controller
                 'no' => '5',
                 'soal' => 'Relief Garudheya yang dipahatkan pada setiap sisi Candi Kidal adalah sebagai amanat dari Anusapati. Tujuan dari dipahatnya relief Garudheya adalah?',
                 'jawaban' => [
-                    'A.sebagai tempat pendharmaan Raja Singosari yakni Anusapati.',
+                    'A.sebagai tempat pendharmaan Raja Singhasari yakni Anusapati.',
                     'B. untuk meruwat Ken Dedes yang merupakan ibu dari Anusapati',
                     'C. sebagai tempat untuk mendharmakan Ken Arok sebagai ayah Anusapati',
-                    'D. untuk meruwat Ken Arok sebagai suami dari Ken Dedes dan Raja Singosari.'
+                    'D. untuk meruwat Ken Arok sebagai suami dari Ken Dedes dan Raja Singhasari.'
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
@@ -159,7 +159,7 @@ class HomeController extends Controller
             ],
             '6' => [
                 'no' => '6',
-                'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat patung Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singhasari yang menganut agama Siwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Siwa Buddha Tantrayana yaitu?',
+                'soal' => 'Bangunan Candi Jago berbentuk tambun, pada badan candi terdapat relief padma (bunga teratai) dan terdapat Arca Amogaphasa yang berada di halaman Candi Jago. Berdasarkan kondisi fisik dan reief yang ada pada bangunan candi serta informasi dari Kitab Negarakertagama menjelaskan bahwa, Candi Jago dibangun sebagai tempat untuk mendharmakan Raja Wisnuwardhana yaitu raja dari Kerajaan Singhasari yang menganut agama Siwa Buddha Tantrayana. Berikut ini yang merupakan pengertian dari aliran Siwa Buddha Tantrayana yaitu?',
                 'jawaban' => [
                     'A. Siwa Buddha Tantrayana adalah perpaduan antara ajaran Hindu dengan Dinamisme.',
                     'B. Siwa Buddha Tantrayana adalah perpaduan antara ajaran Buddha dengan Animisme.',

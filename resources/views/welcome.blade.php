@@ -289,7 +289,7 @@ https://templatemo.com/tm-563-seo-dream
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#">
-                        <h4>Candi Singasari</h4>
+                        <h4>Candi Singhasari</h4>
                       </a>
                       <span>Singasari</span>
                     </div>

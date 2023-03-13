@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                <h2>KUIS SICALANG</h2>
+                <h2>KUIS SI CALANG</h2>
             </div>
             @if($search['no'] == 1)
             <div class="service-item wow bounceInUp bg-primary" data-wow-duration="1s" data-wow-delay="0.3s">

@@ -46,7 +46,7 @@
                   <span class="sr-only">Loading...</span>
                 </div>
                 <div class="line-dec"></div>
-                <p><i>Refresh</i> ketika mengalami loading/kendala </p>
+                <p><i>Refresh</i> ketika mengalami <i>loading</i>/kendala </p>
               </div>
             </div>
           </div>
