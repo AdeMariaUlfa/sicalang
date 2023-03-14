@@ -42,12 +42,14 @@
                                     <p>(Sumber: Dokumentasi Pribadi, 2022)</p>
                                 </span>
                             </div>
-                            <p style="text-align: justify; text-indent: 0.5in;"> Candi Karangbesuki juga disebut sebagai Candi Wurung atau candi yang gagal dalam proses pembangunannya. Struktur dari Candi Karangbesuki juga sudah hancur hanya tersisa pondasinya saja <i>(Lihat Foto 2)</i>. Candi Karangbesuki merupakan Candi berlatar belakang agama Hindu Syiwa. Hal tersebut diperkuat dengan penemuan dua arca dengan gaya pengarcaan <i>Parwati</i> yang ditemukan pada bagian tengah Candi Karangbesuki (Sedyawati dkk, 2013). Sama halnya dengan Candi Badut, Candi Karangbesuki ini didirikan sebagai tempat untuk memuliakan Resi Agastya yang berguna sebagai tempat menghilangkan penyakit dan malapetaka. Hingga saat ini Candi Karangbesuki digunakan sebagai tempat pemujaan bagi pemeluk agama Hindu Syiwa.</p><br><br>
+                            <p style="text-align: justify; text-indent: 0.5in;"> Candi Karangbesuki juga disebut sebagai Candi Wurung atau candi yang gagal dalam proses pembangunannya. Struktur dari Candi Karangbesuki juga sudah hancur hanya tersisa pondasinya saja <i>(Lihat Foto 2)</i>. Candi Karangbesuki merupakan Candi berlatar belakang agama Hindu Syiwa. Hal tersebut diperkuat dengan penemuan dua arca dengan gaya pengarcaan <i>Parwati</i> yang ditemukan pada bagian tengah Candi Karangbesuki (Sedyawati dkk, 2013). Sama halnya dengan Candi Badut, Candi Karangbesuki ini didirikan sebagai tempat untuk memuliakan Resi Agastya yang berguna sebagai tempat menghilangkan penyakit dan malapetaka (Piliang, 2020). Hingga saat ini Candi Karangbesuki digunakan sebagai tempat pemujaan bagi pemeluk agama Hindu Syiwa.</p><br><br>
                         </div>
                         <div id="page3">
                             <p><b>Daftar Pustaka</b></p>
+                            
+                            <p> 1. Piliang, Santo Saba. (2020). Mahabarata Fakta Sejarah Nusantara Tidak India. Santo Saba Piliang: Surabaya </p>
                             <p>
-                                1. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman,
+                                2. Sedyawati Edi, Hariani Santiko, Hasan, Ratnacah, Wiwin Djuwita, Ramelan, A. (2013). Candi Indonesia Seri Jawa. Direktorat Pelestarian Cagar Budaya dan Permuseuman,
                             </p>
                             <p>&ensp;&ensp;Direktorat Jendral Kebudayaan, Kementrian Pendidikan dan Kebudayaan: Jakarta.</p>
                         </div>

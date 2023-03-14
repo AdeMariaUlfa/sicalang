@@ -78,7 +78,43 @@
         </div>
       </div>
     </div><br>
-
+    <div class="row">
+      <div class="service-item wow bounceInUp bg-light" data-wow-duration="1s" data-wow-delay="0.3s">
+        <div class="row">
+          <h4>Indikator Pencapaian Kompetensi</h4>
+          <div class="row">
+            <div class="col-lg-1">
+              <h4>01</h4>
+            </div>
+            <div class="col-lg-8">
+              <h5>Menjelaskan situs-situs candi di Malang.</h5><br>
+            </div>
+            <div class="row">
+              <div class="col-lg-1">
+                <h4>02</h4>
+              </div>
+              <div class="col-lg-8">
+                <h5>Membandingkan tujuan dibangunnya situs-situs candi di Malang.</h5><br>
+              </div>
+            </div>
+            <div class="col-lg-1">
+              <h4>03</h4>
+            </div>
+            <div class="col-lg-8">
+              <h5>Menganalisis langgam arsitektur situs-situs candi di Malang.</h5><br>
+            </div>
+            <div class="row">
+              <div class="col-lg-1">
+                <h4>04</h4>
+              </div>
+              <div class="col-lg-8">
+                <h5>Mempresentasikan hasil analisis situs-situs candi di Malang.</h5><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
     <div class="row">
       <div class="service-item wow bounceInUp bg-light" data-wow-duration="1s" data-wow-delay="0.3s">
         <div class="row">

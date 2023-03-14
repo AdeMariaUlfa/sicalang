@@ -33,7 +33,7 @@
               <i class="fa fa-cubes fa-4x" style="color:#14524f;"></i>
               <h4>Kompetensi<br><br></h4>
               <div class="line-dec"></div>
-              <p>KI, KD, & Tujuan Pembelajaran</p>
+              <p>KI, KD, IPK, & Tujuan Pembelajaran</p>
             </div>
           </a>
         </div>

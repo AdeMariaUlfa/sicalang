@@ -59,7 +59,7 @@ class HomeController extends Controller
                     'ket' =>'<b>Foto 1.</b> Candi Badut',
                     'sumber'=>'(Sumber: Dokumentasi Pribadi, 2022)'
                 ],
-                'soal' => 'Candi tersebut berada di Malang-Jawa Timur namun dikategorikan sebagai candi dengan langgam arsitektur Jawa Tengah, karena…',
+                'soal' => 'Candi tersebut berada di Malang, Jawa Timur namun dikategorikan sebagai candi dengan langgam arsitektur Jawa Tengah, karena…',
                 'jawaban' => [
                     'A. Puncak berbentuk kubus dan dibangun dari batuan andesit',
                     'B. Bangunan berbentuk ramping dan relief kala memiliki rahang bawah',
@@ -68,7 +68,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -86,7 +86,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -104,7 +104,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -132,7 +132,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -150,7 +150,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -168,7 +168,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -197,7 +197,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -215,7 +215,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -233,7 +233,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
@@ -251,7 +251,7 @@ class HomeController extends Controller
                 ],
                 'warna' => [
                     '<div class="bg-primary">',
-                    '<div class="bg-warning">',
+                    '<div class="bg-secondary">',
                     '<div class="bg-danger">',
                     '<div class="bg-success">',
                 ],
