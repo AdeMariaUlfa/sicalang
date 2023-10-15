@@ -1,6 +1,6 @@
 # Website SICALANG(SITUS CANDI DI MALANG)
 
-Website SICALANG(SISTEM INFORMASI CANDI MALANG) merupakan media pembelajaran digital virtual tour berbasis aplikasi 3Sixty yang dilengkapi dengan materi situs candi di Malang
+Website SICALANG(SITUS CANDI DI MALANG) merupakan media pembelajaran digital virtual tour berbasis aplikasi 3Sixty yang dilengkapi dengan materi situs candi di Malang
 
 Proyek ini dibangun dengan menggunakan Laravel, Boostrap, dan 3sixty untuk membuat virtual tournya.
 ## Teknologi Yang Digunakan 
